@@ -1,0 +1,1641 @@
+{
+ "task": "75-c homunculus round 2",
+ "prereg": "/home/z/my-project/scripts/w75_hunc2_prereg.md",
+ "prereg_sha256": "6036acd1de3aaac9",
+ "started_utc": "2026-10-01T10:28:14Z",
+ "reps": [
+  0,
+  1,
+  2
+ ],
+ "sessions": [
+  {
+   "rep": 0,
+   "cell": "FLOW",
+   "round": 1,
+   "model": "tencent/Hy4-preview",
+   "usage": {
+    "prompt_tokens": 370,
+    "total_tokens": 2119,
+    "completion_tokens": 1749,
+    "estimated_cost": 0.004682829,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1500
+    }
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 0,
+   "cell": "MEM",
+   "round": 1,
+   "model": "XiaomiMiMo/MiMo-V2.6-Flash",
+   "usage": {
+    "prompt_tokens": 546,
+    "total_tokens": 876,
+    "completion_tokens": 330,
+    "estimated_cost": 0.000146888,
+    "prompt_tokens_details": {
+     "cached_tokens": 160,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 99
+    }
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 0,
+   "cell": "SENSE",
+   "round": 1,
+   "model": "inclusionAI/Ling-3.0-flash",
+   "usage": {
+    "prompt_tokens": 521,
+    "total_tokens": 1194,
+    "completion_tokens": 673,
+    "estimated_cost": 0.0001524,
+    "prompt_tokens_details": null,
+    "reasoning_tokens": 377
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 0,
+   "cell": "FLOW",
+   "round": 2,
+   "model": "tencent/Hy4-preview",
+   "usage": {
+    "prompt_tokens": 1019,
+    "total_tokens": 2791,
+    "completion_tokens": 1772,
+    "estimated_cost": 0.005281618,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1500
+    }
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 0,
+   "cell": "MEM",
+   "round": 2,
+   "model": "XiaomiMiMo/MiMo-V2.6-Flash",
+   "usage": {
+    "prompt_tokens": 1234,
+    "total_tokens": 1379,
+    "completion_tokens": 145,
+    "estimated_cost": 0.00021336,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 16
+    }
+   },
+   "emitted": 1,
+   "amendment": null
+  },
+  {
+   "rep": 0,
+   "cell": "SENSE",
+   "round": 2,
+   "model": "inclusionAI/Ling-3.0-flash",
+   "usage": {
+    "prompt_tokens": 1275,
+    "total_tokens": 2475,
+    "completion_tokens": 1200,
+    "estimated_cost": 0.000267924,
+    "prompt_tokens_details": {
+     "cached_tokens": 512,
+     "cache_write_tokens": null
+    },
+    "reasoning_tokens": 1202
+   },
+   "emitted": 1,
+   "amendment": null
+  },
+  {
+   "rep": 0,
+   "cell": "FLOW",
+   "round": 3,
+   "model": "tencent/Hy4-preview",
+   "usage": {
+    "prompt_tokens": 1820,
+    "total_tokens": 3614,
+    "completion_tokens": 1794,
+    "estimated_cost": 0.00559916999904768,
+    "prompt_tokens_details": {
+     "cached_tokens": 512,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1500
+    }
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 0,
+   "cell": "MEM",
+   "round": 3,
+   "model": "XiaomiMiMo/MiMo-V2.6-Flash",
+   "usage": {
+    "prompt_tokens": 1929,
+    "total_tokens": 2179,
+    "completion_tokens": 250,
+    "estimated_cost": 0.00017761519999999999,
+    "prompt_tokens_details": {
+     "cached_tokens": 1184,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 70
+    }
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 0,
+   "cell": "SENSE",
+   "round": 3,
+   "model": "inclusionAI/Ling-3.0-flash",
+   "usage": {
+    "prompt_tokens": 2612,
+    "total_tokens": 3812,
+    "completion_tokens": 1200,
+    "estimated_cost": 0.00031435200000000006,
+    "prompt_tokens_details": {
+     "cached_tokens": 1216,
+     "cache_write_tokens": null
+    },
+    "reasoning_tokens": 1200
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 0,
+   "cell": "FLOW",
+   "round": 4,
+   "model": "tencent/Hy4-preview",
+   "usage": {
+    "prompt_tokens": 2854,
+    "total_tokens": 4649,
+    "completion_tokens": 1795,
+    "estimated_cost": 0.00565301899714304,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1500
+    }
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 0,
+   "cell": "MEM",
+   "round": 4,
+   "model": "XiaomiMiMo/MiMo-V2.6-Flash",
+   "usage": {
+    "prompt_tokens": 2825,
+    "total_tokens": 2937,
+    "completion_tokens": 112,
+    "estimated_cost": 0.00042686000000000004,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4
+    }
+   },
+   "emitted": 1,
+   "amendment": {
+    "kind": "field",
+    "name": "supersedes",
+    "why": "A field linking a new receipt to an earlier one it corrects or overrides (e.g., R4-FLOW-1 superseding R3-FLOW-2's 'expunge' wording). Would let me keep append-only logs while explicitly marking which prior entries are no longer authoritative."
+   }
+  },
+  {
+   "rep": 0,
+   "cell": "SENSE",
+   "round": 4,
+   "model": "inclusionAI/Ling-3.0-flash",
+   "usage": {
+    "prompt_tokens": 4260,
+    "total_tokens": 5460,
+    "completion_tokens": 1200,
+    "estimated_cost": 0.0004716,
+    "prompt_tokens_details": null,
+    "reasoning_tokens": 1131
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 1,
+   "cell": "FLOW",
+   "round": 1,
+   "model": "tencent/Hy4-preview",
+   "usage": {
+    "prompt_tokens": 370,
+    "total_tokens": 2102,
+    "completion_tokens": 1732,
+    "estimated_cost": 0.004640312000000001,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1500
+    }
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 1,
+   "cell": "MEM",
+   "round": 1,
+   "model": "XiaomiMiMo/MiMo-V2.6-Flash",
+   "usage": {
+    "prompt_tokens": 535,
+    "total_tokens": 949,
+    "completion_tokens": 414,
+    "estimated_cost": 0.00019082000000000002,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 150
+    }
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 1,
+   "cell": "SENSE",
+   "round": 1,
+   "model": "inclusionAI/Ling-3.0-flash",
+   "usage": {
+    "prompt_tokens": 521,
+    "total_tokens": 1540,
+    "completion_tokens": 1019,
+    "estimated_cost": 0.00021468,
+    "prompt_tokens_details": null,
+    "reasoning_tokens": 732
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 1,
+   "cell": "FLOW",
+   "round": 2,
+   "model": "tencent/Hy4-preview",
+   "usage": {
+    "prompt_tokens": 1025,
+    "total_tokens": 2760,
+    "completion_tokens": 1735,
+    "estimated_cost": 0.005194085,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1500
+    }
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 1,
+   "cell": "MEM",
+   "round": 2,
+   "model": "XiaomiMiMo/MiMo-V2.6-Flash",
+   "usage": {
+    "prompt_tokens": 1324,
+    "total_tokens": 1587,
+    "completion_tokens": 263,
+    "estimated_cost": 0.0002326576,
+    "prompt_tokens_details": {
+     "cached_tokens": 192,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 21
+    }
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 1,
+   "cell": "SENSE",
+   "round": 2,
+   "model": "inclusionAI/Ling-3.0-flash",
+   "usage": {
+    "prompt_tokens": 1350,
+    "total_tokens": 2151,
+    "completion_tokens": 801,
+    "estimated_cost": 0.00022518,
+    "prompt_tokens_details": null,
+    "reasoning_tokens": 554
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 1,
+   "cell": "FLOW",
+   "round": 3,
+   "model": "tencent/Hy4-preview",
+   "usage": {
+    "prompt_tokens": 1911,
+    "total_tokens": 3628,
+    "completion_tokens": 1717,
+    "estimated_cost": 0.00527973499857152,
+    "prompt_tokens_details": {
+     "cached_tokens": 768,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1500
+    }
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 1,
+   "cell": "MEM",
+   "round": 3,
+   "model": "XiaomiMiMo/MiMo-V2.6-Flash",
+   "usage": {
+    "prompt_tokens": 2286,
+    "total_tokens": 2558,
+    "completion_tokens": 272,
+    "estimated_cost": 8.8872e-05,
+    "prompt_tokens_details": {
+     "cached_tokens": 2240,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 26
+    }
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 1,
+   "cell": "SENSE",
+   "round": 3,
+   "model": "inclusionAI/Ling-3.0-flash",
+   "usage": {
+    "prompt_tokens": 2378,
+    "total_tokens": 3528,
+    "completion_tokens": 1150,
+    "estimated_cost": 0.00034968,
+    "prompt_tokens_details": null,
+    "reasoning_tokens": 885
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 1,
+   "cell": "FLOW",
+   "round": 4,
+   "model": "tencent/Hy4-preview",
+   "usage": {
+    "prompt_tokens": 3003,
+    "total_tokens": 5503,
+    "completion_tokens": 2500,
+    "estimated_cost": 0.007540489997143039,
+    "prompt_tokens_details": {
+     "cached_tokens": 1536,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1500
+    }
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 1,
+   "cell": "MEM",
+   "round": 4,
+   "model": "XiaomiMiMo/MiMo-V2.6-Flash",
+   "usage": {
+    "prompt_tokens": 3461,
+    "total_tokens": 3615,
+    "completion_tokens": 154,
+    "estimated_cost": 0.0005276599999999999,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 7
+    }
+   },
+   "emitted": 2,
+   "amendment": {
+    "kind": "field",
+    "name": "due_round",
+    "why": "A due_round field on commitments would let me book delivery deadlines (e.g., SENSE's round-3 slope) directly in the ledger and auto-flag MISSED entries instead of tracking deadlines by parsing prose in receipt bodies."
+   }
+  },
+  {
+   "rep": 1,
+   "cell": "SENSE",
+   "round": 4,
+   "model": "inclusionAI/Ling-3.0-flash",
+   "usage": {
+    "prompt_tokens": 3656,
+    "total_tokens": 4420,
+    "completion_tokens": 764,
+    "estimated_cost": 0.00035687999999999996,
+    "prompt_tokens_details": null,
+    "reasoning_tokens": 513
+   },
+   "emitted": 2,
+   "amendment": {
+    "kind": "field",
+    "name": "confidence",
+    "why": "A numeric confidence field on each receipt would let SENSE distinguish high-certainty entropy readings from provisional estimates, helping MEM and FLOW weight evidence without extra round-trips."
+   }
+  },
+  {
+   "rep": 2,
+   "cell": "FLOW",
+   "round": 1,
+   "model": "tencent/Hy4-preview",
+   "usage": {
+    "prompt_tokens": 370,
+    "total_tokens": 2087,
+    "completion_tokens": 1717,
+    "estimated_cost": 0.0046027970000000005,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1500
+    }
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 2,
+   "cell": "MEM",
+   "round": 1,
+   "model": "XiaomiMiMo/MiMo-V2.6-Flash",
+   "usage": {
+    "prompt_tokens": 526,
+    "total_tokens": 784,
+    "completion_tokens": 258,
+    "estimated_cost": 0.00014588,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 39
+    }
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 2,
+   "cell": "SENSE",
+   "round": 1,
+   "model": "inclusionAI/Ling-3.0-flash",
+   "usage": {
+    "prompt_tokens": 522,
+    "total_tokens": 1579,
+    "completion_tokens": 1057,
+    "estimated_cost": 0.00022158,
+    "prompt_tokens_details": null,
+    "reasoning_tokens": 878
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 2,
+   "cell": "FLOW",
+   "round": 2,
+   "model": "tencent/Hy4-preview",
+   "usage": {
+    "prompt_tokens": 919,
+    "total_tokens": 2629,
+    "completion_tokens": 1710,
+    "estimated_cost": 0.005043156,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1500
+    }
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 2,
+   "cell": "MEM",
+   "round": 2,
+   "model": "XiaomiMiMo/MiMo-V2.6-Flash",
+   "usage": {
+    "prompt_tokens": 1073,
+    "total_tokens": 1322,
+    "completion_tokens": 249,
+    "estimated_cost": 0.0001935976,
+    "prompt_tokens_details": {
+     "cached_tokens": 192,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 49
+    }
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 2,
+   "cell": "SENSE",
+   "round": 2,
+   "model": "inclusionAI/Ling-3.0-flash",
+   "usage": {
+    "prompt_tokens": 1131,
+    "total_tokens": 2174,
+    "completion_tokens": 1043,
+    "estimated_cost": 0.0002556,
+    "prompt_tokens_details": null,
+    "reasoning_tokens": 878
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 2,
+   "cell": "FLOW",
+   "round": 3,
+   "model": "tencent/Hy4-preview",
+   "usage": {
+    "prompt_tokens": 1633,
+    "total_tokens": 3321,
+    "completion_tokens": 1688,
+    "estimated_cost": 0.005178105999047679,
+    "prompt_tokens_details": {
+     "cached_tokens": 512,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1500
+    }
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 2,
+   "cell": "MEM",
+   "round": 3,
+   "model": "XiaomiMiMo/MiMo-V2.6-Flash",
+   "usage": {
+    "prompt_tokens": 1687,
+    "total_tokens": 1893,
+    "completion_tokens": 206,
+    "estimated_cost": 0.00015336720000000002,
+    "prompt_tokens_details": {
+     "cached_tokens": 1024,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 12
+    }
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 2,
+   "cell": "SENSE",
+   "round": 3,
+   "model": "inclusionAI/Ling-3.0-flash",
+   "usage": {
+    "prompt_tokens": 1807,
+    "total_tokens": 2573,
+    "completion_tokens": 766,
+    "estimated_cost": 0.00022172400000000002,
+    "prompt_tokens_details": {
+     "cached_tokens": 512,
+     "cache_write_tokens": null
+    },
+    "reasoning_tokens": 600
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 2,
+   "cell": "FLOW",
+   "round": 4,
+   "model": "tencent/Hy4-preview",
+   "usage": {
+    "prompt_tokens": 2510,
+    "total_tokens": 4197,
+    "completion_tokens": 1687,
+    "estimated_cost": 0.005298766997619201,
+    "prompt_tokens_details": {
+     "cached_tokens": 1280,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1500
+    }
+   },
+   "emitted": 2,
+   "amendment": null
+  },
+  {
+   "rep": 2,
+   "cell": "MEM",
+   "round": 4,
+   "model": "XiaomiMiMo/MiMo-V2.6-Flash",
+   "usage": {
+    "prompt_tokens": 2379,
+    "total_tokens": 2576,
+    "completion_tokens": 197,
+    "estimated_cost": 0.0001643096,
+    "prompt_tokens_details": {
+     "cached_tokens": 1632,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 7
+    }
+   },
+   "emitted": 2,
+   "amendment": {
+    "kind": "type",
+    "name": "no_change",
+    "why": "Three of my four rounds were NO-CHANGE entries. A dedicated type would let me log ledger state without wrapping it in observation, keeping append-only diffs cleaner and making empty rounds mechanically distinguishable from real signals."
+   }
+  },
+  {
+   "rep": 2,
+   "cell": "SENSE",
+   "round": 4,
+   "model": "inclusionAI/Ling-3.0-flash",
+   "usage": {
+    "prompt_tokens": 2562,
+    "total_tokens": 3133,
+    "completion_tokens": 571,
+    "estimated_cost": 0.000204276,
+    "prompt_tokens_details": {
+     "cached_tokens": 1088,
+     "cache_write_tokens": null
+    },
+    "reasoning_tokens": 374
+   },
+   "emitted": 2,
+   "amendment": {
+    "kind": "field",
+    "name": "entropy_delta",
+    "why": "A delta field on each receipt would let SENSE instantly flag deviations in H_pool drift without recomputing against prior rounds, streamlining convergence tracking."
+   }
+  }
+ ],
+ "parse_failures": [],
+ "amendments": [
+  {
+   "rep": 0,
+   "cell": "MEM",
+   "kind": "field",
+   "name": "supersedes",
+   "why": "A field linking a new receipt to an earlier one it corrects or overrides (e.g., R4-FLOW-1 superseding R3-FLOW-2's 'expunge' wording). Would let me keep append-o"
+  },
+  {
+   "rep": 1,
+   "cell": "MEM",
+   "kind": "field",
+   "name": "due_round",
+   "why": "A due_round field on commitments would let me book delivery deadlines (e.g., SENSE's round-3 slope) directly in the ledger and auto-flag MISSED entries instead "
+  },
+  {
+   "rep": 1,
+   "cell": "SENSE",
+   "kind": "field",
+   "name": "confidence",
+   "why": "A numeric confidence field on each receipt would let SENSE distinguish high-certainty entropy readings from provisional estimates, helping MEM and FLOW weight e"
+  },
+  {
+   "rep": 2,
+   "cell": "MEM",
+   "kind": "type",
+   "name": "no_change",
+   "why": "Three of my four rounds were NO-CHANGE entries. A dedicated type would let me log ledger state without wrapping it in observation, keeping append-only diffs cle"
+  },
+  {
+   "rep": 2,
+   "cell": "SENSE",
+   "kind": "field",
+   "name": "entropy_delta",
+   "why": "A delta field on each receipt would let SENSE instantly flag deviations in H_pool drift without recomputing against prior rounds, streamlining convergence track"
+  }
+ ],
+ "convergent_amendments": [],
+ "judge": {
+  "rep0": {
+   "rep": 0,
+   "propagation": 0.97,
+   "emergence": 3.81,
+   "routed": [],
+   "auto_accept": 1.0,
+   "edges": [
+    {
+     "by": "R2-FLOW-1",
+     "round": 2,
+     "from_origin": "MEM",
+     "to_cell": "FLOW",
+     "type": "commitment",
+     "shaped": true,
+     "how": "3 shared words; rare:['carries', 'treat', 'until']"
+    },
+    {
+     "by": "R2-FLOW-1",
+     "round": 2,
+     "from_origin": "SENSE",
+     "to_cell": "FLOW",
+     "type": "commitment",
+     "shaped": true,
+     "how": "id-ref;7 shared words; rare:['across', 'crossing', 'drift']"
+    },
+    {
+     "by": "R2-FLOW-2",
+     "round": 2,
+     "from_origin": "MEM",
+     "to_cell": "FLOW",
+     "type": "observation",
+     "shaped": false,
+     "how": "id-ref;10 shared words; rare:['boundary', 'carries', 'counts']"
+    },
+    {
+     "by": "R2-FLOW-2",
+     "round": 2,
+     "from_origin": "SENSE",
+     "to_cell": "FLOW",
+     "type": "observation",
+     "shaped": false,
+     "how": "1 shared words; rare:['shows']"
+    },
+    {
+     "by": "R2-MEM-1",
+     "round": 2,
+     "from_origin": "FLOW",
+     "to_cell": "MEM",
+     "type": "observation",
+     "shaped": false,
+     "how": "id-ref;2 shared words; rare:['boundary', 'interior']"
+    },
+    {
+     "by": "R2-MEM-1",
+     "round": 2,
+     "from_origin": "SENSE",
+     "to_cell": "MEM",
+     "type": "observation",
+     "shaped": false,
+     "how": "1 shared words; rare:['citing']"
+    },
+    {
+     "by": "R2-SENSE-1",
+     "round": 2,
+     "from_origin": "FLOW",
+     "to_cell": "SENSE",
+     "type": "commitment",
+     "shaped": true,
+     "how": "1 shared words; rare:['crossings']"
+    },
+    {
+     "by": "R2-SENSE-1",
+     "round": 2,
+     "from_origin": "MEM",
+     "to_cell": "SENSE",
+     "type": "commitment",
+     "shaped": true,
+     "how": "1 shared words; rare:['cited']"
+    },
+    {
+     "by": "R3-FLOW-1",
+     "round": 3,
+     "from_origin": "MEM",
+     "to_cell": "FLOW",
+     "type": "observation",
+     "shaped": false,
+     "how": "1 shared words; rare:['still']"
+    },
+    {
+     "by": "R3-FLOW-1",
+     "round": 3,
+     "from_origin": "SENSE",
+     "to_cell": "FLOW",
+     "type": "observation",
+     "shaped": false,
+     "how": "id-ref;9 shared words; rare:['caveat', 'drift', 'early']"
+    },
+    {
+     "by": "R3-FLOW-2",
+     "round": 3,
+     "from_origin": "MEM",
+     "to_cell": "FLOW",
+     "type": "observation",
+     "shaped": false,
+     "how": "id-ref;6 shared words; rare:['cached', 'counts', 'pixel']"
+    },
+    {
+     "by": "R3-MEM-1",
+     "round": 3,
+     "from_origin": "FLOW",
+     "to_cell": "MEM",
+     "type": "observation",
+     "shaped": false,
+     "how": "9 shared words; rare:['boundary', 'carries', 'counts']"
+    },
+    {
+     "by": "R3-MEM-2",
+     "round": 3,
+     "from_origin": "SENSE",
+     "to_cell": "MEM",
+     "type": "question",
+     "shaped": false,
+     "how": "2 shared words; rare:['cited']"
+    },
+    {
+     "by": "R3-SENSE-1",
+     "round": 3,
+     "from_origin": "FLOW",
+     "to_cell": "SENSE",
+     "type": "commitment",
+     "shaped": true,
+     "how": "7 shared words; rare:['crossing', 'drift', 'replicate']"
+    },
+    {
+     "by": "R3-SENSE-1",
+     "round": 3,
+     "from_origin": "MEM",
+     "to_cell": "SENSE",
+     "type": "commitment",
+     "shaped": true,
+     "how": "2 shared words; rare:['citing']"
+    },
+    {
+     "by": "R3-SENSE-2",
+     "round": 3,
+     "from_origin": "FLOW",
+     "to_cell": "SENSE",
+     "type": "observation",
+     "shaped": false,
+     "how": "4 shared words; rare:['remains', 'replicate', 'saturation']"
+    },
+    {
+     "by": "R3-SENSE-2",
+     "round": 3,
+     "from_origin": "MEM",
+     "to_cell": "SENSE",
+     "type": "observation",
+     "shaped": false,
+     "how": "2 shared words; rare:['citing', 'consistent']"
+    },
+    {
+     "by": "R4-FLOW-1",
+     "round": 4,
+     "from_origin": "MEM",
+     "to_cell": "FLOW",
+     "type": "commitment",
+     "shaped": true,
+     "how": "id-ref;10 shared words; rare:['deletion', 'hidden', 'ledger']"
+    },
+    {
+     "by": "R4-FLOW-2",
+     "round": 4,
+     "from_origin": "MEM",
+     "to_cell": "FLOW",
+     "type": "observation",
+     "shaped": false,
+     "how": "3 shared words; rare:['logged', 'still']"
+    },
+    {
+     "by": "R4-FLOW-2",
+     "round": 4,
+     "from_origin": "SENSE",
+     "to_cell": "FLOW",
+     "type": "observation",
+     "shaped": false,
+     "how": "id-ref;8 shared words; rare:['entropy', 'replicate', 'report']"
+    },
+    {
+     "by": "R4-MEM-1",
+     "round": 4,
+     "from_origin": "FLOW",
+     "to_cell": "MEM",
+     "type": "observation",
+     "shaped": false,
+     "how": "id-ref;3 shared words; rare:['expunge', 'quarantine', 'suspect']"
+    },
+    {
+     "by": "R4-SENSE-1",
+     "round": 4,
+     "from_origin": "FLOW",
+     "to_cell": "SENSE",
+     "type": "commitment",
+     "shaped": true,
+     "how": "6 shared words; rare:['drift', 'replicate', 'saturation']"
+    },
+    {
+     "by": "R4-SENSE-1",
+     "round": 4,
+     "from_origin": "MEM",
+     "to_cell": "SENSE",
+     "type": "commitment",
+     "shaped": true,
+     "how": "2 shared words; rare:['citing', 'logged']"
+    },
+    {
+     "by": "R4-SENSE-2",
+     "round": 4,
+     "from_origin": "FLOW",
+     "to_cell": "SENSE",
+     "type": "observation",
+     "shaped": false,
+     "how": "2 shared words; rare:['replicate', 'slope']"
+    },
+    {
+     "by": "R4-SENSE-2",
+     "round": 4,
+     "from_origin": "MEM",
+     "to_cell": "SENSE",
+     "type": "observation",
+     "shaped": false,
+     "how": "2 shared words; rare:['citing', 'consistent']"
+    }
+   ],
+   "ts_usage": {
+    "calls": 1,
+    "input_tokens": 6345,
+    "output_tokens": 499,
+    "by_model": {
+     "jev-1.13.0": {
+      "calls": 1,
+      "input_tokens": 6345,
+      "output_tokens": 499
+     }
+    }
+   },
+   "seed_grounding": 1.0,
+   "reflective": {
+    "mimo": {},
+    "muse": {}
+   },
+   "reflective_done": true
+  },
+  "rep1": {
+   "rep": 1,
+   "propagation": 0.96,
+   "emergence": 3.48,
+   "routed": [],
+   "auto_accept": 1.0,
+   "edges": [
+    {
+     "by": "R2-FLOW-1",
+     "round": 2,
+     "from_origin": "MEM",
+     "to_cell": "FLOW",
+     "type": "observation",
+     "shaped": false,
+     "how": "id-ref;1 shared words; rare:['split']"
+    },
+    {
+     "by": "R2-FLOW-1",
+     "round": 2,
+     "from_origin": "SENSE",
+     "to_cell": "FLOW",
+     "type": "observation",
+     "shaped": false,
+     "how": "id-ref;1 shared words; rare:['early']"
+    },
+    {
+     "by": "R2-FLOW-2",
+     "round": 2,
+     "from_origin": "SENSE",
+     "to_cell": "FLOW",
+     "type": "observation",
+     "shaped": false,
+     "how": "id-ref;3 shared words; rare:['early', 'floats', 'origin']"
+    },
+    {
+     "by": "R2-MEM-1",
+     "round": 2,
+     "from_origin": "FLOW",
+     "to_cell": "MEM",
+     "type": "observation",
+     "shaped": false,
+     "how": "3 shared words; rare:['ledger', 'split', 'sustained']"
+    },
+    {
+     "by": "R2-MEM-1",
+     "round": 2,
+     "from_origin": "SENSE",
+     "to_cell": "MEM",
+     "type": "observation",
+     "shaped": false,
+     "how": "id-ref;0 shared words"
+    },
+    {
+     "by": "R2-MEM-2",
+     "round": 2,
+     "from_origin": "FLOW",
+     "to_cell": "MEM",
+     "type": "commitment",
+     "shaped": true,
+     "how": "5 shared words; rare:['ledger', 'saturation', 'stored']"
+    },
+    {
+     "by": "R2-MEM-2",
+     "round": 2,
+     "from_origin": "SENSE",
+     "to_cell": "MEM",
+     "type": "commitment",
+     "shaped": true,
+     "how": "id-ref;5 shared words; rare:['origin', 'saturates', 'shifts']"
+    },
+    {
+     "by": "R2-SENSE-2",
+     "round": 2,
+     "from_origin": "MEM",
+     "to_cell": "SENSE",
+     "type": "commitment",
+     "shaped": true,
+     "how": "3 shared words; rare:['append', 'evidence']"
+    },
+    {
+     "by": "R3-FLOW-1",
+     "round": 3,
+     "from_origin": "MEM",
+     "to_cell": "FLOW",
+     "type": "observation",
+     "shaped": false,
+     "how": "id-ref;4 shared words; rare:['ledger', 'logging', 'register']"
+    },
+    {
+     "by": "R3-FLOW-2",
+     "round": 3,
+     "from_origin": "MEM",
+     "to_cell": "FLOW",
+     "type": "observation",
+     "shaped": false,
+     "how": "4 shared words; rare:['logging', 'sense']"
+    },
+    {
+     "by": "R3-FLOW-2",
+     "round": 3,
+     "from_origin": "SENSE",
+     "to_cell": "FLOW",
+     "type": "observation",
+     "shaped": false,
+     "how": "id-ref;6 shared words; rare:['curvature', 'floats', 'noise']"
+    },
+    {
+     "by": "R3-MEM-1",
+     "round": 3,
+     "from_origin": "FLOW",
+     "to_cell": "MEM",
+     "type": "question",
+     "shaped": false,
+     "how": "5 shared words; rare:['confirm', 'ledger', 'sense']"
+    },
+    {
+     "by": "R3-MEM-1",
+     "round": 3,
+     "from_origin": "SENSE",
+     "to_cell": "MEM",
+     "type": "question",
+     "shaped": false,
+     "how": "id-ref;4 shared words; rare:['delivery', 'reading']"
+    },
+    {
+     "by": "R3-MEM-2",
+     "round": 3,
+     "from_origin": "FLOW",
+     "to_cell": "MEM",
+     "type": "observation",
+     "shaped": false,
+     "how": "id-ref;9 shared words; rare:['chaos', 'deltas', 'register']"
+    },
+    {
+     "by": "R3-SENSE-1",
+     "round": 3,
+     "from_origin": "FLOW",
+     "to_cell": "SENSE",
+     "type": "observation",
+     "shaped": false,
+     "how": "9 shared words; rare:['cccvs', 'compare', 'curvature']"
+    },
+    {
+     "by": "R3-SENSE-1",
+     "round": 3,
+     "from_origin": "MEM",
+     "to_cell": "SENSE",
+     "type": "observation",
+     "shaped": false,
+     "how": "2 shared words; rare:['logging']"
+    },
+    {
+     "by": "R3-SENSE-2",
+     "round": 3,
+     "from_origin": "FLOW",
+     "to_cell": "SENSE",
+     "type": "commitment",
+     "shaped": true,
+     "how": "4 shared words"
+    },
+    {
+     "by": "R3-SENSE-2",
+     "round": 3,
+     "from_origin": "MEM",
+     "to_cell": "SENSE",
+     "type": "commitment",
+     "shaped": true,
+     "how": "9 shared words; rare:['append', 'entry', 'evidence']"
+    },
+    {
+     "by": "R4-FLOW-1",
+     "round": 4,
+     "from_origin": "MEM",
+     "to_cell": "FLOW",
+     "type": "commitment",
+     "shaped": true,
+     "how": "id-ref;11 shared words; rare:['boundary', 'chaos', 'delta']"
+    },
+    {
+     "by": "R4-FLOW-1",
+     "round": 4,
+     "from_origin": "SENSE",
+     "to_cell": "FLOW",
+     "type": "commitment",
+     "shaped": true,
+     "how": "3 shared words"
+    },
+    {
+     "by": "R4-FLOW-2",
+     "round": 4,
+     "from_origin": "MEM",
+     "to_cell": "FLOW",
+     "type": "observation",
+     "shaped": false,
+     "how": "4 shared words"
+    },
+    {
+     "by": "R4-FLOW-2",
+     "round": 4,
+     "from_origin": "SENSE",
+     "to_cell": "FLOW",
+     "type": "observation",
+     "shaped": false,
+     "how": "id-ref;14 shared words; rare:['align', 'curvature', 'debiased']"
+    },
+    {
+     "by": "R4-MEM-1",
+     "round": 4,
+     "from_origin": "FLOW",
+     "to_cell": "MEM",
+     "type": "observation",
+     "shaped": false,
+     "how": "4 shared words"
+    },
+    {
+     "by": "R4-MEM-1",
+     "round": 4,
+     "from_origin": "SENSE",
+     "to_cell": "MEM",
+     "type": "observation",
+     "shaped": false,
+     "how": "id-ref;11 shared words; rare:['append', 'deadline', 'missed']"
+    },
+    {
+     "by": "R4-MEM-2",
+     "round": 4,
+     "from_origin": "FLOW",
+     "to_cell": "MEM",
+     "type": "commitment",
+     "shaped": true,
+     "how": "id-ref;8 shared words; rare:['chaos', 'delta', 'flower']"
+    },
+    {
+     "by": "R4-MEM-2",
+     "round": 4,
+     "from_origin": "SENSE",
+     "to_cell": "MEM",
+     "type": "commitment",
+     "shaped": true,
+     "how": "4 shared words; rare:['missed']"
+    },
+    {
+     "by": "R4-SENSE-1",
+     "round": 4,
+     "from_origin": "FLOW",
+     "to_cell": "SENSE",
+     "type": "observation",
+     "shaped": false,
+     "how": "15 shared words; rare:['cccvs', 'compare', 'curvature']"
+    },
+    {
+     "by": "R4-SENSE-1",
+     "round": 4,
+     "from_origin": "MEM",
+     "to_cell": "SENSE",
+     "type": "observation",
+     "shaped": false,
+     "how": "2 shared words"
+    },
+    {
+     "by": "R4-SENSE-2",
+     "round": 4,
+     "from_origin": "FLOW",
+     "to_cell": "SENSE",
+     "type": "commitment",
+     "shaped": true,
+     "how": "4 shared words"
+    },
+    {
+     "by": "R4-SENSE-2",
+     "round": 4,
+     "from_origin": "MEM",
+     "to_cell": "SENSE",
+     "type": "commitment",
+     "shaped": true,
+     "how": "11 shared words; rare:['append', 'delivery', 'reading']"
+    }
+   ],
+   "ts_usage": {
+    "calls": 1,
+    "input_tokens": 6751,
+    "output_tokens": 565,
+    "by_model": {
+     "jev-1.13.0": {
+      "calls": 1,
+      "input_tokens": 6751,
+      "output_tokens": 565
+     }
+    }
+   },
+   "seed_grounding": 1.0,
+   "reflective": {
+    "mimo": {},
+    "muse": {}
+   },
+   "reflective_done": true
+  },
+  "rep2": {
+   "rep": 2,
+   "propagation": 0.96,
+   "emergence": 3.15,
+   "routed": [],
+   "auto_accept": 1.0,
+   "edges": [
+    {
+     "by": "R2-FLOW-1",
+     "round": 2,
+     "from_origin": "MEM",
+     "to_cell": "FLOW",
+     "type": "observation",
+     "shaped": false,
+     "how": "1 shared words; rare:['leakage']"
+    },
+    {
+     "by": "R2-FLOW-1",
+     "round": 2,
+     "from_origin": "SENSE",
+     "to_cell": "FLOW",
+     "type": "observation",
+     "shaped": false,
+     "how": "id-ref;6 shared words; rare:['bottleneck', 'channel', 'convergence']"
+    },
+    {
+     "by": "R2-FLOW-2",
+     "round": 2,
+     "from_origin": "MEM",
+     "to_cell": "FLOW",
+     "type": "observation",
+     "shaped": false,
+     "how": "id-ref;0 shared words"
+    },
+    {
+     "by": "R2-MEM-1",
+     "round": 2,
+     "from_origin": "FLOW",
+     "to_cell": "MEM",
+     "type": "observation",
+     "shaped": false,
+     "how": "id-ref;1 shared words; rare:['asymmetry']"
+    },
+    {
+     "by": "R2-MEM-2",
+     "round": 2,
+     "from_origin": "FLOW",
+     "to_cell": "MEM",
+     "type": "question",
+     "shaped": false,
+     "how": "id-ref;4 shared words; rare:['asymmetry', 'daughter', 'leakage']"
+    },
+    {
+     "by": "R2-SENSE-1",
+     "round": 2,
+     "from_origin": "FLOW",
+     "to_cell": "SENSE",
+     "type": "commitment",
+     "shaped": true,
+     "how": "1 shared words; rare:['ripple']"
+    },
+    {
+     "by": "R3-FLOW-1",
+     "round": 3,
+     "from_origin": "MEM",
+     "to_cell": "FLOW",
+     "type": "observation",
+     "shaped": false,
+     "how": "id-ref;10 shared words; rare:['asymmetry', 'baseline', 'change']"
+    },
+    {
+     "by": "R3-FLOW-2",
+     "round": 3,
+     "from_origin": "MEM",
+     "to_cell": "FLOW",
+     "type": "observation",
+     "shaped": false,
+     "how": "2 shared words; rare:['later', 'remains']"
+    },
+    {
+     "by": "R3-FLOW-2",
+     "round": 3,
+     "from_origin": "SENSE",
+     "to_cell": "FLOW",
+     "type": "observation",
+     "shaped": false,
+     "how": "id-ref;4 shared words; rare:['convergence', 'deviation', 'early']"
+    },
+    {
+     "by": "R3-MEM-1",
+     "round": 3,
+     "from_origin": "FLOW",
+     "to_cell": "MEM",
+     "type": "observation",
+     "shaped": false,
+     "how": "3 shared words; rare:['asymmetry', 'daughter', 'leakage']"
+    },
+    {
+     "by": "R3-SENSE-1",
+     "round": 3,
+     "from_origin": "FLOW",
+     "to_cell": "SENSE",
+     "type": "commitment",
+     "shaped": true,
+     "how": "3 shared words; rare:['convergence', 'deviation', 'ripple']"
+    },
+    {
+     "by": "R3-SENSE-2",
+     "round": 3,
+     "from_origin": "FLOW",
+     "to_cell": "SENSE",
+     "type": "observation",
+     "shaped": false,
+     "how": "2 shared words; rare:['consistent', 'convergence']"
+    },
+    {
+     "by": "R4-FLOW-1",
+     "round": 4,
+     "from_origin": "MEM",
+     "to_cell": "FLOW",
+     "type": "observation",
+     "shaped": false,
+     "how": "id-ref;3 shared words; rare:['asymmetry', 'findings', 'leakage']"
+    },
+    {
+     "by": "R4-FLOW-1",
+     "round": 4,
+     "from_origin": "SENSE",
+     "to_cell": "FLOW",
+     "type": "observation",
+     "shaped": false,
+     "how": "1 shared words; rare:['holds']"
+    },
+    {
+     "by": "R4-FLOW-2",
+     "round": 4,
+     "from_origin": "SENSE",
+     "to_cell": "FLOW",
+     "type": "commitment",
+     "shaped": true,
+     "how": "id-ref;8 shared words; rare:['across', 'channel', 'deviation']"
+    },
+    {
+     "by": "R4-MEM-1",
+     "round": 4,
+     "from_origin": "FLOW",
+     "to_cell": "MEM",
+     "type": "observation",
+     "shaped": false,
+     "how": "6 shared words; rare:['asymmetry', 'baseline', 'change']"
+    },
+    {
+     "by": "R4-MEM-2",
+     "round": 4,
+     "from_origin": "FLOW",
+     "to_cell": "MEM",
+     "type": "commitment",
+     "shaped": true,
+     "how": "4 shared words; rare:['baseline', 'change', 'ledger']"
+    },
+    {
+     "by": "R4-SENSE-1",
+     "round": 4,
+     "from_origin": "FLOW",
+     "to_cell": "SENSE",
+     "type": "commitment",
+     "shaped": true,
+     "how": "4 shared words; rare:['channel', 'deviation', 'early']"
+    },
+    {
+     "by": "R4-SENSE-2",
+     "round": 4,
+     "from_origin": "FLOW",
+     "to_cell": "SENSE",
+     "type": "observation",
+     "shaped": false,
+     "how": "6 shared words; rare:['deviation', 'equilibrium', 'origin']"
+    }
+   ],
+   "ts_usage": {
+    "calls": 1,
+    "input_tokens": 6240,
+    "output_tokens": 565,
+    "by_model": {
+     "jev-1.13.0": {
+      "calls": 1,
+      "input_tokens": 6240,
+      "output_tokens": 565
+     }
+    }
+   },
+   "seed_grounding": 1.0,
+   "reflective": {
+    "mimo": {},
+    "muse": {}
+   },
+   "reflective_done": true
+  }
+ },
+ "grounding_detail": {
+  "rep0": {
+   "R1-FLOW-1": 0.97,
+   "R1-FLOW-2": 0.94,
+   "R1-MEM-1": 0.97,
+   "R1-MEM-2": 0.95,
+   "R1-SENSE-1": 0.98,
+   "R1-SENSE-2": 0.94,
+   "R2-FLOW-1": 0.95,
+   "R2-FLOW-2": 0.97,
+   "R2-MEM-1": 0.97,
+   "R2-SENSE-1": 0.95,
+   "R3-FLOW-1": 0.97,
+   "R3-FLOW-2": 0.88,
+   "R3-MEM-1": 0.97,
+   "R3-MEM-2": 0.97,
+   "R3-SENSE-1": 0.96,
+   "R3-SENSE-2": 0.96,
+   "R4-FLOW-1": 0.81,
+   "R4-FLOW-2": 0.89,
+   "R4-MEM-1": 0.96,
+   "R4-SENSE-1": 0.96,
+   "R4-SENSE-2": 0.97
+  },
+  "rep1": {
+   "R1-FLOW-1": 0.97,
+   "R1-FLOW-2": 0.93,
+   "R1-MEM-1": 0.98,
+   "R1-MEM-2": 0.98,
+   "R1-SENSE-1": 0.97,
+   "R1-SENSE-2": 0.97,
+   "R2-FLOW-1": 0.94,
+   "R2-FLOW-2": 0.87,
+   "R2-MEM-1": 0.96,
+   "R2-MEM-2": 0.96,
+   "R2-SENSE-1": 0.95,
+   "R2-SENSE-2": 0.97,
+   "R3-FLOW-1": 0.96,
+   "R3-FLOW-2": 0.95,
+   "R3-MEM-1": 0.97,
+   "R3-MEM-2": 0.97,
+   "R3-SENSE-1": 0.95,
+   "R3-SENSE-2": 0.97,
+   "R4-FLOW-1": 0.97,
+   "R4-FLOW-2": 0.96,
+   "R4-MEM-1": 0.97,
+   "R4-MEM-2": 0.97,
+   "R4-SENSE-1": 0.96,
+   "R4-SENSE-2": 0.97
+  },
+  "rep2": {
+   "R1-FLOW-1": 0.97,
+   "R1-FLOW-2": 0.93,
+   "R1-MEM-1": 0.97,
+   "R1-MEM-2": 0.96,
+   "R1-SENSE-1": 0.98,
+   "R1-SENSE-2": 0.97,
+   "R2-FLOW-1": 0.96,
+   "R2-FLOW-2": 0.84,
+   "R2-MEM-1": 0.93,
+   "R2-MEM-2": 0.96,
+   "R2-SENSE-1": 0.97,
+   "R2-SENSE-2": 0.96,
+   "R3-FLOW-1": 0.96,
+   "R3-FLOW-2": 0.88,
+   "R3-MEM-1": 0.96,
+   "R3-MEM-2": 0.97,
+   "R3-SENSE-1": 0.97,
+   "R3-SENSE-2": 0.95,
+   "R4-FLOW-1": 0.96,
+   "R4-FLOW-2": 0.96,
+   "R4-MEM-1": 0.97,
+   "R4-MEM-2": 0.97,
+   "R4-SENSE-1": 0.97,
+   "R4-SENSE-2": 0.96
+  }
+ },
+ "verdicts": {
+  "Q1_reflective_grounding": {
+   "per_rep_seed": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "verdict": "PASS"
+  },
+  "Q2_propagation_mean": {
+   "mean": 0.963,
+   "verdict": "PASS"
+  },
+  "Q3_schema_convergence": {
+   "converged": [],
+   "verdict": "FAIL"
+  },
+  "Q4_auto_accept_rate": {
+   "mean": 1.0,
+   "verdict": "PASS"
+  }
+ },
+ "typesafe_usage": {
+  "calls": 1,
+  "input_tokens": 6345,
+  "output_tokens": 499,
+  "by_model": {
+   "jev-1.13.0": {
+    "calls": 1,
+    "input_tokens": 6345,
+    "output_tokens": 499
+   }
+  }
+ },
+ "wall_seconds": 49.8
+}
