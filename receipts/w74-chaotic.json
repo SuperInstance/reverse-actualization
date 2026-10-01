@@ -1,0 +1,26 @@
+{
+ "task": "74-c/B chaotic-diffuse 73-e2",
+ "prereg": "reverse-actualization/receipts/w74-prereg-B.md",
+ "entropy_substitution_booked": true,
+ "substitution_note": "live moth fetch yielded 81/2048 bytes (2-12 B/job); registered fallback branch used; provenance downgraded, verdict rules unchanged",
+ "ngen": 240,
+ "verdicts": {
+  "H1_margin_nats": 0.03299640052347937,
+  "H1": "INCONCLUSIVE",
+  "H1_desc_dH_frac": 0.9742424242424242,
+  "H2_slope": 0.02634243198226007,
+  "H2_r2": 0.9424024829130945,
+  "H2": "PASS",
+  "H3_max_C": 0.7524244337085488,
+  "H3_frac_C_gt_075": 0.004166666666666667,
+  "H3": "PASS",
+  "H3_amendment_flag": false,
+  "D_star": {
+   "moth0": 26,
+   "moth1": 102,
+   "moth2": 48,
+   "prng0": 63
+  }
+ },
+ "wall_seconds": 15.2
+}

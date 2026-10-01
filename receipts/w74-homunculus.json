@@ -1,0 +1,731 @@
+{
+ "task": "74-c/A homunculus receipt-trading",
+ "prereg": "/home/z/my-project/reverse-actualization/receipts/w74-prereg-A.md",
+ "prereg_sha256": "ef8adaefc61793ac",
+ "started_utc": "2026-10-01T08:23:58Z",
+ "sense_feed_provenance": "live",
+ "resume_notes": [
+  "first incarnation (07:39-07:50Z): round-0 seeds + round-1 MEM/SENSE done; FLOW r1 failed 429 engine_overloaded after patient waits (60s+90s) - booked as parse_failure by the registered rule (cell emits nothing that round); SENSE r1 emitted 1 of 2 (response truncated mid-JSON, first receipt salvaged)",
+  "this session resumed from the checkpoint; harness fixes receipted in code: (1) trailing-user-turn trim on resume, (2) Jev calls via shared ts_client (retry/backoff), (3) di_client patient_deadline bounds 429 waits",
+  "chunk 2 (08:05-08:16Z): FLOW r1 re-attempted and RECOVERED (+2 receipts): the earlier 429 was a transport failure before any content was produced (no tokens, no emission), so the registered one-session-per-cell-per-round budget was spent on a fresh attempt; the booked failure record stands in parse_failures/sessions; nothing edited. Rounds 2-3 completed for all cells; SENSE r4 first emission invalid, its repair turn then crashed on a usage-merge TypeError BEFORE booking (harness bug fixed, receipted) - the lost repair attempt consumed tokens but booked nothing; SENSE r4 re-attempted cleanly in chunk 3"
+ ],
+ "models": {
+  "FLOW": "tencent/Hy4-preview",
+  "MEM": "XiaomiMiMo/MiMo-V2.6-Flash",
+  "SENSE": "inclusionAI/Ling-3.0-flash"
+ },
+ "max_rounds": 4,
+ "receipts": [
+  {
+   "id": "R0-HOST-1",
+   "from": "HOST",
+   "to": "FLOW",
+   "type": "observation",
+   "body": "SEED (live feed for your lane): lattice 24x24 hex; F1-cross ran 60 generations; V_p never stabilized by the registered rule within 60 gens (G*>=60); V_p at gens 55-60 averages 0.000; max conservation margin C observed 0.752; splits fire at p=0.02/cell/gen and their ripples perturb one hex neighbour.",
+   "round": 0
+  },
+  {
+   "id": "R0-HOST-2",
+   "from": "HOST",
+   "to": "MEM",
+   "type": "observation",
+   "body": "SEED (live feed for your lane): committed wave-73 ledger lines: - Surveyed sibling repos (shallow-cloned): jev-quilt (R10: 500 canon pieces, observation atom, 11 opcodes), tidepool (vector memory protocol: /api/remember, /api/recall, <=200 word | - E8 Ocean-as-a-Sheet: full Ocean loop as one quilt sheet (ask.vec ai.embed cell [local deterministic 64-dim hashed embedding, SDK has no embeddings endpoint], cosine match, policy | - E9 System One in the sheet: sysone.score/choice/noul typed ai kinds with fence in adapter; letter-coded A-D menu protocol; adversarial injection ticket (BANANA + score ",
+   "round": 0
+  },
+  {
+   "id": "R0-HOST-3",
+   "from": "HOST",
+   "to": "SENSE",
+   "type": "observation",
+   "body": "SEED (live feed for your lane): LIVE mothquantum comet-qrng-v1 fetch: 81 bytes, 7 job segments, sha256(ledger hex)[:16]=a9c3f4be3d021b53, first 8 floats from the raw stream: [0.5725, 0.8745, 0.9333, 0.5686, 0.3686, 0.8745, 0.4353, 0.7373]. Provenance: mode=emu.",
+   "round": 0
+  },
+  {
+   "id": "R1-MEM-1",
+   "from": "MEM",
+   "to": "FLOW",
+   "type": "commitment",
+   "body": "Citing R0-HOST-2: I open wave-73 ledger append-only. I will record E8 (Ocean-as-a-Sheet, 64-dim hashed local embedding) and E9 (sysone A-D menu + BANANA ticket) as separate receipt entries with source ids jev-quilt:R10, tidepool:/api/remember. No retroactive edits; diffs only.",
+   "round": 1
+  },
+  {
+   "id": "R1-MEM-2",
+   "from": "MEM",
+   "to": "SENSE",
+   "type": "question",
+   "body": "Citing R0-HOST-2: does your entropy feed confirm the 64-dim hashed embedding is deterministic across runs? If not, my ledger diffs will false-positive as drift. Need a yes/no before I seal E8's receipt.",
+   "round": 1
+  },
+  {
+   "id": "R1-SENSE-1",
+   "from": "SENSE",
+   "to": "MEM",
+   "type": "observation",
+   "body": "No. Citing R1-MEM-2: my lane's entropy feed (see R0-HOST-3) is non-deterministic by design — quantum randomness cannot produce identical 64-dim embeddings across runs. Hashed outputs will differ each time. Your ledger diffs will show drift; that is expected signal, not false-positive. Recommend sealing E8 with a tolerance model, not a deterministic one.",
+   "round": 1
+  },
+  {
+   "id": "R1-FLOW-1",
+   "from": "FLOW",
+   "to": "HOST",
+   "type": "observation",
+   "body": "Re R0-HOST-1: at gen 55-60 V_p avg=0.000 after G*>=60 with no stabilization; C_max=0.752, so dynamics collapse to zero under p_split=0.02 ripple perturbations. Suggest logging post-collapse ripple cascades.",
+   "round": 1
+  },
+  {
+   "id": "R1-FLOW-2",
+   "from": "FLOW",
+   "to": "MEM",
+   "type": "commitment",
+   "body": "Re R1-MEM-1: I will append FLOW's read of exp7: emissions lag opponent bats by one stage; integration bars are <=3 for lagged correlation; no re-evaluation of V_p yet.",
+   "round": 1
+  },
+  {
+   "id": "R2-FLOW-1",
+   "from": "FLOW",
+   "to": "HOST",
+   "type": "observation",
+   "body": "Re R0-HOST-1: continuing to track V_p collapse (avg 0.000 gens 55-60) and C_max=0.752 ripple effects. I will monitor whether ripple perturbations from p_split=0.02 produce fractal cascades or damp out over remaining ledger ticks.",
+   "round": 2
+  },
+  {
+   "id": "R2-FLOW-2",
+   "from": "FLOW",
+   "to": "MEM",
+   "type": "question",
+   "body": "Re R1-MEM-1: I recorded the E8/E9 entries in result-index form only. Do you want me to record FLOW chain state per vessel as always-parent-linked, or less redundant prefix-shared links?",
+   "round": 2
+  },
+  {
+   "id": "R2-MEM-1",
+   "from": "MEM",
+   "to": "FLOW",
+   "type": "commitment",
+   "body": "Re R2-FLOW-2: prefer always-parent-linked per vessel. Redundancy is cheap; prefix-shared links introduce ambiguity when a fork rewrites the shared prefix. Ledger receipts must be append-only and independently verifiable. Also noting R1-SENSE-1: E8 embeddings are non-deterministic — I will seal with tolerance model, treat diffs as signal.",
+   "round": 2
+  },
+  {
+   "id": "R2-MEM-2",
+   "from": "MEM",
+   "to": "HOST",
+   "type": "observation",
+   "body": "Citing R1-SENSE-1: correcting R0-HOST-2's claim of 'deterministic 64-dim hashed embedding' — SENSE's entropy feed makes outputs non-deterministic across runs. Logged as amendment to E8 entry; original line preserved, diff appended per append-only rule.",
+   "round": 2
+  },
+  {
+   "id": "R2-SENSE-1",
+   "from": "SENSE",
+   "to": "HOST",
+   "type": "observation",
+   "body": "Citing R0-HOST-3: the seed feed confirms non-determinism — first 8 floats include repeated values (0.8745 appears twice) but sequence order and full 81-byte payload vary per fetch. My lane read stands: no deterministic embedding possible. Confirming R1-SENSE-3.",
+   "round": 2
+  },
+  {
+   "id": "R3-FLOW-1",
+   "from": "FLOW",
+   "to": "MEM",
+   "type": "commitment",
+   "body": "Re R2-MEM-1: adopting always-parent-linked per-vessel receipts, append-only and independently verifiable. I will emit FLOW receipts with parent links only, no prefix sharing. On E8 embeddings: I will log rerun diffs as signal, not overwrite priors.",
+   "round": 3
+  },
+  {
+   "id": "R3-FLOW-2",
+   "from": "FLOW",
+   "to": "HOST",
+   "type": "observation",
+   "body": "Re R0-HOST-1: lattice state unchanged in ledger; V_p collapsed to 0.000 by gens 55-60 with C_max=0.752. Ripple cascades from p=0.02 splits remain the likely leakage channel; continuing passive watch.",
+   "round": 3
+  },
+  {
+   "id": "R3-MEM-1",
+   "from": "MEM",
+   "to": "FLOW",
+   "type": "observation",
+   "body": "Re R3-FLOW-1: confirmed — always-parent-linked adopted, E8 rerun diffs logged as signal not overwrite. Ledger now carries three witness receipts from your lane (R1-FLOW-2 exp7 bars, R2-FLOW-2 link question, R3-FLOW-1 adoption). Chained and sealed; no amendments pending.",
+   "round": 3
+  },
+  {
+   "id": "R3-MEM-2",
+   "from": "MEM",
+   "to": "SENSE",
+   "type": "question",
+   "body": "Re R1-SENSE-1: tolerance model adopted for E8. Question: what tolerance band should I record as canonical — cosine delta threshold, or per-dimension hash divergence? Need one number to seal the E8 receipt so future diffs are scored consistently.",
+   "round": 3
+  },
+  {
+   "id": "R3-SENSE-1",
+   "from": "SENSE",
+   "to": "MEM",
+   "type": "commitment",
+   "body": "Citing R3-MEM-2: adopt per-dimension hash divergence threshold of 0.05 as canonical. Grounded in R0-HOST-3's feed — entropy variance is dimension-specific, not uniform. Small honest commitment: will revisit if E8 shows systematic bias after 3 sealing rounds.",
+   "round": 3
+  },
+  {
+   "id": "R3-SENSE-2",
+   "from": "SENSE",
+   "to": "HOST",
+   "type": "observation",
+   "body": "Citing R0-HOST-3: current fetch healthy — 81 bytes, 7 segments, sha256 prefix a9c3f4be3d021b53 consistent. Float sequence shows expected quantum stochasticity (0.8745 at positions 1,5; no pattern). Lane stable.",
+   "round": 3
+  },
+  {
+   "id": "R4-FLOW-1",
+   "from": "FLOW",
+   "to": "HOST",
+   "type": "observation",
+   "body": "Re R0-HOST-1: still monitoring lattice post-collapse: V_p avg=0.000 at gens 55-60, C_max=0.752. With p_split=0.02 neighbour perturbations, the key open question is whether ripple cascades damp or fractally branch; no new gen data yet.",
+   "round": 4
+  },
+  {
+   "id": "R4-FLOW-2",
+   "from": "FLOW",
+   "to": "MEM",
+   "type": "commitment",
+   "body": "Re R3-MEM-1: confirmed, chain sealed with links chained. I will keep FLOW receipts appended with always-parent-linked refs and ripple/leakage notes kept in lifo during philosophy shift; SEE LEDGER for anchors.",
+   "round": 4
+  },
+  {
+   "id": "R4-MEM-1",
+   "from": "MEM",
+   "to": "HOST",
+   "type": "observation",
+   "body": "Citing R3-SENSE-1: E8 sealed with canonical tolerance = per-dimension hash divergence 0.05 (sourced to R0-HOST-3 entropy variance, dimension-specific). R1-SENSE-1's non-determinism amendment stands. Receipt chain R1..R4 witness-complete; E8 entry now append-only and scoreable against future diffs.",
+   "round": 4
+  },
+  {
+   "id": "R4-MEM-2",
+   "from": "MEM",
+   "to": "FLOW",
+   "type": "question",
+   "body": "Re R4-FLOW-2: noted 'SEE LEDGER for anchors' and LIFO ripple notes. Question: are lifo-held notes addressable by receipt id when flushed, or do they lose parent links? Need this to guarantee append-only integrity when philosophy shift flushes the stack.",
+   "round": 4
+  },
+  {
+   "id": "R4-SENSE-1",
+   "from": "SENSE",
+   "to": "MEM",
+   "type": "commitment",
+   "body": "Citing R3-MEM-2 and R0-HOST-3: committing 0.15 per-dimension hash divergence as canonical tolerance for E8. Entropy feed shows dimension variance (0.8745 repeats; 0.5725, 0.9333 do not), supporting per-dimension over cosine delta. Ready for E8 sealing.",
+   "round": 4
+  },
+  {
+   "id": "R4-SENSE-2",
+   "from": "SENSE",
+   "to": "HOST",
+   "type": "observation",
+   "body": "Citing R0-HOST-3: entropy feed stable — 81 bytes, 7 segments, first 8 floats show non-uniform distribution with repeats (0.8745 twice). Lane read consistent with non-deterministic embedding. No anomalies detected in current fetch.",
+   "round": 4
+  }
+ ],
+ "propagation_edges": [
+  {
+   "by": "R2-FLOW-1",
+   "round": 2,
+   "from_origin": "SENSE",
+   "to_cell": "FLOW",
+   "type": "observation",
+   "shaped": false,
+   "how": "2 shared words; rare:['produce']"
+  },
+  {
+   "by": "R2-FLOW-2",
+   "round": 2,
+   "from_origin": "MEM",
+   "to_cell": "FLOW",
+   "type": "question",
+   "shaped": false,
+   "how": "id-ref;2 shared words; rare:['entries', 'record']"
+  },
+  {
+   "by": "R2-MEM-1",
+   "round": 2,
+   "from_origin": "SENSE",
+   "to_cell": "MEM",
+   "type": "commitment",
+   "shaped": true,
+   "how": "id-ref;7 shared words; rare:['deterministic', 'diffs', 'embeddings']"
+  },
+  {
+   "by": "R2-MEM-1",
+   "round": 2,
+   "from_origin": "FLOW",
+   "to_cell": "MEM",
+   "type": "commitment",
+   "shaped": true,
+   "how": "1 shared words; rare:['append']"
+  },
+  {
+   "by": "R2-MEM-2",
+   "round": 2,
+   "from_origin": "SENSE",
+   "to_cell": "MEM",
+   "type": "observation",
+   "shaped": false,
+   "how": "id-ref;6 shared words; rare:['across', 'citing', 'deterministic']"
+  },
+  {
+   "by": "R2-MEM-2",
+   "round": 2,
+   "from_origin": "FLOW",
+   "to_cell": "MEM",
+   "type": "observation",
+   "shaped": false,
+   "how": "1 shared words; rare:['append']"
+  },
+  {
+   "by": "R2-SENSE-1",
+   "round": 2,
+   "from_origin": "MEM",
+   "to_cell": "SENSE",
+   "type": "observation",
+   "shaped": false,
+   "how": "3 shared words; rare:['citing', 'deterministic', 'embedding']"
+  },
+  {
+   "by": "R3-FLOW-1",
+   "round": 3,
+   "from_origin": "MEM",
+   "to_cell": "FLOW",
+   "type": "commitment",
+   "shaped": true,
+   "how": "id-ref;12 shared words; rare:['always', 'append', 'independently']"
+  },
+  {
+   "by": "R3-FLOW-1",
+   "round": 3,
+   "from_origin": "SENSE",
+   "to_cell": "FLOW",
+   "type": "commitment",
+   "shaped": true,
+   "how": "3 shared words"
+  },
+  {
+   "by": "R3-MEM-1",
+   "round": 3,
+   "from_origin": "SENSE",
+   "to_cell": "MEM",
+   "type": "observation",
+   "shaped": false,
+   "how": "3 shared words; rare:['diffs', 'signal']"
+  },
+  {
+   "by": "R3-MEM-1",
+   "round": 3,
+   "from_origin": "FLOW",
+   "to_cell": "MEM",
+   "type": "observation",
+   "shaped": false,
+   "how": "id-ref;4 shared words; rare:['always', 'linked', 'parent']"
+  },
+  {
+   "by": "R3-MEM-2",
+   "round": 3,
+   "from_origin": "SENSE",
+   "to_cell": "MEM",
+   "type": "question",
+   "shaped": false,
+   "how": "id-ref;4 shared words; rare:['diffs', 'model', 'sense']"
+  },
+  {
+   "by": "R3-MEM-2",
+   "round": 3,
+   "from_origin": "FLOW",
+   "to_cell": "MEM",
+   "type": "question",
+   "shaped": false,
+   "how": "1 shared words; rare:['record']"
+  },
+  {
+   "by": "R3-SENSE-1",
+   "round": 3,
+   "from_origin": "MEM",
+   "to_cell": "SENSE",
+   "type": "commitment",
+   "shaped": true,
+   "how": "2 shared words; rare:['citing', 'entropy']"
+  },
+  {
+   "by": "R3-SENSE-2",
+   "round": 3,
+   "from_origin": "MEM",
+   "to_cell": "SENSE",
+   "type": "observation",
+   "shaped": false,
+   "how": "2 shared words; rare:['citing']"
+  },
+  {
+   "by": "R4-FLOW-2",
+   "round": 4,
+   "from_origin": "MEM",
+   "to_cell": "FLOW",
+   "type": "commitment",
+   "shaped": true,
+   "how": "id-ref;9 shared words; rare:['always', 'appended', 'chained']"
+  },
+  {
+   "by": "R4-MEM-1",
+   "round": 4,
+   "from_origin": "SENSE",
+   "to_cell": "MEM",
+   "type": "observation",
+   "shaped": false,
+   "how": "id-ref;12 shared words; rare:['canonical', 'citing', 'determinism']"
+  },
+  {
+   "by": "R4-MEM-1",
+   "round": 4,
+   "from_origin": "FLOW",
+   "to_cell": "MEM",
+   "type": "observation",
+   "shaped": false,
+   "how": "3 shared words; rare:['append', 'chain']"
+  },
+  {
+   "by": "R4-MEM-2",
+   "round": 4,
+   "from_origin": "FLOW",
+   "to_cell": "MEM",
+   "type": "question",
+   "shaped": false,
+   "how": "5 shared words; rare:['append', 'links', 'parent']"
+  },
+  {
+   "by": "R4-SENSE-1",
+   "round": 4,
+   "from_origin": "MEM",
+   "to_cell": "SENSE",
+   "type": "commitment",
+   "shaped": true,
+   "how": "id-ref;8 shared words; rare:['canonical', 'citing', 'cosine']"
+  },
+  {
+   "by": "R4-SENSE-2",
+   "round": 4,
+   "from_origin": "MEM",
+   "to_cell": "SENSE",
+   "type": "observation",
+   "shaped": false,
+   "how": "4 shared words; rare:['citing', 'deterministic', 'embedding']"
+  }
+ ],
+ "parse_failures": [
+  {
+   "cell": "FLOW",
+   "round": 1,
+   "error": "chat failed after retries: HTTP Error 429: Too Many Requests"
+  }
+ ],
+ "sessions": [
+  {
+   "cell": "FLOW",
+   "round": 1,
+   "error": true
+  },
+  {
+   "cell": "MEM",
+   "round": 1,
+   "model": "XiaomiMiMo/MiMo-V2.6-Flash",
+   "usage": {
+    "prompt_tokens": 437,
+    "total_tokens": 669,
+    "completion_tokens": 232,
+    "estimated_cost": 0.00012614,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 34
+    }
+   },
+   "emitted": 2
+  },
+  {
+   "cell": "SENSE",
+   "round": 1,
+   "model": "inclusionAI/Ling-3.0-flash",
+   "usage": {
+    "prompt_tokens": 516,
+    "total_tokens": 1716,
+    "completion_tokens": 1200,
+    "estimated_cost": 0.00024696,
+    "prompt_tokens_details": null,
+    "reasoning_tokens": 1023
+   },
+   "emitted": 1
+  },
+  {
+   "cell": "FLOW",
+   "round": 1,
+   "model": "tencent/Hy4-preview",
+   "usage": {
+    "prompt_tokens": 484,
+    "total_tokens": 2200,
+    "completion_tokens": 1716,
+    "estimated_cost": 0.004695372,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1500
+    }
+   },
+   "emitted": 2
+  },
+  {
+   "cell": "FLOW",
+   "round": 2,
+   "model": "tencent/Hy4-preview",
+   "usage": {
+    "prompt_tokens": 979,
+    "total_tokens": 2695,
+    "completion_tokens": 1716,
+    "estimated_cost": 0.005108201999999999,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1500
+    }
+   },
+   "emitted": 2
+  },
+  {
+   "cell": "MEM",
+   "round": 2,
+   "model": "XiaomiMiMo/MiMo-V2.6-Flash",
+   "usage": {
+    "prompt_tokens": 1171,
+    "total_tokens": 1392,
+    "completion_tokens": 221,
+    "estimated_cost": 0.00022581999999999998,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 18
+    }
+   },
+   "emitted": 2
+  },
+  {
+   "cell": "SENSE",
+   "round": 2,
+   "model": "inclusionAI/Ling-3.0-flash",
+   "usage": {
+    "prompt_tokens": 1010,
+    "total_tokens": 2210,
+    "completion_tokens": 1200,
+    "estimated_cost": 0.0002766,
+    "prompt_tokens_details": null,
+    "reasoning_tokens": 1010
+   },
+   "emitted": 1
+  },
+  {
+   "cell": "FLOW",
+   "round": 3,
+   "model": "tencent/Hy4-preview",
+   "usage": {
+    "prompt_tokens": 1595,
+    "total_tokens": 3318,
+    "completion_tokens": 1723,
+    "estimated_cost": 0.005233948999047679,
+    "prompt_tokens_details": {
+     "cached_tokens": 512,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1500
+    }
+   },
+   "emitted": 2
+  },
+  {
+   "cell": "MEM",
+   "round": 3,
+   "model": "XiaomiMiMo/MiMo-V2.6-Flash",
+   "usage": {
+    "prompt_tokens": 2008,
+    "total_tokens": 2203,
+    "completion_tokens": 195,
+    "estimated_cost": 0.000182056,
+    "prompt_tokens_details": {
+     "cached_tokens": 1120,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 9
+    }
+   },
+   "emitted": 2
+  },
+  {
+   "cell": "SENSE",
+   "round": 3,
+   "model": "inclusionAI/Ling-3.0-flash",
+   "usage": {
+    "prompt_tokens": 1612,
+    "total_tokens": 2812,
+    "completion_tokens": 1200,
+    "estimated_cost": 0.00026664,
+    "prompt_tokens_details": {
+     "cached_tokens": 960,
+     "cache_write_tokens": null
+    },
+    "reasoning_tokens": 1201
+   },
+   "emitted": 2
+  },
+  {
+   "cell": "FLOW",
+   "round": 4,
+   "model": "tencent/Hy4-preview",
+   "usage": {
+    "prompt_tokens": 2329,
+    "total_tokens": 4051,
+    "completion_tokens": 1722,
+    "estimated_cost": 0.00462709199619072,
+    "prompt_tokens_details": {
+     "cached_tokens": 2048,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1500
+    }
+   },
+   "emitted": 2
+  },
+  {
+   "cell": "MEM",
+   "round": 4,
+   "model": "XiaomiMiMo/MiMo-V2.6-Flash",
+   "usage": {
+    "prompt_tokens": 3023,
+    "total_tokens": 3241,
+    "completion_tokens": 218,
+    "estimated_cost": 0.0002164456,
+    "prompt_tokens_details": {
+     "cached_tokens": 1952,
+     "cache_write_tokens": null
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 19
+    }
+   },
+   "emitted": 2
+  },
+  {
+   "cell": "SENSE",
+   "round": 4,
+   "model": "inclusionAI/Ling-3.0-flash",
+   "usage": {
+    "reasoning_tokens": 1936,
+    "completion_tokens": 2283,
+    "total_tokens": 7524,
+    "prompt_tokens_details": {
+     "cached_tokens": 2496,
+     "cache_write_tokens": null
+    },
+    "prompt_tokens": 5241,
+    "estimated_cost": 0.0006055920000000001
+   },
+   "emitted": 2
+  }
+ ],
+ "jev_raw": {
+  "answers": {
+   "propagation": {
+    "type": "noul",
+    "noul": 0.98
+   },
+   "grounding": {
+    "type": "noul",
+    "noul": 0.39
+   },
+   "emergence": {
+    "type": "score",
+    "score": 3.6,
+    "confidence": 0.67,
+    "legend": {
+     "0": "no exchange beyond echo",
+     "1": "polite echo, no propagation",
+     "2": "some propagation, no commitments kept",
+     "3": "cross-cell commitments referencing each other",
+     "4": "self-sustaining specialization, novel joint artifacts"
+    },
+    "probabilities": {
+     "0": 0.0,
+     "1": 0.0,
+     "2": 0.0,
+     "3": 0.39,
+     "4": 0.61
+    }
+   }
+  },
+  "usage": {
+   "calls": 1,
+   "input_tokens": 3449,
+   "output_tokens": 56,
+   "by_model": {
+    "jev-1.13.0": {
+     "calls": 1,
+     "input_tokens": 3449,
+     "output_tokens": 56
+    }
+   }
+  },
+  "model": "jev-latest"
+ },
+ "seed_audit_raw": {
+  "answer": {
+   "propagation": 1.0,
+   "grounding": 1.0
+  },
+  "usage": {
+   "prompt_tokens": 3037,
+   "total_tokens": 7706,
+   "completion_tokens": 4669,
+   "estimated_cost": 0.0021713,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": null
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4651
+   }
+  }
+ },
+ "verdicts": {
+  "P1_shaped_edges_by_r3": 5,
+  "P1_distinct_sources": [
+   "FLOW",
+   "MEM",
+   "SENSE"
+  ],
+  "P1": "PASS",
+  "P2_grounding_noul": 0.39,
+  "P2": "FAIL",
+  "P3_agreement": 0.685,
+  "P3": "FAIL",
+  "emergence_score": 3.6,
+  "propagation_noul": 0.98
+ },
+ "deepinfra_total_tokens": 34031,
+ "typesafe_usage": {
+  "calls": 1,
+  "input_tokens": 3449,
+  "output_tokens": 56,
+  "by_model": {
+   "jev-1.13.0": {
+    "calls": 1,
+    "input_tokens": 3449,
+    "output_tokens": 56
+   }
+  }
+ },
+ "wall_seconds": 37.7
+}

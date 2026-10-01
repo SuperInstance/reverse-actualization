@@ -1,0 +1,88 @@
+{
+ "task": "74-c/C tonal-language drift guards",
+ "prereg": "reverse-actualization/receipts/w74-prereg-C.md",
+ "pairs": [
+  {
+   "model": "mimo",
+   "rung": 1,
+   "anchor_en": 0.8,
+   "anchor_zh": 0.4,
+   "len_ratio": 0.197,
+   "D1_same_idea": 0.7,
+   "D2_reorganized": 0.83,
+   "jev_usage": {}
+  },
+  {
+   "model": "mimo",
+   "rung": 6,
+   "anchor_en": 0.8,
+   "anchor_zh": 0.8,
+   "len_ratio": 0.166,
+   "D1_same_idea": 0.92,
+   "D2_reorganized": 0.59,
+   "jev_usage": {}
+  },
+  {
+   "model": "mimo",
+   "rung": 7,
+   "anchor_en": 0.6,
+   "anchor_zh": 0.4,
+   "len_ratio": 0.138,
+   "D1_same_idea": 0.97,
+   "D2_reorganized": 0.77,
+   "jev_usage": {}
+  },
+  {
+   "model": "muse",
+   "rung": 1,
+   "anchor_en": 1.0,
+   "anchor_zh": 0.4,
+   "len_ratio": 0.154,
+   "D1_same_idea": 0.69,
+   "D2_reorganized": 0.83,
+   "jev_usage": {}
+  },
+  {
+   "model": "muse",
+   "rung": 6,
+   "anchor_en": 1.0,
+   "anchor_zh": 0.8,
+   "len_ratio": 0.177,
+   "D1_same_idea": 0.94,
+   "D2_reorganized": 0.72,
+   "jev_usage": {}
+  },
+  {
+   "model": "muse",
+   "rung": 7,
+   "anchor_en": 0.4,
+   "anchor_zh": 0.6,
+   "len_ratio": 0.19,
+   "D1_same_idea": 0.94,
+   "D2_reorganized": 0.69,
+   "jev_usage": {}
+  }
+ ],
+ "verdicts": {
+  "D1_mean": 0.86,
+  "D1": "PASS",
+  "D2_mean": 0.738,
+  "D2": "PASS",
+  "n_pairs_judged": 6
+ },
+ "drift_events": [
+  "mimo-r7"
+ ],
+ "ts_usage": {
+  "calls": 6,
+  "input_tokens": 6178,
+  "output_tokens": 246,
+  "by_model": {
+   "jev-1.13.0": {
+    "calls": 6,
+    "input_tokens": 6178,
+    "output_tokens": 246
+   }
+  }
+ }
+}
