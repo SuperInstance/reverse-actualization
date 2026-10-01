@@ -1,0 +1,193 @@
+{
+ "task": "76-d multilingual RU/DINE + A/B",
+ "prereg": "/home/z/my-project/scripts/w76_multiling_prereg.md",
+ "prereg_sha256": "d9c893af9c118297",
+ "pairs": [
+  {
+   "tag": "mimo-r1-ru",
+   "rung": 1,
+   "D1": 0.46,
+   "D2": 0.86,
+   "anchor": 0.8
+  },
+  {
+   "tag": "mimo-r1-dine",
+   "rung": 1,
+   "D1": 0.69,
+   "D2": 0.63
+  },
+  {
+   "tag": "mimo-r6-ru",
+   "rung": 6,
+   "D1": 0.94,
+   "D2": 0.83,
+   "anchor": 0.8
+  },
+  {
+   "tag": "mimo-r6-dine",
+   "rung": 6,
+   "D1": 0.91,
+   "D2": 0.64
+  },
+  {
+   "tag": "mimo-r7-ru",
+   "rung": 7,
+   "D1": 0.91,
+   "D2": 0.8,
+   "anchor": 0.4
+  },
+  {
+   "tag": "mimo-r7-dine",
+   "rung": 7,
+   "D1": 0.86,
+   "D2": 0.59
+  },
+  {
+   "tag": "muse-r1-ru",
+   "rung": 1,
+   "D1": 0.82,
+   "D2": 0.79,
+   "anchor": 0.8
+  },
+  {
+   "tag": "muse-r1-dine",
+   "rung": 1,
+   "D1": 0.58,
+   "D2": 0.34
+  },
+  {
+   "tag": "muse-r6-ru",
+   "rung": 6,
+   "D1": 0.93,
+   "D2": 0.8,
+   "anchor": 0.8
+  },
+  {
+   "tag": "muse-r6-dine",
+   "rung": 6,
+   "D1": 0.7,
+   "D2": 0.6
+  },
+  {
+   "tag": "muse-r7-ru",
+   "rung": 7,
+   "D1": 0.94,
+   "D2": 0.63,
+   "anchor": 0.6
+  },
+  {
+   "tag": "muse-r7-dine",
+   "rung": 7,
+   "D1": 0.55,
+   "D2": 0.36
+  }
+ ],
+ "ab": [
+  {
+   "model": "mimo",
+   "rung": 1,
+   "anchor_base": 0.4,
+   "anchor_chips": 1.0,
+   "delta": 0.6,
+   "D2_chips": 0.8,
+   "D1_chips": 0.76
+  },
+  {
+   "model": "mimo",
+   "rung": 7,
+   "anchor_base": 0.4,
+   "anchor_chips": 1.0,
+   "delta": 0.6,
+   "D2_chips": 0.67,
+   "D1_chips": 0.92
+  },
+  {
+   "model": "muse",
+   "rung": 1,
+   "anchor_base": 0.4,
+   "anchor_chips": 1.0,
+   "delta": 0.6,
+   "D2_chips": 0.72,
+   "D1_chips": 0.85
+  },
+  {
+   "model": "muse",
+   "rung": 7,
+   "anchor_base": 0.6,
+   "anchor_chips": 1.0,
+   "delta": 0.4,
+   "D2_chips": 0.76,
+   "D1_chips": 0.94
+  }
+ ],
+ "verdicts": {
+  "V1_ru_D1": {
+   "mean": 0.833,
+   "verdict": "PASS"
+  },
+  "V2_ru_D2": {
+   "mean": 0.785,
+   "verdict": "PASS"
+  },
+  "V3_dine_D1": {
+   "mean": 0.715,
+   "D2_mean": 0.527,
+   "verdict": "PASS"
+  },
+  "V4_ab": {
+   "cells_ok": 4,
+   "detail": [
+    {
+     "model": "mimo",
+     "rung": 1,
+     "anchor_base": 0.4,
+     "anchor_chips": 1.0,
+     "delta": 0.6,
+     "D2_chips": 0.8,
+     "D1_chips": 0.76
+    },
+    {
+     "model": "mimo",
+     "rung": 7,
+     "anchor_base": 0.4,
+     "anchor_chips": 1.0,
+     "delta": 0.6,
+     "D2_chips": 0.67,
+     "D1_chips": 0.92
+    },
+    {
+     "model": "muse",
+     "rung": 1,
+     "anchor_base": 0.4,
+     "anchor_chips": 1.0,
+     "delta": 0.6,
+     "D2_chips": 0.72,
+     "D1_chips": 0.85
+    },
+    {
+     "model": "muse",
+     "rung": 7,
+     "anchor_base": 0.6,
+     "anchor_chips": 1.0,
+     "delta": 0.4,
+     "D2_chips": 0.76,
+     "D1_chips": 0.94
+    }
+   ],
+   "verdict": "PASS"
+  }
+ },
+ "ts_usage": {
+  "calls": 16,
+  "input_tokens": 20845,
+  "output_tokens": 656,
+  "by_model": {
+   "jev-1.13.0": {
+    "calls": 16,
+    "input_tokens": 20845,
+    "output_tokens": 656
+   }
+  }
+ },
+ "n_sessions": 28
+}
