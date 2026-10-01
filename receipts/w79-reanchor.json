@@ -1,0 +1,41 @@
+{
+ "task": "79 iterative re-anchoring",
+ "prereg": "/home/z/my-project/scripts/w79_reanchor_prereg.md",
+ "rows": [
+  {
+   "pass": 0,
+   "D1": 0.46,
+   "D2": 0.86,
+   "note": "pre-loop (76-d trip)"
+  },
+  {
+   "pass": 1,
+   "D1": 0.4,
+   "D2": 0.89,
+   "anchor": 0.4
+  },
+  {
+   "pass": 2,
+   "D1": 0.39,
+   "D2": 0.91,
+   "anchor": 0.8
+  }
+ ],
+ "verdicts": {
+  "H1_recover_by_2": "FAIL",
+  "H2_reroot_kept": "PASS",
+  "H3_monotone": "FAIL"
+ },
+ "ts_usage": {
+  "calls": 2,
+  "input_tokens": 3286,
+  "output_tokens": 82,
+  "by_model": {
+   "jev-1.13.0": {
+    "calls": 2,
+    "input_tokens": 3286,
+    "output_tokens": 82
+   }
+  }
+ }
+}
