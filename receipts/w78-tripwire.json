@@ -1,0 +1,57 @@
+{
+ "task": "78-c over-reorganization tripwire",
+ "prereg": "/home/z/my-project/scripts/w78_tripwire_prereg.md",
+ "rows": [
+  {
+   "tag": "mimo-r1-ru",
+   "tripped": true,
+   "pre_D1": 0.46,
+   "pre_D2": 0.86,
+   "post_D1": 0.62,
+   "post_D2": 0.89,
+   "post_anchor": 0.8,
+   "pre_anchor": 0.8,
+   "wall_s": 102.8
+  },
+  {
+   "tag": "mimo-r6-ru",
+   "tripped": false,
+   "pre_D1": 0.94,
+   "pre_D2": 0.83,
+   "post_D1": 0.85,
+   "post_D2": 0.88,
+   "post_anchor": 0.6,
+   "pre_anchor": 0.8,
+   "wall_s": 43.1
+  },
+  {
+   "tag": "muse-r6-ru",
+   "tripped": false,
+   "pre_D1": 0.93,
+   "pre_D2": 0.8,
+   "post_D1": 0.85,
+   "post_D2": 0.78,
+   "post_anchor": 0.8,
+   "pre_anchor": 0.8,
+   "wall_s": 31.6
+  }
+ ],
+ "verdicts": {
+  "G1_recovery": "FAIL",
+  "G2_controls_unharmed": "PASS",
+  "G3_reroot_kept": "PASS",
+  "G4_anchor_reground": "PASS"
+ },
+ "ts_usage": {
+  "calls": 3,
+  "input_tokens": 4650,
+  "output_tokens": 123,
+  "by_model": {
+   "jev-1.13.0": {
+    "calls": 3,
+    "input_tokens": 4650,
+    "output_tokens": 123
+   }
+  }
+ }
+}
