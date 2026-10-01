@@ -1,0 +1,64 @@
+{
+ "what": "wave-75 75-d D* crossing-time surface (P_SPLIT x transport) + 600-gen H1 extension \u2014 stamped pre-expectations",
+ "registered_utc": "2026-10-01T09:43:02Z",
+ "stamped_utc": "2026-10-01T09:44:32Z",
+ "prereg_file": "/home/z/my-project/scripts/w75_surface_prereg.md",
+ "prereg_sha256": "878799f04ebfdce427beb74d84e126f9a026ccf801c2fae8bb69134e18a6f0cb",
+ "before_any_sweep_run": true,
+ "entropy_substitution_booked": true,
+ "entropy_protocol": "w74_stream UNCHANGED: blake2b('w74-chaotic-fallback:'+arm+':'+rep) -> PCG64, fast-forward 4g; arm encodes grid cell (p{P_SPLIT}_t{T}; 600-gen arm 'base600')",
+ "grid": {
+  "P_SPLIT": [
+   0.01,
+   0.02,
+   0.04,
+   0.08
+  ],
+  "T": [
+   0.5,
+   1.0,
+   2.0,
+   4.0
+  ],
+  "seeds_per_cell": 2,
+  "ngen_surface": 240,
+  "h1_arm": {
+   "P_SPLIT": 0.02,
+   "T": 1.0,
+   "seeds": 3,
+   "ngen": 600
+  }
+ },
+ "censoring": "no sustained NBHD>=3/20-gen crossing by NGEN -> D_star_stat = NGEN+1 (241 surface); censored fraction reported",
+ "predictions": {
+  "S1": {
+   "predict": "PASS",
+   "claim": "D* decreases monotonically in P_SPLIT",
+   "expected_range": "p=0.01 ~100-241 (censor risk at low T); p=0.08 ~10-40"
+  },
+  "S2": {
+   "predict": "PASS (weaker than S1)",
+   "claim": "D* decreases in transport rate",
+   "note": "74-c H2 b=0.026 says transport saturates; expect diminishing returns 2.0->4.0"
+  },
+  "S3": {
+   "predict": "PASS",
+   "claim": "interaction \u2014 one dial flattens at the high end of the other",
+   "expected": "R1_high <= 0.5*R1_low (P_SPLIT effect flattens at high T)"
+  },
+  "S4": {
+   "predict": "FAIL",
+   "claim": "margin(300-600 vs 20-70) >= 0.05 nats",
+   "grounding": "74-c per-gen CSV: H_pool peaks ~gen 100-150 (1.28-1.38) then erodes (all 3 late slopes negative; rep0 margin already -0.116)",
+   "predicted_margin": "[-0.05, +0.06]",
+   "predicted_plateau_H_pool": "1.05-1.25 nats"
+  }
+ },
+ "verdict_rules": {
+  "S1": "pooled spearman(D*,P_SPLIT) n=32 < 0, t-approx p<0.10, AND >=3 of 4 per-T-level rhos (n=8) < 0",
+  "S2": "pooled spearman(D*,T) n=32 < 0, t-approx p<0.10, AND >=3 of 4 per-P_SPLIT-level rhos (n=8) < 0",
+  "S3": "R1_low>0 and R1_high<=0.5*R1_low, OR R2_low>0 and R2_high<=0.5*R2_low (ranges of mean-D* matrix)",
+  "S4": "margin >= 0.05 PASS else INCONCLUSIVE->FAIL upgrade + plateau = mean H_pool(300-600)"
+ },
+ "runtime_guard": "if full 35-run grid exceeds ~25 min wall, halve grid along transport axis (keep T in {0.5,2.0}) and BOOK reduction"
+}
