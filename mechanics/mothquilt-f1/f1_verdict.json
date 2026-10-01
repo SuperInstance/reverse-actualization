@@ -1,0 +1,51 @@
+{
+ "registered_run": 3,
+ "instrument_failure_receipts": [
+  "run1: arms identical (synthetic fallback seed omitted arm) -> f1_metrics_FAILED_RUN1_arms_identical.csv",
+  "run2: stochastic channel never touched preregistered observables (metric blindness) -> f1_metrics_FAILED_RUN2_observables_blind.csv",
+  "amendments: (1) meiosis jitter on gA at F1; (2) ripple phenotypic footprint 0.1*delta on neighbor potential"
+ ],
+ "H1_F1_uniform": {
+  "prereg_metric": "var(mA) at F1 < 0.025",
+  "result": "var(mA)=0 exactly (uniform by construction) -> vacuous PASS",
+  "amended_metric": "var(gA) at F1 < 1.5e-4 (meiosis jitter bound)",
+  "amended_values": [
+   0.00012234569426295097,
+   0.00013633649291820476,
+   0.00013358123668677293,
+   0.00012234569426295097,
+   0.00013633649291820476,
+   0.00013358123668677293
+  ],
+  "verdict": "PASS",
+  "phenotype_descriptor": {
+   "F1_V_p": 0.2843745782468711,
+   "parent_V_pA": 1.0471014492753623,
+   "parent_V_pB": 0.1017746559781216,
+   "note": "F1 variance = 50% of parental MEAN variance, but NOT below the smoother parent -> genotype-uniform, phenotype partially uniform"
+  }
+ },
+ "H2_many_generations": {
+  "rule": "G* >= 20 PASS; < 10 KILL; never-in-60 = '>=60' PASS evidence",
+  "G_star": {
+   "moth0": null,
+   "moth1": null,
+   "moth2": null,
+   "prng0": null,
+   "prng1": null,
+   "prng2": null
+  },
+  "verdict": "PASS",
+  "note": "all six replicates never stabilize in 60 generations: fractal splits (~11/gen) keep injecting ripples; V_p still >1e-3 relative movement at gen 60"
+ },
+ "H3_moth_delays": {
+  "rule": "mean G*(moth) > mean G*(PRNG) by >= 2 gens",
+  "verdict": "INCONCLUSIVE",
+  "note": "G* undefined in BOTH arms (never stabilize) -> comparison undefined; generation-scale true entropy (KDF-expanded) is the honest scope; per-cell true entropy untested here"
+ },
+ "conservation": {
+  "C_max": 0.7524244337085488,
+  "violations_pct": 0.0,
+  "verdict": "frame holds (C <= 1 every generation, every replicate)"
+ }
+}

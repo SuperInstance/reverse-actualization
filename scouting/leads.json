@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "task": "73-g fruit-fly scouting",
+    "date": "wave-73",
+    "method": "z-ai web_search invoked first (upstream 429/400 errors, then degraded single-hit responses); fallback scraper: DuckDuckGo HTML + arXiv API via urllib (raw/fallback_scrape.json, raw/ddg_retry.json, raw/ddg_extra.json). No LLM APIs called.",
+    "count": 26
+  },
+  "leads": [
+    {
+      "topic": "1-drosophila",
+      "url": "https://www.nature.com/immersive/d42859-024-00053-4/index.html",
+      "annotation": "The FlyWire connectome (Nature 2024): the complete wiring diagram of an adult fruit-fly brain (~140k neurons, ~50M synapses). This is the artifact that makes the fly the fruit-fly of neuroscience at MECHANISM level: every motif we cite is readable as an actual graph, not a sketch. Companion: flywire.ai."
+    },
+    {
+      "topic": "1-drosophila",
+      "url": "https://www.nature.com/articles/s41467-024-49616-z",
+      "annotation": "Diversity of visual inputs to Kenyon cells of the Drosophila mushroom body (Nat Commun 2024). Kenyon cells are a random fan-out of high-dimensional sensory input kept sparse; the input is multimodal, i.e. one tiny motif does generic feature expansion. Directly implementable: random projection + threshold."
+    },
+    {
+      "topic": "1-drosophila",
+      "url": "https://elifesciences.org/articles/52278",
+      "annotation": "Presynaptic developmental plasticity allows robust sparse coding in the Drosophila mushroom body (eLife 2020). Shows HOW sparsity is maintained: homeostatic adjustment of presynaptic release so a fixed fraction of Kenyon cells wins. Mechanism-level: a local normalization loop, no teacher."
+    },
+    {
+      "topic": "1-drosophila",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01021-9",
+      "annotation": "Distinct circuit motifs evaluate opposing innate values of odors (Cell 2025). Lateral-horn motifs are hardwired valuation circuits that need no training \u2014 a precedent for 'innate' rules pre-baked into a tiny substrate, with learned (mushroom body) circuits layered on top."
+    },
+    {
+      "topic": "1-drosophila",
+      "url": "https://www.nature.com/articles/s41467-021-22592-4",
+      "annotation": "Learning with reinforcement prediction errors in a model of the mushroom body (Nat Commun 2021). Dopaminergic neurons signal reward prediction error as a global scalar that gates a local synaptic rule \u2014 the cleanest known 3-factor learning rule on a tiny substrate; the fly literally does TD-learning without backprop."
+    },
+    {
+      "topic": "1-drosophila",
+      "url": "https://arxiv.org/abs/2101.06887",
+      "annotation": "Can a Fruit Fly Learn Word Embeddings? (arXiv 2021). Formalizes the fly's mushroom-body motif (random expansion 2x, sparsity k-winner 20x) as an algorithm competitive with locality-sensitive hashing. Proof that a mechanism-level fly motif is a real algorithm, not just biology \u2014 the founding paper for 'fly algorithms'."
+    },
+    {
+      "topic": "2-minimal-organisms",
+      "url": "https://www.cell.com/current-biology/fulltext/S0960-9822(22)01908-X",
+      "annotation": "Cellular learning: habituation sans neurons in a unicellular organism (Current Biology 2022). Single ciliates show stimulus-response decrement matching habituation hallmarks without any synapses. The minimal model organism for OUR scale: learning as a per-cell field update, literally."
+    },
+    {
+      "topic": "2-minimal-organisms",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0960982224014301",
+      "annotation": "Biochemically plausible models of habituation for single-cell learning (Current Biology 2024). Derives minimal intracellular rule sets (depletion / inactivation model families) that produce habituation in one cell. These are candidate spec lines for a per-cell 'resistance' update rule."
+    },
+    {
+      "topic": "2-minimal-organisms",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0166223603003333",
+      "annotation": "Learning in Aplysia: looking at synaptic plasticity from both sides (Trends in Neurosciences 2004). Aplysia is the classic minimal system: habituation/sensitization isolated to identified synapses, with SHORT-term (covalent, local) vs LONG-term (nuclear, consolidation) dual timescales \u2014 the biological template for fast-lane/slow-lane learning."
+    },
+    {
+      "topic": "2-minimal-organisms",
+      "url": "https://www.cell.com/fulltext/S0092-8674(08)01298-1",
+      "annotation": "The Self-Tuning Neuron: Synaptic Scaling of Excitatory Synapses (Cell 2008, Turrigiano). Homeostatic plasticity: each neuron tracks its own activity and rescales globally-local weights to stay in band, protecting learned structure from runaway. This is the 'resistance' field's job description."
+    },
+    {
+      "topic": "2-minimal-organisms",
+      "url": "https://www.sciencedirect.com/science/article/pii/S095943881200147X",
+      "annotation": "Behavioral plasticity, learning, and memory in C. elegans (Current Opinion in Neurobiology). Associative learning, habituation, and relearning in a 302-neuron animal with a fully known connectome \u2014 the existence proof that a completely mapped micro-network supports multiple learning modes."
+    },
+    {
+      "topic": "2-minimal-organisms",
+      "url": "https://arxiv.org/abs/2103.00172",
+      "annotation": "A survey on Physarum polycephalum intelligent foraging behaviour and bio-inspired applications (arXiv 2021). Slime-mold routing: a transport-network update rule (tube thickening proportional to flux) solves shortest-path/adaptation problems with zero gradients, zero labels, one local rule. Companion: arXiv 1712.02910 (Physarum-inspired network optimization review)."
+    },
+    {
+      "topic": "3-tiny-iterative-systems",
+      "url": "https://arxiv.org/abs/2208.02813",
+      "annotation": "Towards Understanding Mixture of Experts in Deep Learning (arXiv 2022). MoE = sparse conditional routing to small specialists; explains when small-per-node data plus routing beats one big model. Our cell graph with is_split and router cells is structurally an MoE; the fly's Kenyon layer is a biological MoE."
+    },
+    {
+      "topic": "3-tiny-iterative-systems",
+      "url": "https://arxiv.org/abs/1909.13231",
+      "annotation": "Test-Time Training with Self-Supervision for Generalization under Distribution Shifts (Sun et al.). Learning happens at inference on the data actually in front of the model \u2014 no separate training corpus. This is the operational mode a per-cell ledger already lives in: every replay is a training opportunity."
+    },
+    {
+      "topic": "3-tiny-iterative-systems",
+      "url": "https://arxiv.org/abs/2505.19475",
+      "annotation": "Continuous Self-Improvement of Large Language Models by Test-time Training with Verifier-Driven Self-Labeling (arXiv 2025). Iterative tiny-data self-improvement gated by a verifier \u2014 rhymes with our judge-gate/seal protocol: only verdict-passed deltas get committed."
+    },
+    {
+      "topic": "3-tiny-iterative-systems",
+      "url": "https://arxiv.org/abs/1907.08600",
+      "annotation": "Learning sparsity in reservoir computing through a novel bio-inspired algorithm (arXiv 2019). Reservoir computing (echo state networks) needs training only on a readout with few nodes; this work adds fly-like sparsity learning to the reservoir. Companion: en.wikipedia.org/wiki/Echo_state_network."
+    },
+    {
+      "topic": "3-tiny-iterative-systems",
+      "url": "https://arxiv.org/abs/1609.09106",
+      "annotation": "HyperNetworks (Ha, Dai, Le 2016): a small network generates the weights of another. For a cell system: a few 'program cells' could emit per-cell parameters (micro-policies) \u2014 parameter generation instead of parameter storage, keeping each cell's learned state tiny."
+    },
+    {
+      "topic": "4-mechanical-learning",
+      "url": "https://arxiv.org/abs/2212.13345",
+      "annotation": "The Forward-Forward Algorithm: Some Preliminary Investigations (Hinton 2022). Two forward passes replace backprop: each layer learns from purely local 'goodness' (energy) comparisons. No backward pass, no global optimizer \u2014 the flagship precedent that learning can be mechanical and layer-local. Companion PDF: cs.toronto.edu/~hinton/FFA13.pdf."
+    },
+    {
+      "topic": "4-mechanical-learning",
+      "url": "https://arxiv.org/abs/2311.05667",
+      "annotation": "A theory for the sparsity emerged in the Forward-Forward algorithm (arXiv 2023). Explains why FF self-organizes sparse representations \u2014 the bridge between thread 1 (Kenyon sparsity) and thread 4 (no-backprop rules): sparsity is an emergent property of local energy-comparison learning."
+    },
+    {
+      "topic": "4-mechanical-learning",
+      "url": "https://arxiv.org/abs/2006.04182",
+      "annotation": "Predictive Coding Approximates Backprop along Arbitrary Computation Graphs (Salvatori, Millidge et al.). Predictive coding \u2014 purely local prediction-error updates \u2014 provably approximates backprop. Gives a theoretical license: local rules are not a compromise, they can compute the same thing."
+    },
+    {
+      "topic": "4-mechanical-learning",
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000180",
+      "annotation": "A Learning Theory for Reward-Modulated Spike-Timing-Dependent Plasticity (Izhikevich 2007). Dopamine as a broadcast scalar gating local STDP \u2014 the canonical 3-factor rule (pre, post, neuromodulator). The fly's dopamine-RPE and our receipt-valuation both live here."
+    },
+    {
+      "topic": "4-mechanical-learning",
+      "url": "https://arxiv.org/abs/2408.08408",
+      "annotation": "Oja's plasticity rule overcomes several challenges of training neural networks under biological constraints (arXiv 2024). Oja's rule \u2014 Hebbian learning with a self-limiting term, using only pre/post activity \u2014 does streaming PCA with no gradients, no labels, no global state. Companion: en.wikipedia.org/wiki/Oja's_rule."
+    },
+    {
+      "topic": "4-mechanical-learning",
+      "url": "https://arxiv.org/abs/2506.04912",
+      "annotation": "Differentiable Logic Cellular Automata: From Game of Life to Pattern Generation (arXiv 2025, Google Research self-organising-systems). Learning IN a cellular automaton: local rule tables on discrete neighborhoods trained end-to-end. Companion classic: distill.pub/2020/growing-ca/ (Growing Neural Cellular Automata). Closest prior art to 'mechanical learning' on a cell grid."
+    },
+    {
+      "topic": "5-data-for-the-user",
+      "url": "https://arxiv.org/abs/2508.21036",
+      "annotation": "Understanding, Protecting, and Augmenting Human Cognition with AI (arXiv 2025, 'Tools for Thought'). Frames AI as instruments that augment a person's own processing rather than media that replace it \u2014 the 'telescope not television' line. Companion: microsoft.com/en-us/research/publication/tools-for-thought-...."
+    },
+    {
+      "topic": "5-data-for-the-user",
+      "url": "https://andymatuschak.org/files/papers/Kay%20-%201972%20-%20A%20Personal%20Computer%20for%20Children%20of%20All%20Ages.pdf",
+      "annotation": "Alan Kay, 'A Personal Computer for Children of All Ages' (1972, Dynabook). The original 'computer as personal instrument' charter: the machine exists to amplify one person's thinking with their own material. Sets the normative target: the cell ledger belongs to the user, on their side of the glass."
+    },
+    {
+      "topic": "5-data-for-the-user",
+      "url": "https://arxiv.org/abs/2403.19076",
+      "annotation": "Tiny Machine Learning: Progress and Futures (arXiv 2024). tinyML runs learning and inference on microcontrollers with kilobyte budgets \u2014 the engineering proof that 'learning on the user's device with the user's data' is deployable, not aspirational. Companion: arXiv 2204.00827 (Reformable TinyML)."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+ "t2_singlecell": {
+  "query": "habituation without synapses single cell memory",
+  "results": [
+   {
+    "title": "Cellular learning: Habituation sans neurons in a ... - Cell Press",
+    "url": "https://www.cell.com/current-biology/fulltext/S0960-9822(22)01908-X",
+    "snippet": "Stentor coeruleus cells stochastically switch between non-responsive (contracted) and responsive (extended) states. Learning is accomplished via habituation, in which the internal model is updated to reflect the current environment by tuning the transition rates according to the time series properties of mechanical stimuli."
+   },
+   {
+    "title": "Cellular learning: Habituation sans neurons in a unicellular organism",
+    "url": "https://www.sciencedirect.com/science/article/pii/S096098222201908X",
+    "snippet": "Stentor coeruleus cells stochastically switch between non-responsive (contracted) and responsive (extended) states. Learning is accomplished via habituation, in which the internal model is updated to reflect the current environment by tuning the transition rates according to the time series properties of mechanical stimuli."
+   },
+   {
+    "title": "Biochemically plausible models of habituation for single-cell learning ...",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0960982224014301",
+    "snippet": "The ability to learn is typically attributed to animals with brains. However, the apparently simplest form of learning, habituation, in which a steadily decreasing response is exhibited to a repeated stimulus, is found not only in animals but also in single-cell organisms and individual mammalian cells. Habituation has been codified from studies in both invertebrate and vertebrate animals as ..."
+   },
+   {
+    "title": "Cellular memory: Learning without building: Current Biology - Cell Press",
+    "url": "https://www.cell.com/current-biology/fulltext/S0960-9822(26)00327-1",
+    "snippet": "A new study reveals that habituation in the single-celled ciliate Stentor coeruleus uses the same calcium and kinase signaling as animal memory but does not require new protein synthesis \u2014 instead, protein synthesis maintains the cell&#x27;s responsive baseline, and memory forms when that maintenance is overcome."
+   },
+   {
+    "title": "Brains Not Required: Cells Exhibit Surprising Learning Abilities",
+    "url": "https://scitechdaily.com/brains-not-required-cells-exhibit-surprising-learning-abilities/",
+    "snippet": "New research led by Harvard Medical School finds that single-cell organisms can exhibit habituation, suggesting these cells have complex behaviors and potentially altering our approach to cancer immunology. A new study demonstrates that even simple single-cell organisms, such as ciliates and amoebae, exhibit habituation, a basic form of learning previously thought to be exclusive to more ..."
+   },
+   {
+    "title": "PDF Research reveals even single-cell organisms exhibit habituation, a ...",
+    "url": "https://phys.org/news/2024-11-reveals-cell-habituation-simple.pdf",
+    "snippet": "One memory decayed much faster than the other\u2014a form of memory loss necessary for habituation, the researchers noted. This finding suggests that single cells process and remember information ..."
+   },
+   {
+    "title": "Study suggests single-celled organisms can learn without a brain",
+    "url": "https://www.msn.com/en-us/science/general/study-suggests-single-celled-organisms-can-learn-without-a-brain/ar-AA1ZoEm6",
+    "snippet": "A growing body of peer-reviewed research is building the case that single-celled organisms, creatures with no brain, no neurons, and no nervous system at all, can exhibit habituation, one of the ..."
+   },
+   {
+    "title": "PDF Cellular cognition: How single cells learn using non-neural networks",
+    "url": "https://vcp.upf.edu/papers/jg-habituation-commentary.pdf",
+    "snippet": "Single cells can perform surprisingly complex behaviors and computations, including primitive forms of learning like habituation. New work highlighted here uses mathematical modeling to show that relatively simple biochemical networks can recapitulate many features of habituation in animals."
+   }
+  ]
+ },
+ "t3_fed_small": {
+  "query": "federated learning few samples per client",
+  "results": []
+ },
+ "t5_instrument": {
+  "query": "Alan Kay personal computer instrument for thought",
+  "results": [
+   {
+    "title": "Alan Kay - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Alan_Kay",
+    "snippet": "Alan Curtis Kay (born May 17, 1940) [1] is an American computer scientist who pioneered work on object-oriented programming and windowing graphical user interface (GUI) design."
+   },
+   {
+    "title": "PDF Alan Kay: Transforming the Computer Into a Communication Medium - hiof.no",
+    "url": "http://www.it.hiof.no/grit/forelesning/AlanKay/AlanKay.pdf",
+    "snippet": "Alan Kay&#x27;s visionary ideas about computers were instrumental in transforming the computer from an office machine into a mainstream communication device. Throughout his career at Xerox PARC, he attempted to encourage his colleagues to design small notebook size computers and create software that children could learn."
+   },
+   {
+    "title": "Alan Kay: Smalltalk and the computer as a personal medium",
+    "url": "https://bethemesh.com/en/resources/alan-kay-smalltalk-dynabook",
+    "snippet": "Learn how Alan Kay connected object-oriented programming, Smalltalk, the Dynabook, and graphical interfaces to make the computer a medium anyone could shape."
+   },
+   {
+    "title": "Alan Kay quote: The computer is simply an instrument whose music is ideas.",
+    "url": "https://www.azquotes.com/quote/1343052",
+    "snippet": "The computer is simply an instrument whose music is ideas. - Alan Kay quotes at AZquotes.com"
+   },
+   {
+    "title": "Alan Kay&#x27;s Vision: Making Computers &#x27;Instruments&#x27; for Everyone ...",
+    "url": "https://note.com/haeckel/n/nb7b3e14d03cd?hl=en",
+    "snippet": "Why did Alan Kay&#x27;s ideal of turning computers into &#x27;instruments&#x27; for everyone and breaking the monopoly on knowledge end up being co-opted by today&#x27;s closed &#x27;information appliances&#x27; and the black boxes of AI? A blunt technological critique regarding the loss of tool transparency and amateurism."
+   },
+   {
+    "title": "PDF A Personal Computer for Children of All Ages",
+    "url": "https://andymatuschak.org/files/papers/Kay - 1972 - A Personal Computer for Children of All Ages.pdf",
+    "snippet": "What then is a personal computer? One would hope that it would be both a medium for and, expressing arbitrary symbolic also a. collection of useful tools for manipulating these&#x27;, structures, with ways to add new tools to the ."
+   },
+   {
+    "title": "Alan Kay: Computers\u2014A Revolutionary Medium For Boosting Human Thought",
+    "url": "https://www.electronicdesign.com/technologies/industrial/boards/article/21795594/alan-kay-computersa-revolutionary-medium-for-boosting-human-thought",
+    "snippet": "The PARC team created Alto, the forerunner of today&#x27;s personal computers (PCs). It was an outgrowth of Kay&#x27;s 1968 Dynabook concept, a compact notebook using a tablet and keyboard, a flatscreen ..."
+   },
+   {
+    "title": "PDF A Personal Computer for Children of All Ages",
+    "url": "https://scienceplusplus.org/visions/assets/Kay1972.pdf",
+    "snippet": "What then is a personal computer? One would hope that it would be both a medium for containing and expressing arbitrary symbolic notions, and also a collection of useful tools for manipulating these structures, with ways to add new tools to the repertoire."
+   }
+  ]
+ }
+}

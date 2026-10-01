@@ -1,0 +1,1014 @@
+{
+ "ddg": {
+  "t1_fly_connectome": {
+   "query": "drosophila connectome mushroom body Kenyon cells sparse code",
+   "results": [
+    {
+     "title": "Diversity of visual inputs to Kenyon cells of the Drosophila mushroom body",
+     "url": "https://www.nature.com/articles/s41467-024-49616-z",
+     "snippet": "The Drosophila mushroom body, a well-studied olfactory learning center, also receives visual input with unknown function. Here, the authors leverage the FlyWire connectome to identify and ..."
+    },
+    {
+     "title": "GitHub - sachinksalim/drosophilia_mushroom_body: Modeling APL-Mediated ...",
+     "url": "https://github.com/sachinksalim/drosophilia_mushroom_body",
+     "snippet": "Hence the sparse, less overlapping sensory representations in the large neuron population is critical for pattern separation and accuracy of learning [1,4]. In the Drosophila melanogaster (fruit fly) mushroom body, there are ~2000 Kenyon Cells which receive inputs from a random 6 out of 54 olfactory channels [5]."
+    },
+    {
+     "title": "GitHub - adarshkr7/drosophila-connectome \u00b7 GitHub",
+     "url": "https://github.com/adarshkr7/drosophila-connectome",
+     "snippet": "What the wiring computes Feeding odors through the frozen connectome, before any training: ... The PN-&gt;KC expansion decorrelates the odor code -- overlapping odors become near-orthogonal while repeated presentations of the same odor stay similar. That is the mushroom body&#x27;s signature computation, and it falls out of the measured anatomy."
+    },
+    {
+     "title": "Mushroom body input connections form independently of sensory activity ...",
+     "url": "https://www.cell.com/current-biology/fulltext/S0960-9822(22)01204-0",
+     "snippet": "The connectivity architecture of higher brain centers can be regulated by genetic and activity-dependent mechanisms. Hayashi et al. test whether sensory activity is required to connect the Kenyon cells of Drosophila melanogaster mushroom body to the olfactory system and show that these connections form normally in the absence of sensory activity."
+    },
+    {
+     "title": "Diversity of visual inputs to Kenyon cells of the Drosophila mushroom body",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10592809/",
+     "snippet": "However, 8% of mushroom body Kenyon cells in Drosophila melanogaster receive predominantly visual input, and their tuning and function are poorly understood. Here, we use the FlyWire adult whole-brain connectome to identify inputs to visual Kenyon cells."
+    },
+    {
+     "title": "Presynaptic developmental plasticity allows robust sparse ... - eLife",
+     "url": "https://elifesciences.org/articles/52278",
+     "snippet": "Here, we explore the developmental patterning of sparse olfactory inputs to Kenyon cells of the Drosophila melanogaster mushroom body. By manipulating the ratio between pre- and post-synaptic cells, we find that postsynaptic Kenyon cells set convergence ratio: Kenyon cells produce fixed distributions of dendritic claws while presynaptic ..."
+    },
+    {
+     "title": "Sparse, decorrelated odor coding in the mushroom body enhances learned ...",
+     "url": "https://www.nature.com/articles/nn.3660",
+     "snippet": "Sparse coding may be a general strategy of neural systems for augmenting memory capacity. In Drosophila melanogaster, sparse odor coding by the Kenyon cells of the mushroom body is thought to ..."
+    },
+    {
+     "title": "Visual Input into the Drosophila melanogaster Mushroom Body",
+     "url": "https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31127-X",
+     "snippet": "The Drosophila melanogaster mushroom body\u2014an associative center\u2014is an ideal system to investigate how different sensory channels converge in higher order brain centers. The neurons connecting the mushroom body to the olfactory system have been described in great detail, but input from other sensory systems remains poorly defined."
+    }
+   ]
+  },
+  "t1_flywire": {
+   "query": "FlyWire complete connectome adult fruit fly brain 2024",
+   "results": [
+    {
+     "title": "Complete wiring map of an adult fruit fly brain",
+     "url": "https://www.nih.gov/news-events/nih-research-matters/complete-wiring-map-adult-fruit-fly-brain",
+     "snippet": "October 22, 2024 Complete wiring map of an adult fruit fly brain At a Glance Researchers fully mapped the connections between neurons for an entire adult fruit fly brain. The map, called a connectome, can improve our understanding of brain function and is a stepping stone to creating similar maps in larger animals."
+    },
+    {
+     "title": "The FlyWire connectome: neuronal wiring diagram of a complete fly brain",
+     "url": "https://www.nature.com/immersive/d42859-024-00053-4/index.html",
+     "snippet": "The FlyWire connectome: neuronal wiring diagram of a complete fly brain Artificial intelligence and human expertise meet to generate a map of all the connections in the fly brain. The resource is ..."
+    },
+    {
+     "title": "FlyWire",
+     "url": "https://flywire.ai/",
+     "snippet": "Overview Since 2019, scientists and experienced proofreaders have utilized FlyWire to proofread AI segmentation of a full fly brain (Dorkenwald et al., Zheng et al.). As of October 2024, the flagship FlyWire paper, Neuronal wiring diagram of an adult brain, has been published in Nature, which includes 139,255 proofread neurons (Dorkenwald et al.). The companion papers include hierarchical ..."
+    },
+    {
+     "title": "Researchers Publish First Complete Connectome of Fruit Fly Brain and ...",
+     "url": "https://hms.harvard.edu/news/researchers-publish-first-complete-connectome-fruit-fly-brain-spinal-cord",
+     "snippet": "In 2024, the FlyWire Consortium \u2014 led by Mala Murthy and Sebastian Seung at Princeton, who are also co-authors of the new study \u2014 published a complete connectome of a fruit fly brain."
+    },
+    {
+     "title": "Complete map of fruit fly brain circuitry unveiled - AAAS",
+     "url": "https://www.science.org/content/article/complete-map-fruit-fly-brain-circuitry-unveiled",
+     "snippet": "How do electrical impulses traveling among a tangle of neurons drive complex behaviors? Researchers seeking the answer have reconstructed the complete wiring diagram, or connectome, of the fruit fly&#x27;s adult brain\u2014a feat akin to mapping all the buildings, avenues, and streets in a complex city ..."
+    },
+    {
+     "title": "Researchers Create First Adult Fruit Fly Brain Connectome",
+     "url": "https://www.brainfacts.org/neuroscience-in-society/supporting-research/2024/researchers-create-first-adult-fruit-fly-brain-connectome-110724",
+     "snippet": "The first-ever complete brain connectome, or neural wiring diagram, of an adult female fruit fly is freely open through FlyWire. The feat, highlighted across a set of nine papers in Nature published in October, details a collaborative effort mapping over 50 million connections among nearly 140,000 neurons of the fruit fly, showing how neurons ..."
+    },
+    {
+     "title": "GitHub - snedea/flybrain: Interactive Drosophila brain simulation ...",
+     "url": "https://github.com/snedea/flybrain",
+     "snippet": "FlyWire Consortium -- for mapping the complete adult Drosophila brain connectome and making the data publicly available. Timothy Busbice, Gabriel Garrett, Geoffrey Churchill and contributors to the GoPiGo Connectome -- original connectome-driven robot concept."
+    },
+    {
+     "title": "FlyWire \u2014 complete adult fly brain | NeuroTrailblazers",
+     "url": "https://www.neurotrailblazers.org/datasets/catalog/flywire/",
+     "snippet": "FlyWire is the existence proof that a whole-brain connectome of a behaving animal is achievable. An adult female fly brain was imaged by ssTEM, segmented automatically, and then corrected by a community of proofreaders \u2014 thousands of hours of human labour \u2014 to 139,255 neurons and about 54.5 million synaptic connections, with a hierarchical annotation of classes, cell types and ..."
+    }
+   ]
+  },
+  "t1_lateral_horn": {
+   "query": "lateral horn innate odor circuits fruit fly hardwired",
+   "results": [
+    {
+     "title": "PDF Fruity fly study uncovers neural circuits for sensing the pleasantness ...",
+     "url": "https://medicalxpress.com/news/2025-10-fruity-fly-uncovers-neural-circuits.pdf",
+     "snippet": "They found that neurons in a brain region called the lateral horn represent the innate hedonic value of odors, pleasant or unpleasant."
+    },
+    {
+     "title": "RIKEN finds that pleasant and unpleasant odor sensations are generated ...",
+     "url": "https://sj.jst.go.jp/news/202510/n1030-01k.html",
+     "snippet": "By combining calcium imaging and various analytical methods using fruit flies, the team revealed that innate odor values are computed in the lateral horn of the brain. This discovery is expected to contribute to the realization of a digital twin of the brain. The results were published in Cell on September 17."
+    },
+    {
+     "title": "Fruit fly study reveals neural circuits for evaluating odors",
+     "url": "https://sciencetoday360.com/fruit-fly-study-reveals-neural-circuits-for-evaluating-odors/",
+     "snippet": "The Lateral Horn&#x27;s Role in Valence Central to the new findings is the lateral horn, a brain region in the fruit fly responsible for processing innate olfactory information. Its function is analogous to structures in more complex animals that handle innate responses to smells."
+    },
+    {
+     "title": "(PDF) Flies spring a surprise - ResearchGate",
+     "url": "https://www.researchgate.net/publication/333247016_Flies_spring_a_surprise",
+     "snippet": "A combination of genetic, anatomical and physiological techniques has revealed that the lateral horn, a region of the brain involved in olfaction in flies, has many more types of neurons than ..."
+    },
+    {
+     "title": "Distinct circuit motifs evaluate opposing innate values of odors",
+     "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01021-9",
+     "snippet": "Innate hedonic values of odors are computed in the Drosophila higher olfactory area, the lateral horn, where distinct neurons represent opposing values in a graded manner. Representations of negative values emerge through convergent feedforward excitation, whereas those of positive values emerge through additional local inhibition implementing gain control and thresholding."
+    },
+    {
+     "title": "Innate Behavior: Flies spring a surprise - eLife",
+     "url": "https://elifesciences.org/articles/47720",
+     "snippet": "In line with the lateral horn having a role in innate behavior, similar lateral horn neurons in different flies responded to odors in similar ways. This allowed Frechter et al. to define so-called functional cell types to describe neurons with similar morphologies and odor responses."
+    },
+    {
+     "title": "Olfactory processing in the lateral horn of Drosophila - PMC",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7873099/",
+     "snippet": "The fruit fly, Drosophila melanogaster, is extensively used to investigate the neural mechanisms underlying odor coding and processing due to its anatomically similar, yet simple, olfactory system compared with that of vertebrates (Masse et al. 2009; Wilson and Mainen 2006)."
+    },
+    {
+     "title": "flylabs \u2014 the fly brain lab",
+     "url": "https://flylab.observer/",
+     "snippet": "flylabs is a lab for the fruit-fly brain. Click through its regions, look up the neurons by name, and play with the circuits themselves \u2014 the motion detector that reads movement, the ring that holds a heading, the neuron that fires the escape."
+    }
+   ]
+  },
+  "t1_mb_dopamine": {
+   "query": "mushroom body dopamine reward prediction error MBON valuation",
+   "results": [
+    {
+     "title": "PDF Learning with reward prediction errors in a model of the ... - bioRxiv",
+     "url": "https://www.biorxiv.org/content/10.1101/776401v1.full.pdf",
+     "snippet": "Here, we formulate a reduced computational model of the MB circuitry described above to demonstrate how DANs may compute RPEs, then, hypothesising that learning minimises RPEs, derive a plasticity rule for KC!MBON synapses, and verify in simulations that it yields accurate reward predictions. We identify limita-tions to the model that impose an upper bound to reward prediction magnitudes, and ..."
+    },
+    {
+     "title": "Dopaminergic mushroom body neurons in Drosophila: Flexibility of neuron ...",
+     "url": "https://www.sciencedirect.com/science/article/pii/S0149763422000598",
+     "snippet": "A, B - Visualization of two main sets of dopaminergic cells projecting to the mushroom body (PAM and PPL1 clusters), dashed line - the position of the mushroom body, scale bars - 50 \u00b5m, C - scheme of basic bidirectional modulation of reward / punishment value by different groups of dopaminergic neurons in the mushroom body and formation of ..."
+    },
+    {
+     "title": "Learning with reinforcement prediction errors in a model of the - Nature",
+     "url": "https://www.nature.com/articles/s41467-021-22592-4",
+     "snippet": "Here, the authors propose a model in which dopaminergic learning signals encode reinforcement prediction errors by utilising feedback reinforcement predictions from mushroom body output neurons."
+    },
+    {
+     "title": "Differential coding of absolute and relative aversive value in the ...",
+     "url": "https://www.sciencedirect.com/science/article/pii/S096098222201380X",
+     "snippet": "Three types of punishment-sensitive dopaminergic neurons (DANs) respond differently to electric shock intensity. During learning, these punishment-sensitive DANs drive intensity-scaled plasticity at their respective mushroom body output neuron (MBON) connections to code absolute aversive value."
+    },
+    {
+     "title": "Different dopaminergic neurons signal absolute and relative aversive ...",
+     "url": "https://www.biorxiv.org/content/10.1101/2022.02.02.478814v2",
+     "snippet": "Here we reveal mechanisms of absolute and relative aversive valuation in Drosophila. Three types of punishment-sensitive dopaminergic neurons (DANs) drive intensity-scaled plasticity at their respective mushroom body output neuron (MBON) connections to code absolute aversive value."
+    },
+    {
+     "title": "New genetic tools for mushroom body output neurons in Drosophila - eLife",
+     "url": "https://elifesciences.org/reviewed-preprints/90523",
+     "snippet": "The lobes are further divided into compartments by the innervation patterns of dopaminergic neuron (DAN) axons and mushroom body output neuron (MBON) dendrites. MBONs provide the convergence element of the MB&#x27;s three layer divergent-convergent circuit architecture and the outputs of the MBONs drive learned behaviors."
+    },
+    {
+     "title": "Dopamine-mediated interactions between short- and long-term memory ...",
+     "url": "https://www.nature.com/articles/s41586-024-07819-w",
+     "snippet": "In the brain of fruit flies, the mushroom body achieves flexible learning by using interconnected short- and long-term memory units for dopamine-mediated integration of innate valences with learnt ..."
+    },
+    {
+     "title": "(PDF) Learning with reward prediction errors in a model of the ...",
+     "url": "https://www.researchgate.net/publication/335930869_Learning_with_reward_prediction_errors_in_a_model_of_the_Drosophila_mushroom_body",
+     "snippet": "In Drosophila , such learning is orchestrated in part by the mushroom body (MB), where dopamine neurons (DANs) signal reinforcing stimuli to modulate plasticity presynaptic to MB output neurons ..."
+    }
+   ]
+  },
+  "t2_ceil": {
+   "query": "C. elegans learning 302 neurons simple organism associative learning",
+   "results": []
+  },
+  "t2_physarum": {
+   "query": "Physarum polycephalum slime mold network routing computation",
+   "results": [
+    {
+     "title": "Physarum-Polycephalum-Network-Simulation - GitHub",
+     "url": "https://github.com/samjsnn/Physarum-Transport-Network/",
+     "snippet": "An interactive transport network simulation inspired by the behaviour of Physarum polycephalum, a slime mold known for its ability to form efficient networks. - samjsnn/Physarum-Transport-Network"
+    },
+    {
+     "title": "Physarum Network Simulation - GitHub Pages",
+     "url": "https://samjsnn.github.io/Physarum-Transport-Network/",
+     "snippet": "Brief Description: Physarum Polycephalum, also known as slime mold is a single celled organism which displays a kind of swarm intelligence through it&#x27;s ability to form efficient food networks. The mold does not have a central control mechanism but instead relies on local interactions within its cellular structure to efficiently develop its network. This allows the slime mold to adapt to its ."
+    },
+    {
+     "title": "Physarum-inspired Network Optimization: A Review - arXiv.org",
+     "url": "https://arxiv.org/html/1712.02910v2",
+     "snippet": "However, some network optimization problems still remain unsolved, and new techniques are required to address this issue. Physarum polycephalum is a slime mold that inhabits shady, cool and moist areas (see Figure 1 (a); for the convenience, we simply refer to Physarum polycephalum as Physarum in this paper)."
+    },
+    {
+     "title": "Advanced Computational Models Inspired by the Slime Mold Physarum ...",
+     "url": "https://www.researchgate.net/publication/377384159_Advanced_Computational_Models_Inspired_by_the_Slime_Mold_Physarum_Polycephalum_Mathematical_Formulations_and_Applications_in_Network_Optimization",
+     "snippet": "In the realm of computational science, the study of biological systems offers a wealth of inspiration. &quot;Advanced Computational Models Inspired by the Slime Mold Physarum Polycephalum: Mathematical ..."
+    },
+    {
+     "title": "Advanced Computational Models Inspired by the Slime Mold Physarum ...",
+     "url": "https://youvan.ai/pdf.php?file=Advanced Computational Models Inspired by the Slime Mold Physarum Polycephalum - Mathematical Formulations and Applications in Network Optimization.pdf",
+     "snippet": "In the realm of computational science, the study of biological systems offers a wealth of inspiration. &quot;Advanced Computational Models Inspired by the Slime Mold Physarum Polycephalum: Mathematical Formulations and Applications in Network Optimization&quot; delves into the intriguing world of Physarum polycephalum, a slime mold whose simple yet effective problem-solving capabilities challenge "
+    },
+    {
+     "title": "PDF Modelling Self-Organising Networks With Slime Mould Physarum Polycephalum",
+     "url": "https://agnescameron.info/assets/pdfs/physarum_self_org.pdf",
+     "snippet": "Abstract The slime mould Physarum Polycephalum has been shown to exhibit graph-solving [5, 20, 19], computational [2, 9] and complex decision-making [1, 5, 6, 10, 15, 19] behaviours, whilst consisting only of a simple single-cellular organism. Through analysis of cellular automata simulations of Physarum, we can investigate the emergent behaviours required to generate self-organising swarm ..."
+    },
+    {
+     "title": "How the Physarum Polycephalum Inspired Network Optimization Algorithms ...",
+     "url": "http://biomimicry-hub.com/organisms/slime-mold-network-optimization-distributed-computing/",
+     "snippet": "Real-world implementations include: Toshiba slime-mold-inspired network routing chips; academic applications to internet topology design. \ud83c\udf3f Want to learn biomimicry? Courses endorsed by the Biomimicry Institute \u2014 from one-day introductions to the full Practitioner Programme."
+    },
+    {
+     "title": "PDF Physarum-inspired Network Optimization: A Review - arXiv.org",
+     "url": "https://arxiv.org/pdf/1712.02910.pdf",
+     "snippet": "However, some network optimiza-tion problems still remain unsolved, and new techniques are required to address this issue. Physarum polycephalum is a slime mold that inhabits shady, cool and moist areas (see Figure 1a; for the convenience, we simply refer to Physarum polycephalum as Physarum in this paper)."
+    }
+   ]
+  },
+  "t2_aplysia": {
+   "query": "Aplysia single neuron habituation synaptic plasticity Kandel",
+   "results": []
+  },
+  "t2_homeostat": {
+   "query": "homeostatic plasticity synaptic scaling stability",
+   "results": [
+    {
+     "title": "Synaptic scaling - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Synaptic_scaling",
+     "snippet": "In neuroscience, synaptic scaling (or homeostatic scaling) is a form of homeostatic plasticity, in which the brain responds to chronically elevated activity in a neural circuit with negative feedback, allowing individual neurons to reduce their overall action potential firing rate. [1] Where Hebbian plasticity mechanisms modify neural synaptic connections selectively, synaptic scaling ..."
+    },
+    {
+     "title": "The interplay between homeostatic synaptic scaling and homeostatic ...",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12227201/",
+     "snippet": "Abstract Critical network states and neural plasticity enable adaptive behavior in dynamic environments, supporting efficient information processing and experience-dependent learning. Synaptic-weight-based Hebbian plasticity and homeostatic synaptic scaling are key mechanisms that enable memory while stabilizing network dynamics."
+    },
+    {
+     "title": "The Self-Tuning Neuron: Synaptic Scaling of Excitatory Synapses",
+     "url": "https://www.cell.com/fulltext/S0092-8674(08)01298-1",
+     "snippet": "Homeostatic synaptic scaling is a form of synaptic plasticity that adjusts the strength of all of a neuron&#x27;s excitatory synapses up or down to stabilize firing. Current evidence suggests that neurons detect changes in their own firing rates through a set of calcium-dependent sensors that then regulate receptor trafficking to increase or decrease the accumulation of glutamate receptors at ..."
+    },
+    {
+     "title": "Mechanisms of Homeostatic Synaptic Plasticity in vivo",
+     "url": "https://www.frontiersin.org/journals/cellular-neuroscience/articles/10.3389/fncel.2019.00520/full",
+     "snippet": "Abstract Synapses undergo rapid activity-dependent plasticity to store information, which when left uncompensated can lead to destabilization of neural function. It has been well documented that homeostatic changes, which operate at a slower time scale, are required to maintain stability of neural networks. While there are many mechanisms that can endow homeostatic control, sliding threshold ..."
+    },
+    {
+     "title": "Homeostatic synaptic plasticity: from single synapses to neural ...",
+     "url": "https://www.sciencedirect.com/science/article/pii/S0959438811001504",
+     "snippet": "On the other hand, homeostatic synaptic plasticity that operates over hours to days, is suggested to promote network stability by adjusting global synaptic strength when neural activity deviates from permissive levels of activity [1]."
+    },
+    {
+     "title": "Synaptic Scaling - an overview | ScienceDirect Topics",
+     "url": "https://www.sciencedirect.com/topics/psychology/synaptic-scaling",
+     "snippet": "Synaptic scaling, which is a slower (hours to days) and a non-Hebbian form of plasticity, has been proposed to overcome the potential problem posed by Hebbian plasticity (unstable activity). Synaptic scaling is a homeostatic mechanism that globally scales all of a neuron&#x27;s synapses to stabilize neuronal firing at a given set-point level (Burrone and Murthy, 2003; Turrigiano and Nelson, 2004 ."
+    },
+    {
+     "title": "The interplay between homeostatic synaptic scaling and ... - eLife",
+     "url": "https://elifesciences.org/articles/88376",
+     "snippet": "These simulations showed that the biphasic rule maintains neural activity homeostasis under stimulation and permits either synapse formation or synapse loss depending on the degree of activity deprivation. Homeostatic synaptic scaling further modulated recurrent connectivity, network activity, and structural plasticity outcomes."
+    },
+    {
+     "title": "The Synaptic Scaling Literature: A Systematic Review of ... - Frontiers",
+     "url": "https://www.frontiersin.org/journals/cellular-neuroscience/articles/10.3389/fncel.2020.00164/full",
+     "snippet": "One of the main homeostatic mechanisms responsible for such regulation is synaptic scaling. While this type of plasticity is well-characterized through a robust body of literature, there are no systematic evaluations of the methodological and reporting features from these studies."
+    }
+   ]
+  },
+  "t3_moe": {
+   "query": "mixture of experts modular small expert models",
+   "results": []
+  },
+  "t3_ttt": {
+   "query": "test-time training learning at inference time",
+   "results": []
+  },
+  "t3_reservoir": {
+   "query": "reservoir computing echo state network few nodes small data",
+   "results": []
+  },
+  "t3_hyper": {
+   "query": "hypernetworks generate weights of smaller networks",
+   "results": []
+  },
+  "t4_forwardforward": {
+   "query": "forward-forward algorithm Hinton learning without backpropagation",
+   "results": [
+    {
+     "title": "The Forward-Forward Algorithm: Some Preliminary Investigations",
+     "url": "https://arxiv.org/abs/2212.13345",
+     "snippet": "The aim of this paper is to introduce a new learning procedure for neural networks and to demonstrate that it works well enough on a few small problems to be worth further investigation. The Forward-Forward algorithm replaces the forward and backward passes of backpropagation by two forward passes, one with positive (i.e. real) data and the other with negative data which could be generated by ..."
+    },
+    {
+     "title": "PDF The Forward-Forward Algorithm: Some Preliminary Investigations",
+     "url": "https://www.cs.toronto.edu/~hinton/FFA13.pdf",
+     "snippet": "Abstract The aim of this paper is to introduce a new learning procedure for neural networks and to demonstrate that it works well enough on a few small problems to be worth serious investigation. The Forward-Forward algorithm replaces the forward and backward passes of backpropagation by two forward passes, one with positive (i.e. real) data and the other with negative data which could be ..."
+    },
+    {
+     "title": "The Forward-Forward Algorithm: Two Forward Passes Instead of a Backward ...",
+     "url": "https://alexdruso.github.io/forward-forward-algorithm/",
+     "snippet": "Hinton&#x27;s Forward-Forward algorithm trains a network without backpropagation: it replaces the forward-then-backward sweep with two forward passes \u2014 one on real data, one on fake \u2014 and lets every layer learn immediately from its own local &#x27;goodness&#x27; objective. What goodness is, why layer normalization is the load-bearing trick, and a live in-browser training race between Forward-Forwa"
+    },
+    {
+     "title": "PDF The Forward-Forward Algorithm: Some Preliminary Investigations [1]",
+     "url": "https://www.mlmi.eng.cam.ac.uk/files/2022_-_2023_advanced_machine_learning_posters/the_forward-forward_algorithm.pdf",
+     "snippet": "Method The Forward-Forward algorithm is an alternative to backpropagation that computes local gradient updates without the need for a backward pass.."
+    },
+    {
+     "title": "arXiv:2212.13345v1 [cs.LG] 27 Dec 2022",
+     "url": "https://arxiv.org/pdf/2212.13345",
+     "snippet": "Abstract The aim of this paper is to introduce a new learning procedure for neural networks and to demonstrate that it works well enough on a few small problems to be worth further investigation. The Forward-Forward algorithm replaces the forward and backward passes of backpropagation by two forward passes, one with positive (i.e. real) data and the other with negative data which could be ..."
+    },
+    {
+     "title": "The Forward-Forward Algorithm: Learning Without Backpropagation",
+     "url": "https://medium.com/@kdwaMachineLearning/the-forward-forward-algorithm-learning-without-backpropagation-4c670f1d46db",
+     "snippet": "The Forward-Forward (FF) algorithm was proposed by Geoff Hinton as a way of mimicking neural updates in the brain. Coordinated backpropagation is not biologically feasible, and FF offers an ..."
+    },
+    {
+     "title": "Backpropagation-free spiking neural networks with the forward-forward ...",
+     "url": "https://www.nature.com/articles/s41598-026-41671-4",
+     "snippet": "The Forward-Forward Algorithm is a novel learning approach for neural networks that forgoes traditional backpropagation by using two forward passes: one with real or &quot;positive&quot; data and ..."
+    },
+    {
+     "title": "GitHub - 0xallam/Forward-Forward-Algorithm: Forward-Forward Algorithm ...",
+     "url": "https://github.com/0xallam/Forward-Forward-Algorithm",
+     "snippet": "This project is an implementation of Geoffrey Hinton&#x27;s Forward-Forward Algorithm, an alternative learning algorithm to Backpropagation. The algorithm is described in the research paper The Forward-Forward Algorithm: Some Preliminary Investigations. This new algorithm replaces the traditional forward ..."
+    }
+   ]
+  },
+  "t4_predcoding": {
+   "query": "predictive coding local learning rule neuroscience-inspired",
+   "results": [
+    {
+     "title": "Neuroscience-Inspired Memory Replay for Continual Learning: A ...",
+     "url": "https://arxiv.org/pdf/2512.00619",
+     "snippet": "In predictive coding networks, neurons maintain predictions about their inputs and propagate prediction errors upward through the hierarchy, enabling local, biologically-plausible learning rules. This framework has shown promise in various domains but has not been systematically evaluated for generative replay in continual learning scenarios."
+    },
+    {
+     "title": "Can We Scale Predictive Coding? or Why the Brain Might Be Much Wider ...",
+     "url": "https://francesco-innocenti.github.io/posts/2026/05/29/Can-We-Scale-PC/",
+     "snippet": "Predictive coding (PC) is an influential, brain-inspired learning algorithm as an alternative to BP [2]. PC has a long history as a theory of information processing in the brain and is based on the basic idea that neurons minimise their local prediction errors [3]."
+    },
+    {
+     "title": "Predictive Coding Light - Nature Communications",
+     "url": "https://www.nature.com/articles/s41467-025-64234-z",
+     "snippet": "Predictive coding is a popular theory of brain function, but it remains unclear if and how it may be implemented in the brain. The authors present a spiking neural network model that offers a ..."
+    },
+    {
+     "title": "Predictive coding algorithms induce brain-like responses in artificial ...",
+     "url": "https://journals.plos.org/complexsystems/article?id=10.1371/journal.pcsy.0000076",
+     "snippet": "In this study, we tested whether predictive coding-inspired learning rules in recurrent neural networks can reproduce key features associated with predictive processing in the brain."
+    },
+    {
+     "title": "Brain-inspired Predictive Coding Improves the Performance ... - Frontiers",
+     "url": "https://www.frontiersin.org/journals/computational-neuroscience/articles/10.3389/fncom.2022.1062678/full",
+     "snippet": "We demonstrated that predictive coding-based incremental learning alleviates the effect of catastrophic forgetting. Next, predictive coding-based learning mitigates the classification bias in long-tailed recognition. Finally, we verified that the network trained with predictive coding could correctly predict corresponding targets with few samples."
+    },
+    {
+     "title": "Neuroscience-Inspired Memory Replay for Continual Learning:",
+     "url": "https://arxiv.org/html/2512.00619",
+     "snippet": "The superior retention suggests that predictive coding&#x27;s local learning rules and error-based updates create more stable representations that are less susceptible to catastrophic forgetting."
+    },
+    {
+     "title": "GitHub - AnkurMali/ContinualPTNCN: We introduce Local recurrent ...",
+     "url": "https://github.com/AnkurMali/ContinualPTNCN",
+     "snippet": "Brain-Inspired Modeling with Parallel Temporal Neural Coding Network (P-TNCN): Local Recurrent and Parallel Predictive Coding We introduce a locally recurrent predictive coding model, a neuro-mimetic system that was specifically named the Parallel Temporal Neural Coding Network (P-TNCN)."
+    },
+    {
+     "title": "Predictive coding: a more cognitive process than we thought?",
+     "url": "https://www.sciencedirect.com/science/article/pii/S1364661325000300",
+     "snippet": "Highlights Predictive coding (PC) models propose that predictions are generated in higher-order areas and feed back to lower-order areas, where they are compared with sensory inputs. Mismatches generate prediction errors. The local-global oddball paradigm is used to study PC."
+    }
+   ]
+  },
+  "t4_oja": {
+   "query": "Oja rule Hebbian local learning principal component",
+   "results": [
+    {
+     "title": "Oja&#x27;s rule - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Oja's_rule",
+     "snippet": "Oja&#x27;s learning rule, or simply Oja&#x27;s rule, named after Finnish computer scientist Erkki Oja (Finnish pronunciation: [\u02c8oj\u0251], AW-yuh), is a model of how neurons in the brain or in artificial neural networks change connection strength, or learn, over time. It is a modification of the standard Hebb&#x27;s Rule that, through multiplicative normalization, solves all stability problems and gene"
+    },
+    {
+     "title": "Oja learning rule - Scholarpedia",
+     "url": "http://www.scholarpedia.org/article/Oja_learning_rule",
+     "snippet": "The Oja learning rule (Oja, 1982) is a mathematical formalization of this Hebbian learning rule, such that over time the neuron actually learns to compute a principal component of its input stream."
+    },
+    {
+     "title": "Chapter 13: Oja&#x27;s Rule and Principal Component Analysis",
+     "url": "https://bnaskrecki.faculty.wmi.amu.edu.pl/nnets/_build/html/part4_learning_rules/ch13_oja_pca.html",
+     "snippet": "Chapter 13: Oja&#x27;s Rule and Principal Component Analysis # In Chapter 12, we saw that the basic Hebbian rule causes the weight vector to align with the leading eigenvector of the input second-moment matrix (for centered data, the first principal component), but its norm diverges to infinity. In this chapter, we study Oja&#x27;s rule (1982), an elegant modification that solves the instability ."
+    },
+    {
+     "title": "GitHub - Pqlet/OJa: Oja&#x27;s rule variants for component analysis of data ...",
+     "url": "https://github.com/Pqlet/OJa",
+     "snippet": "The methods Oja&#x27;s Rule, Sanger&#x27;s Rule, and Independent Component Analysis (ICA) represent sequential stages in data analysis aimed at dimensionality reduction, decorrelation, and the extraction of independent components. All these methods are connected to Principal Component Analysis (PCA), but each has its unique features and applications."
+    },
+    {
+     "title": "PDF Microsoft PowerPoint - hebbian.ppt",
+     "url": "https://www.cs.rit.edu/~lr/courses/nn/student/hebbian.pdf",
+     "snippet": "Oja&#x27;s Rule &quot;To make Hebbian learning useful we must create a stable version by normalizing the weights&quot; (292). Approximated by Equation 6.13 (292) Applies a forgetting term for normalization, but causes forgetting of old associations (293). Finds a normalized weight vector colinear with the principal component of input data (296)."
+    },
+    {
+     "title": "Oja&#x27;s rule - Grokipedia",
+     "url": "https://grokipedia.com/page/Oja's_rule",
+     "snippet": "Oja&#x27;s rule is a seminal unsupervised learning algorithm in computational neuroscience and machine learning, proposed by Finnish researcher Erkki Oja in 1982, that modifies synaptic weights in a single neuron model based on Hebbian principles while incorporating a normalization mechanism to prevent unbounded growth of weights. [1] This rule formalizes the idea that &quot;neurons that fire toge"
+    },
+    {
+     "title": "19.5 Summary | Neuronal Dynamics online book - EPFL",
+     "url": "https://neuronaldynamics.epfl.ch/online/Ch19.S5.html",
+     "snippet": "More specifically, simple Hebbian learning rules in combination with a linear neuron model find the first principal component of a normalized input data set. Generalized Hebb rules, such as Oja&#x27;s rule, keep the norm of the weight vector approximately constant during plasticity."
+    },
+    {
+     "title": "Hebbian Learning: STDP, Oja&#x27;s Rule, BCM, and Backprop Alternatives",
+     "url": "https://theorempath.com/topics/hebbian-learning",
+     "snippet": "Hebb&#x27;s postulate, spike-timing-dependent plasticity, Oja and BCM rules, feedback alignment, and the modern Hebbian view of contrastive and predictive learning."
+    }
+   ]
+  },
+  "t4_rstdp": {
+   "query": "reward-modulated STDP spiking local learning",
+   "results": []
+  },
+  "t4_ca": {
+   "query": "learning in cellular automata differentiable cellular automata self-organizing",
+   "results": [
+    {
+     "title": "Differentiable Logic Cellular Automata",
+     "url": "https://google-research.github.io/self-organising-systems/difflogic-ca/",
+     "snippet": "We use Differentiable Logic Gate Networks to create end-to-end differentiable, self-organizing discrete cellular automata powered by recurrent circuits, capable of playing the Game of Life as well as producing patterns \u00e0 la Neural Cellular Automata."
+    },
+    {
+     "title": "Differentiable Logic Cellular Automata: From Game of Life to Pattern ...",
+     "url": "https://arxiv.org/html/2506.04912v1",
+     "snippet": "During training, the model is fully end-to-end differentiable allowing gradient-based training, and at inference time it operates in a fully discrete state space. This enables learning local update rules for cellular automata while preserving their inherent discrete nature."
+    },
+    {
+     "title": "GitHub - yuvi73/Differentiable-Logic-CellularAutomata",
+     "url": "https://github.com/yuvi73/Differentiable-Logic-CellularAutomata",
+     "snippet": "A novel approach to learning cellular automata rules using differentiable logic gates. This project demonstrates learning Conway&#x27;s Game of Life rules through a neural network-like architecture that uses interpretable logic operations instead of traditional neural network weights."
+    },
+    {
+     "title": "[2506.04912] Differentiable Logic Cellular Automata: From Game of Life ...",
+     "url": "https://arxiv.org/abs/2506.04912",
+     "snippet": "This paper introduces Differentiable Logic Cellular Automata (DiffLogic CA), a novel combination of Neural Cellular Automata (NCA) and Differentiable Logic Gates Networks (DLGNs). The fundamental computation units of the model are differentiable logic gates, combined into a circuit. During training, the model is fully end-to-end differentiable allowing gradient-based training, and at inference ..."
+    },
+    {
+     "title": "Differentiable Self-Organizing Systems | Self-Organizing Systems",
+     "url": "https://selforglive.github.io/alife21_tutorial/",
+     "snippet": "Keywords: self-organization, differentiable programming, cellular automata, reaction-diffusion In this tutorial we are going to cover the basic principles of using differentiable programming for building self-organizing systems, i.e. systems that consist of a large number of agents that reach global goals through local interactions. We are ..."
+    },
+    {
+     "title": "Growing Neural Cellular Automata - Distill",
+     "url": "https://distill.pub/2020/growing-ca/",
+     "snippet": "Training an end-to-end differentiable, self-organising cellular automata model of morphogenesis, able to both grow and regenerate specific patterns."
+    },
+    {
+     "title": "self-organising-systems/notebooks/diffLogic_CA.ipynb at master - GitHub",
+     "url": "https://github.com/google-research/self-organising-systems/blob/master/notebooks/diffLogic_CA.ipynb",
+     "snippet": "Differentiable Logic Cellular Automata: from Game of Life to Pattern Generation This notebook contains code to reproduce experiments and figures for the &quot;Differentiable Logic Cellular Automata: from Game of Life to Pattern Generation&quot; article."
+    },
+    {
+     "title": "Thread: Differentiable Self-organizing Systems - Distill",
+     "url": "https://distill.pub/2020/selforg/",
+     "snippet": "This work investigates morphogenesis, the process by which living creatures self-assemble their bodies. It proposes a differentiable, Cellular Automata model of morphogenesis and shows how such a model learns a robust and persistent set of dynamics to grow any arbitrary structure starting from a single cell."
+    }
+   ]
+  },
+  "t5_flywheel": {
+   "query": "personal data flywheel on-device memory local-first AI",
+   "results": []
+  },
+  "t5_telescope": {
+   "query": "personal computing instrument telescope not television augment thinking",
+   "results": [
+    {
+     "title": "Thinking tools versus thinking? From television and calculators to A.I ...",
+     "url": "https://www.stephenhicks.org/2026/07/29/thinking-tools-versus-thinking-from-television-and-calculators-to-a-i/",
+     "snippet": "Question: In hindsight, have we become more uninformed and/or stupid, or have television, calculators, and computers been positive tools? The same questions and answers are now everywhere in discussions of A.I."
+    },
+    {
+     "title": "Tools for Thought: Understanding, Protecting, and Augmenting Human ...",
+     "url": "https://www.microsoft.com/en-us/research/publication/tools-for-thought-understanding-protecting-and-augmenting-human-cognition-with-generative-ai-from-vision-to-implementation/",
+     "snippet": "About this CHI 2026 workshop: GenAI radically widens the scope and capability of automation for work, learning, and creativity. While impactful, it also changes workflows, raising questions about its effects on cognition, including critical thinking and learning. Yet GenAI also offers opportunities for designing &quot;tools for thought&quot; (TfT) that protect and augment cognition. Such systems ["
+    },
+    {
+     "title": "Why AI systems are most useful as designers of new scientific tools",
+     "url": "https://www.nature.com/articles/d41586-026-02529-x",
+     "snippet": "History shows that breakthroughs are often sparked by innovative instruments, and AI&#x27;s ability to help design them might be its most important scientific contribution."
+    },
+    {
+     "title": "Understanding, Protecting, and Augmenting Human Cognition with ...",
+     "url": "https://arxiv.org/html/2508.21036v1",
+     "snippet": "By understanding the interplay between GenAI and human cognition, we can not only mitigate any potential negative impacts of GenAI, but also design systems that ultimately augment our thinking, leading to better cognitive and workflow outcomes in the short- and long- term."
+    },
+    {
+     "title": "AI is a Telescope, Not a Mirror - Medium",
+     "url": "https://medium.com/illumination/ai-is-a-telescope-not-a-mirror-23596459c540",
+     "snippet": "A telescope does not work by imitating the eye more faithfully. It works by exceeding what the eye can do."
+    },
+    {
+     "title": "Will A.I. Make Your Brain Lazy? - The New York Times",
+     "url": "https://www.nytimes.com/interactive/2026/09/29/magazine/ai-chatbots-brain-development-study.html",
+     "snippet": "We&#x27;re starting to learn more about how the technology can change us."
+    },
+    {
+     "title": "Designing AI Systems that Augment Human Performed vs. Demonstrated ...",
+     "url": "https://arxiv.org/html/2504.14689v1",
+     "snippet": "To augment critical thinking, the distinction between performedand demonstratedcritical thinking presents different design paths for AI systems. Augmenting demonstrated critical thinkingfocuses on the quality of the final output or collaborative process that is associated with individuals&#x27; critical thinking."
+    },
+    {
+     "title": "PDF Computers Are Like Telescopes: Deeper Engagements with thinking ...",
+     "url": "https://uwaterloo.ca/architecture/sites/default/files/uploads/documents/2018_trd1_przybylski_outline-1.pdf",
+     "snippet": "Architecture too, has turned its attention to the opportunities found in automation. Computational Design has emerged as a new territory of applied research within the architectural community whereby designers engage with the underlying principles of the computer&#x27;s automating capabilities in order to explore formal, material and organizational strategies by way of processing. In the ..."
+    }
+   ]
+  },
+  "t5_tinyml": {
+   "query": "tinyML on-device learning microcontroller",
+   "results": [
+    {
+     "title": "TinyML &amp; On-Device AI: How to Run Machine Learning Models Without Cloud ...",
+     "url": "https://www.humai.blog/tinyml-on-device-ai-how-to-run-machine-learning-models-without-cloud-complete-2026-setup-guide/",
+     "snippet": "Complete guide to TinyML and on-device AI in 2026. Learn how to run machine learning models without cloud connectivity using TensorFlow Lite, Edge Impulse, ESP32, and Arduino. Step-by-step setup instructions, optimization techniques, and real-world projects included."
+    },
+    {
+     "title": "TinyML and On-Device Machine Learning - Coursera",
+     "url": "https://www.coursera.org/learn/tinyml-on-device-machine-learning",
+     "snippet": "TinyML, or tiny machine learning, is the practice of running machine learning models on microcontrollers and other devices with very limited memory, processing power, and energy."
+    },
+    {
+     "title": "A Guide f or Deploying TinyML Models on Microcontrollers",
+     "url": "https://circuitlabs.net/deploying-tinyml-models-on-microcontrollers-running-ai-on-low-power-embedded-devices/",
+     "snippet": "This need has spurred the development of Tiny Machine Learning (TinyML), a specialized subfield focused on bringing machine learning capabilities to resource-constrained edge devices, particularly microcontrollers."
+    },
+    {
+     "title": "TinyML and Machine Learning on Microcontrollers | SiliconWit",
+     "url": "https://siliconwit.com/education/edge-ai-tinyml/tinyml-machine-learning-microcontrollers/",
+     "snippet": "TinyML refers to running machine learning inference on microcontrollers and ultra-low-power devices. The key distinction from traditional ML is the hardware budget."
+    },
+    {
+     "title": "TinyML: Deploying Machine Learning on Microcontrollers for Smart Sensors",
+     "url": "https://blog.meetneura.ai/tinyml-microcontroller-ml/",
+     "snippet": "TinyML is the newest wave of machine learning that runs directly on tiny, low\u2011power devices. It lets you put smart intelligence into everyday sensors, wearables, and industrial equipment without sending data to the cloud. In this guide we&#x27;ll walk through what TinyML is, why it matters, and how you can build a TinyML project from scratch. We&#x27;ll cover the hardware, software, and best ..."
+    },
+    {
+     "title": "Machine Learning on Microcontrollers \u2014 Implementing TinyML ... - Medium",
+     "url": "https://medium.com/@RocketMeUpIO/machine-learning-on-microcontrollers-implementing-tinyml-for-resource-constrained-devices-aa52c43e9f11",
+     "snippet": "Machine Learning on Microcontrollers \u2014 Implementing TinyML for Resource-Constrained Devices Machine learning (ML) is typically associated with high-performance computing systems, cloud platforms \u2026"
+    },
+    {
+     "title": "Tiny Machine Learning and On-Device Inference: A Survey of ... - MDPI",
+     "url": "https://www.mdpi.com/1424-8220/25/10/3191",
+     "snippet": "This review examines Tiny Machine Learning, also known as TinyML, as an alternative to cloud-based inference. The review focuses on applications where transmission delays make traditional Internet of Things (IoT) approaches impractical, thus necessitating a solution that uses TinyML and on-device inference."
+    },
+    {
+     "title": "Deploying TinyML for energy-efficient object detection and ...",
+     "url": "https://www.nature.com/articles/s41598-025-27818-9",
+     "snippet": "The increasing adoption of microcontroller units for machine learning applications has driven advancements in hardware capable of running neural network models, with numerous studies exploring ..."
+    }
+   ]
+  }
+ },
+ "arxiv": {
+  "a1_ff": {
+   "query": "ti:\"forward-forward\" OR abs:\"forward-forward algorithm\"",
+   "results": [
+    {
+     "title": "The Integrated Forward-Forward Algorithm: Integrating Forward-Forward and Shallow Backpropagation With Local Losses",
+     "url": "http://arxiv.org/abs/2305.12960v1",
+     "snippet": "The backpropagation algorithm, despite its widespread use in neural network learning, may not accurately emulate the human cortex's learning process. Alternative strategies, such as the Forward-Forward Algorithm (FFA), offer a closer match to the human cortex's learning characteristics. However, the original FFA paper and related works on the Forward-Forward Algorithm only mentioned very limited types of neural network mechanisms and may limit its application and effectiveness. In response to th",
+     "date": "2023-05-22"
+    },
+    {
+     "title": "Reshaping the Forward-Forward Algorithm with a Similarity-Based Objective",
+     "url": "http://arxiv.org/abs/2509.08697v1",
+     "snippet": "Backpropagation is the pivotal algorithm underpinning the success of artificial neural networks, yet it has critical limitations such as biologically implausible backward locking and global error propagation. To circumvent these constraints, the Forward-Forward algorithm was proposed as a more biologically plausible method that replaces the backward pass with an additional forward pass. Despite this advantage, the Forward-Forward algorithm significantly trails backpropagation in accuracy, and it",
+     "date": "2025-08-29"
+    },
+    {
+     "title": "Layer Collaboration in the Forward-Forward Algorithm",
+     "url": "http://arxiv.org/abs/2305.12393v1",
+     "snippet": "Backpropagation, which uses the chain rule, is the de-facto standard algorithm for optimizing neural networks nowadays. Recently, Hinton (2022) proposed the forward-forward algorithm, a promising alternative that optimizes neural nets layer-by-layer, without propagating gradients throughout the network. Although such an approach has several advantages over back-propagation and shows promising results, the fact that each layer is being trained independently limits the optimization process. Specif",
+     "date": "2023-05-21"
+    },
+    {
+     "title": "A theory for the sparsity emerged in the Forward Forward algorithm",
+     "url": "http://arxiv.org/abs/2311.05667v1",
+     "snippet": "This report explores the theory that explains the high sparsity phenomenon \\citep{tosato2023emergent} observed in the forward-forward algorithm \\citep{hinton2022forward}. The two theorems proposed predict the sparsity changes of a single data point's activation in two cases: Theorem \\ref{theorem:1}: Decrease the goodness of the whole batch. Theorem \\ref{theorem:2}: Apply the complete forward forward algorithm to decrease the goodness for negative data and increase the goodness for positive data.",
+     "date": "2023-11-09"
+    }
+   ]
+  },
+  "a1_predcoding": {
+   "query": "abs:\"predictive coding\" AND abs:\"local learning\"",
+   "results": [
+    {
+     "title": "A Study of Hidden-State Optimization Order in Predictive Coding Networks",
+     "url": "http://arxiv.org/abs/2609.00686v1",
+     "snippet": "Local learning methods offer an alternative to end-to-end backpropagation, but their unstructured local objectives can produce weak feature learning in deep networks. We study whether the order of hidden-state optimization can address this limitation. We propose a boundary-first inference schedule that partitions a model into chunks, first coordinates hidden states at chunk boundaries, and then refines representations within each chunk. We instantiate this schedule in predictive coding networks ",
+     "date": "2026-09-01"
+    },
+    {
+     "title": "Predictive Coding: Towards a Future of Deep Learning beyond Backpropagation?",
+     "url": "http://arxiv.org/abs/2202.09467v1",
+     "snippet": "The backpropagation of error algorithm used to train deep neural networks has been fundamental to the successes of deep learning. However, it requires sequential backward updates and non-local computations, which make it challenging to parallelize at scale and is unlike how learning works in the brain. Neuroscience-inspired learning algorithms, however, such as \\emph{predictive coding}, which utilize local learning, have the potential to overcome these limitations and advance beyond current deep",
+     "date": "2022-02-18"
+    },
+    {
+     "title": "From Local Learning to Global Prediction Through Layered Surprise Cascades",
+     "url": "http://arxiv.org/abs/2608.05481v1",
+     "snippet": "Hierarchical predictive coding proposes a compelling hypothesis of brain computation, suggesting that the cortex builds layered predictions to minimize surprise. Yet most models rely on error-coding neurons or generative modeling of unclear biological plausibility. Here, we examine a biologically plausible framework in which the functional goals of predictive coding emerge from local contrastive learning and simple activity cancellation. Building on recent machine learning advances, we present a",
+     "date": "2026-08-06"
+    },
+    {
+     "title": "Predictive Coding Approximates Backprop along Arbitrary Computation Graphs",
+     "url": "http://arxiv.org/abs/2006.04182v5",
+     "snippet": "Backpropagation of error (backprop) is a powerful algorithm for training machine learning architectures through end-to-end differentiation. However, backprop is often criticised for lacking biological plausibility. Recently, it has been shown that backprop in multilayer-perceptrons (MLPs) can be approximated using predictive coding, a biologically-plausible process theory of cortical computation which relies only on local and Hebbian updates. The power of backprop, however, lies not in its insta",
+     "date": "2020-06-07"
+    }
+   ]
+  },
+  "a1_oja": {
+   "query": "abs:\"Oja\" AND abs:\"Hebbian\"",
+   "results": [
+    {
+     "title": "Hebbian Crosstalk and Input Segregation",
+     "url": "http://arxiv.org/abs/1207.7257v2",
+     "snippet": "Purpose: We previously proposed that Hebbian adjustments that are incompletely synapse specific (\"crosstalk\") might be analogous to genetic mutations. We analyze aspects of the effect of crosstalk in Hebbian learning using the classical Oja model. Methods: In previous work we showed that crosstalk leads to learning of the principal eigenvector of EC (the input covariance matrix pre-multiplied by an error matrix that describes the crosstalk pattern), and found that with positive input correlation",
+     "date": "2012-07-31"
+    },
+    {
+     "title": "Frame Theoretical Derivation of Three Factor Learning Rule for Oja's Subspace Rule",
+     "url": "http://arxiv.org/abs/2604.02849v1",
+     "snippet": "We show that the error-gated Hebbian rule for PCA (EGHR-PCA), a three-factor learning rule equivalent to Oja's subspace rule under Gaussian inputs, can be systematically derived from Oja's subspace rule using frame theory. The global third factor in EGHR-PCA arises exactly as a frame coefficient when the learning rule is expanded with respect to a natural frame on the space of symmetric matrices. This provides a principled, non-heuristic derivation of a biologically plausible learning rule from ",
+     "date": "2026-04-03"
+    },
+    {
+     "title": "Oja's plasticity rule overcomes several challenges of training neural networks under biological constraints",
+     "url": "http://arxiv.org/abs/2408.08408v3",
+     "snippet": "Deep neural networks have achieved impressive performance through carefully engineered training strategies. Nonetheless, such methods lack parallels in biological neural circuits, relying heavily on non-local credit assignment, precise initialization, normalization layers, batch processing, and large datasets. Biologically plausible plasticity rules, such as random feedback alignment, often suffer from instability and unbounded weight growth without these engineered methods, while Hebbian-type s",
+     "date": "2024-08-15"
+    },
+    {
+     "title": "ODE-Inspired Analysis for the Biological Version of Oja's Rule in Solving Streaming PCA",
+     "url": "http://arxiv.org/abs/1911.02363v2",
+     "snippet": "Oja's rule [Oja, Journal of mathematical biology 1982] is a well-known biologically-plausible algorithm using a Hebbian-type synaptic update rule to solve streaming principal component analysis (PCA). Computational neuroscientists have known that this biological version of Oja's rule converges to the top eigenvector of the covariance matrix of the input in the limit. However, prior to this work, it was open to prove any convergence rate guarantee. In this work, we give the first convergence rate",
+     "date": "2019-11-04"
+    }
+   ]
+  },
+  "a1_rstdp": {
+   "query": "abs:\"reward-modulated\"",
+   "results": [
+    {
+     "title": "Working memory facilitates reward-modulated Hebbian learning in recurrent neural networks",
+     "url": "http://arxiv.org/abs/1910.10559v1",
+     "snippet": "Reservoir computing is a powerful tool to explain how the brain learns temporal sequences, such as movements, but existing learning schemes are either biologically implausible or too inefficient to explain animal performance. We show that a network can learn complicated sequences with a reward-modulated Hebbian learning rule if the network of reservoir neurons is combined with a second network that serves as a dynamic working memory and provides a spatio-temporal backbone signal to the reservoir",
+     "date": "2019-10-23"
+    },
+    {
+     "title": "Building Supervision into Hebbian Plasticity through Spike Agreement",
+     "url": "http://arxiv.org/abs/2601.08526v2",
+     "snippet": "Supervised learning in spiking neural networks (SNNs) typically requires either gradient-based backpropagation, which sacrifices the Hebbian, spike-driven character of biological plasticity, or reward-modulated Spike-Timing-Dependent Plasticity (STDP), in which class supervision enters only as a scalar gate on an otherwise class-agnostic correlation signal. We propose Supervised Spike Agreement-Dependent Plasticity (Supervised SADP), a gradient-free supervised Hebbian learning algorithm in which",
+     "date": "2026-01-13"
+    },
+    {
+     "title": "BioLCNet: Reward-modulated Locally Connected Spiking Neural Networks",
+     "url": "http://arxiv.org/abs/2109.05539v5",
+     "snippet": "Brain-inspired computation and information processing alongside compatibility with neuromorphic hardware have made spiking neural networks (SNN) a promising method for solving learning tasks in machine learning (ML). Spiking neurons are only one of the requirements for building a bio-plausible learning model. Network architecture and learning rules are other important factors to consider when developing such artificial agents. In this work, inspired by the human visual pathway and the role of do",
+     "date": "2021-09-12"
+    },
+    {
+     "title": "Noise-based reward-modulated learning",
+     "url": "http://arxiv.org/abs/2503.23972v4",
+     "snippet": "The pursuit of energy-efficient and adaptive artificial intelligence (AI) has positioned neuromorphic computing as a promising alternative to conventional computing. However, achieving learning on these platforms requires techniques that prioritize local information while enabling effective credit assignment. Here, we propose noise-based reward-modulated learning (NRL), a novel synaptic plasticity rule that mathematically unifies reinforcement learning and gradient-based optimization with biolog",
+     "date": "2025-03-31"
+    }
+   ]
+  },
+  "a1_reservoir": {
+   "query": "abs:\"reservoir computing\" AND abs:\"echo state\"",
+   "results": [
+    {
+     "title": "Non-unital noise in a superconducting quantum computer as a computational resource for reservoir computing",
+     "url": "http://arxiv.org/abs/2409.07886v3",
+     "snippet": "We identify a noise model that ensures the functioning of an echo state network employing a gate-based quantum computer for reservoir computing applications. Energy dissipation induced by amplitude damping drastically improves the short-term memory capacity and expressivity of the network, by simultaneously providing fading memory and richer dynamics. There is an ideal dissipation rate that ensures the best operation of the echo state network around $\u03b3\\sim$ 0.03. Nevertheless, these beneficial e",
+     "date": "2024-09-12"
+    },
+    {
+     "title": "Consistency in Echo-State Networks",
+     "url": "http://arxiv.org/abs/1901.07729v1",
+     "snippet": "Consistency is an extension to generalized synchronization which quantifies the degree of functional dependency of a driven nonlinear system to its input. We apply this concept to echo-state networks, which are an artificial-neural network version of reservoir computing. Through a replica test we measure the consistency levels of the high-dimensional response, yielding a comprehensive portrait of the echo-state property.",
+     "date": "2019-01-23"
+    },
+    {
+     "title": "Reservoir Computing on Spin-Torque Oscillator Array",
+     "url": "http://arxiv.org/abs/1905.07937v2",
+     "snippet": "We numerically study reservoir computing on a spin-torque oscillator (STO) array, describing the magnetization dynamics of the STO array by a nonlinear oscillator model. The STOs exhibit synchronized oscillation due to coupling by magnetic dipolar fields. We show that reservoir computing can be performed using the synchronized oscillation state. The performance can be improved by increasing the number of STOs. The performance becomes highest at the boundary between the synchronized and disordere",
+     "date": "2019-05-20"
+    },
+    {
+     "title": "Towards a Calculus of Echo State Networks",
+     "url": "http://arxiv.org/abs/1409.0280v1",
+     "snippet": "Reservoir computing is a recent trend in neural networks which uses the dynamical perturbations on the phase space of a system to compute a desired target function. We present how one can formulate an expectation of system performance in a simple class of reservoir computing called echo state networks. In contrast with previous theoretical frameworks, which only reveal an upper bound on the total memory in the system, we analytically calculate the entire memory curve as a function of the structu",
+     "date": "2014-09-01"
+    }
+   ]
+  },
+  "a1_ttt": {
+   "query": "abs:\"test-time training\"",
+   "results": [
+    {
+     "title": "Mixup for Test-Time Training",
+     "url": "http://arxiv.org/abs/2210.01640v1",
+     "snippet": "Test-time training provides a new approach solving the problem of domain shift. In its framework, a test-time training phase is inserted between training phase and test phase. During test-time training phase, usually parts of the model are updated with test sample(s). Then the updated model will be used in the test phase. However, utilizing test samples for test-time training has some limitations. Firstly, it will lead to overfitting to the test-time procedure thus hurt the performance on the ma",
+     "date": "2022-10-04"
+    },
+    {
+     "title": "Uncertainty-aware Test-Time Training (UT$^3$) for Efficient On-the-fly Domain Adaptive Dense Regression",
+     "url": "http://arxiv.org/abs/2509.03012v1",
+     "snippet": "Deep neural networks (DNNs) are increasingly being used in autonomous systems. However, DNNs do not generalize well to domain shift. Adapting to a continuously evolving environment is a safety-critical challenge inevitably faced by all autonomous systems deployed to the real world. Recent work on test-time training proposes methods that adapt to a new test distribution on the fly by optimizing the DNN model for each test input using self-supervision. However, these techniques result in a sharp i",
+     "date": "2025-09-03"
+    },
+    {
+     "title": "Continuous Self-Improvement of Large Language Models by Test-time Training with Verifier-Driven Sample Selection",
+     "url": "http://arxiv.org/abs/2505.19475v2",
+     "snippet": "Learning to adapt pretrained language models to unlabeled, out-of-distribution data is a critical challenge, as models often falter on structurally novel reasoning tasks even while excelling within their training distribution. We introduce a new framework called VDS-TTT - Verifier-Driven Sample Selection for Test-Time Training to efficiently address this. We use a learned verifier to score a pool of generated responses and select only from high ranking pseudo-labeled examples for fine-tuned adap",
+     "date": "2025-05-26"
+    },
+    {
+     "title": "TTT-Parkour: Rapid Test-Time Training for Perceptive Robot Parkour",
+     "url": "http://arxiv.org/abs/2602.02331v1",
+     "snippet": "Achieving highly dynamic humanoid parkour on unseen, complex terrains remains a challenge in robotics. Although general locomotion policies demonstrate capabilities across broad terrain distributions, they often struggle with arbitrary and highly challenging environments. To overcome this limitation, we propose a real-to-sim-to-real framework that leverages rapid test-time training (TTT) on novel terrains, significantly enhancing the robot's capability to traverse extremely difficult geometries.",
+     "date": "2026-02-02"
+    }
+   ]
+  },
+  "a1_hypernet": {
+   "query": "abs:\"hypernetwork\"",
+   "results": [
+    {
+     "title": "Hypernetwork Dismantling via Deep Reinforcement Learning",
+     "url": "http://arxiv.org/abs/2104.14332v2",
+     "snippet": "Network dismantling aims to degrade the connectivity of a network by removing an optimal set of nodes. It has been widely adopted in many real-world applications such as epidemic control and rumor containment. However, conventional methods usually focus on simple network modeling with only pairwise interactions, while group-wise interactions modeled by hypernetwork are ubiquitous and critical. In this work, we formulate the hypernetwork dismantling problem as a node sequence decision problem and",
+     "date": "2021-04-29"
+    },
+    {
+     "title": "A hyper-distance-based method for hypernetwork comparison",
+     "url": "http://arxiv.org/abs/2308.04659v1",
+     "snippet": "Hypernetwork is a useful way to depict multiple connections between nodes, making it an ideal tool for representing complex relationships in network science. In recent years, there has been a marked increase in studies on hypernetworks, however, the comparison of the difference between two hypernetworks has been given less attention. This paper proposes a hyper-distance-based method (HD) for comparing hypernetworks. This method takes into account high-order information, such as the high-order di",
+     "date": "2023-08-09"
+    },
+    {
+     "title": "HyperNetworks",
+     "url": "http://arxiv.org/abs/1609.09106v4",
+     "snippet": "This work explores hypernetworks: an approach of using a one network, also known as a hypernetwork, to generate the weights for another network. Hypernetworks provide an abstraction that is similar to what is found in nature: the relationship between a genotype - the hypernetwork - and a phenotype - the main network. Though they are also reminiscent of HyperNEAT in evolution, our hypernetworks are trained end-to-end with backpropagation and thus are usually faster. The focus of this work is to m",
+     "date": "2016-09-27"
+    },
+    {
+     "title": "Hypernetworks: cluster synchronisation is a higher-order effect",
+     "url": "http://arxiv.org/abs/2302.08974v2",
+     "snippet": "Many networked systems are governed by non-pairwise interactions between nodes. The resulting higher-order interaction structure can then be encoded by means of a hypernetwork. In this paper we consider dynamical systems on hypernetworks by defining a class of admissible maps for every such hypernetwork. We explain how to classify robust cluster synchronisation patterns on hypernetworks by finding balanced partitions, and we generalize the concept of a graph fibration to the hypernetwork context",
+     "date": "2023-02-17"
+    }
+   ]
+  },
+  "a1_ca": {
+   "query": "abs:\"cellular automata\" AND abs:\"differentiable\"",
+   "results": [
+    {
+     "title": "Cellular Automata, PDEs, and Pattern Formation",
+     "url": "http://arxiv.org/abs/1003.1983v1",
+     "snippet": "State-of-the-art review of cellular automata, cellular automata for partial differential equations, differential equations for cellular automata and pattern formation in biology and engineering.",
+     "date": "2010-03-09"
+    },
+    {
+     "title": "Differentiable Logic Cellular Automata: From Game of Life to Pattern Generation",
+     "url": "http://arxiv.org/abs/2506.04912v1",
+     "snippet": "This paper introduces Differentiable Logic Cellular Automata (DiffLogic CA), a novel combination of Neural Cellular Automata (NCA) and Differentiable Logic Gates Networks (DLGNs). The fundamental computation units of the model are differentiable logic gates, combined into a circuit. During training, the model is fully end-to-end differentiable allowing gradient-based training, and at inference time it operates in a fully discrete state space. This enables learning local update rules for cellular",
+     "date": "2025-06-05"
+    },
+    {
+     "title": "Severe Damage Recovery in Evolving Soft Robots through Differentiable Programming",
+     "url": "http://arxiv.org/abs/2206.06674v1",
+     "snippet": "Biological systems are very robust to morphological damage, but artificial systems (robots) are currently not. In this paper we present a system based on neural cellular automata, in which locomoting robots are evolved and then given the ability to regenerate their morphology from damage through gradient-based training. Our approach thus combines the benefits of evolution to discover a wide range of different robot morphologies, with the efficiency of supervised training for robustness through d",
+     "date": "2022-06-14"
+    },
+    {
+     "title": "Towards self-organized control: Using neural cellular automata to robustly control a cart-pole agent",
+     "url": "http://arxiv.org/abs/2106.15240v2",
+     "snippet": "Neural cellular automata (Neural CA) are a recent framework used to model biological phenomena emerging from multicellular organisms. In these systems, artificial neural networks are used as update rules for cellular automata. Neural CA are end-to-end differentiable systems where the parameters of the neural network can be learned to achieve a particular task. In this work, we used neural CA to control a cart-pole agent. The observations of the environment are transmitted in input cells, while t",
+     "date": "2021-06-29"
+    }
+   ]
+  },
+  "a1_connectome": {
+   "query": "abs:\"connectome\" AND abs:\"learning\"",
+   "results": [
+    {
+     "title": "Connectome-Guided Automatic Learning Rates for Deep Networks",
+     "url": "http://arxiv.org/abs/2510.23781v1",
+     "snippet": "The human brain is highly adaptive: its functional connectivity reconfigures on multiple timescales during cognition and learning, enabling flexible information processing. By contrast, artificial neural networks typically rely on manually-tuned learning-rate schedules or generic adaptive optimizers whose hyperparameters remain largely agnostic to a model's internal dynamics. In this paper, we propose Connectome-Guided Automatic Learning Rate (CG-ALR) that dynamically constructs a functional con",
+     "date": "2025-10-27"
+    },
+    {
+     "title": "DeepMultiConnectome: Deep Multi-Task Prediction of Structural Connectomes Directly from Diffusion MRI Tractography",
+     "url": "http://arxiv.org/abs/2505.22685v2",
+     "snippet": "Diffusion MRI (dMRI) tractography enables in vivo mapping of brain structural connections, but traditional connectome generation is time-consuming and requires gray matter parcellation, posing challenges for large-scale studies. We introduce DeepMultiConnectome, a deep-learning model that predicts structural connectomes directly from tractography, bypassing the need for gray matter parcellation while supporting multiple parcellation schemes. Using a point-cloud-based neural network with multi-ta",
+     "date": "2025-05-27"
+    },
+    {
+     "title": "Machine Learning on Human Connectome Data from MRI",
+     "url": "http://arxiv.org/abs/1611.08699v1",
+     "snippet": "Functional MRI (fMRI) and diffusion MRI (dMRI) are non-invasive imaging modalities that allow in-vivo analysis of a patient's brain network (known as a connectome). Use of these technologies has enabled faster and better diagnoses and treatments of neurological disorders and a deeper understanding of the human brain. Recently, researchers have been exploring the application of machine learning models to connectome data in order to predict clinical outcomes and analyze the importance of subnetwor",
+     "date": "2016-11-26"
+    },
+    {
+     "title": "Structure-Preserving Graph Kernel for Brain Network Classification",
+     "url": "http://arxiv.org/abs/2111.10803v2",
+     "snippet": "This paper presents a novel graph-based kernel learning approach for connectome analysis. Specifically, we demonstrate how to leverage the naturally available structure within the graph representation to encode prior knowledge in the kernel. We first proposed a matrix factorization to directly extract structural features from natural symmetric graph representations of connectome data. We then used them to derive a structure-persevering graph kernel to be fed into the support vector machine. The ",
+     "date": "2021-11-21"
+    }
+   ]
+  },
+  "a1_kenyon": {
+   "query": "abs:\"Kenyon cells\"",
+   "results": [
+    {
+     "title": "Learning sparsity in reservoir computing through a novel bio-inspired algorithm",
+     "url": "http://arxiv.org/abs/1907.08600v1",
+     "snippet": "The mushroom body is the key network for the representation of learned olfactory stimuli in Drosophila and insects. The sparse activity of Kenyon cells, the principal neurons in the mushroom body, plays a key role in the learned classification of different odours. In the specific case of the fruit fly, the sparseness of the network is enforced by an inhibitory feedback neuron called APL, and by an intrinsic high firing threshold of the Kenyon cells. In this work we took inspiration from the frui",
+     "date": "2019-07-19"
+    },
+    {
+     "title": "The Impact of Structural Changes on Learning Capacity in the Fly Olfactory Neural Circuit",
+     "url": "http://arxiv.org/abs/2509.19351v1",
+     "snippet": "The Drosophila mushroom body (MB) is known to be involved in olfactory learning and memory; the synaptic plasticity of the Kenyon cell (KC) to mushroom body output neuron (MBON) synapses plays a key role in the learning process. Previous research has focused on projection neuron (PN) to Kenyon cell (KC) connectivity within the MB; we examine how perturbations to the mushroom body circuit structure and changes in connectivity, specifically within the KC to mushroom body output neuron (MBON) neura",
+     "date": "2025-09-18"
+    },
+    {
+     "title": "Can a Fruit Fly Learn Word Embeddings?",
+     "url": "http://arxiv.org/abs/2101.06887v2",
+     "snippet": "The mushroom body of the fruit fly brain is one of the best studied systems in neuroscience. At its core it consists of a population of Kenyon cells, which receive inputs from multiple sensory modalities. These cells are inhibited by the anterior paired lateral neuron, thus creating a sparse high dimensional representation of the inputs. In this work we study a mathematical formalization of this network motif and apply it to learning the correlational structure between words and their context in",
+     "date": "2021-01-18"
+    },
+    {
+     "title": "Multisensory learning recruits visual neurons into an olfactory memory engram",
+     "url": "http://arxiv.org/abs/2604.28007v1",
+     "snippet": "Associating multiple sensory cues with a single experience or object is a fundamental process that improves object recognition and memory performance. However, neural mechanisms that bind sensory features during learning and augment memory expression are unknown. Here we demonstrate multisensory appetitive and aversive memory in Drosophila. Combining colours and odours improved memory performance, even when each sensory modality was tested alone. Temporal control of neuronal function revealed vi",
+     "date": "2026-04-30"
+    }
+   ]
+  },
+  "a1_homeostat": {
+   "query": "abs:\"homeostatic plasticity\"",
+   "results": [
+    {
+     "title": "Balanced activation in a simple embodied neural simulation",
+     "url": "http://arxiv.org/abs/1606.03592v2",
+     "snippet": "In recent years, there have been many computational simulations of spontaneous neural dynamics. Here, we explore a model of spontaneous neural dynamics and allow it to control a virtual agent moving in a simple environment. This setup generates interesting brain-environment feedback interactions that rapidly destabilize neural and behavioral dynamics and suggest the need for homeostatic mechanisms. We investigate roles for both local homeostatic plasticity (local inhibition adjusting over time t",
+     "date": "2016-06-11"
+    },
+    {
+     "title": "An Ultralow Leakage Synaptic Scaling Homeostatic Plasticity Circuit With Configurable Time Scales up to 100 ks",
+     "url": "http://arxiv.org/abs/1709.05633v3",
+     "snippet": "Homeostatic plasticity is a stabilizing mechanism commonly observed in real neural systems that allows neurons to maintain their activity around a functional operating point. This phenomenon can be used in neuromorphic systems to compensate for slowly changing conditions or chronic shifts in the system configuration. However, to avoid interference with other adaptation or learning processes active in the neuromorphic system, it is important that the homeostatic plasticity mechanism operates on t",
+     "date": "2017-09-17"
+    },
+    {
+     "title": "Local inhibitory plasticity tunes global brain dynamics and allows the emergence of functional brain networks",
+     "url": "http://arxiv.org/abs/1412.6325v2",
+     "snippet": "Rich, spontaneous brain activity has been observed across a range of different temporal and spatial scales. These dynamics are thought to be important t for efficient neural functioning. Experimental evidence suggests that these neural dynamics are maintained across a variety of different cognitive states, in response to alterations of the environment and to changes in brain configuration (e.g., across individuals, development and in many neurological disorders). This suggests that the brain has",
+     "date": "2014-12-19"
+    },
+    {
+     "title": "Evaluating the extent to which homeostatic plasticity learns to compute prediction errors in unstructured neuronal networks",
+     "url": "http://arxiv.org/abs/2202.01521v2",
+     "snippet": "The brain is believed to operate in part by making predictions about sensory stimuli and encoding deviations from these predictions in the activity of \"prediction error neurons.\" This principle defines the widely influential theory of predictive coding. The precise circuitry and plasticity mechanisms through which animals learn to compute and update their predictions are unknown. Homeostatic inhibitory synaptic plasticity is a promising mechanism for training neuronal networks to perform predict",
+     "date": "2022-02-03"
+    }
+   ]
+  },
+  "a1_moe": {
+   "query": "abs:\"mixture of experts\" AND abs:\"modular\"",
+   "results": [
+    {
+     "title": "Spectral Manifold Regularization for Stable and Modular Routing in Deep MoE Architectures",
+     "url": "http://arxiv.org/abs/2601.03889v1",
+     "snippet": "Mixture of Experts (MoE) architectures enable efficient scaling of neural networks but suffer from expert collapse, where routing converges to a few dominant experts. This reduces model capacity and causes catastrophic interference during adaptation. We propose the Spectrally-Regularized Mixture of Experts (SR-MoE), which imposes geometric constraints on the routing manifold to enforce structural modularity. Our method uses dual regularization: spectral norm constraints bound routing function Li",
+     "date": "2026-01-07"
+    },
+    {
+     "title": "CBDES MoE: Hierarchically Decoupled Mixture-of-Experts for Functional Modules in Autonomous Driving",
+     "url": "http://arxiv.org/abs/2508.07838v1",
+     "snippet": "Bird's Eye View (BEV) perception systems based on multi-sensor feature fusion have become a fundamental cornerstone for end-to-end autonomous driving. However, existing multi-modal BEV methods commonly suffer from limited input adaptability, constrained modeling capacity, and suboptimal generalization. To address these challenges, we propose a hierarchically decoupled Mixture-of-Experts architecture at the functional module level, termed Computing Brain DEvelopment System Mixture-of-Experts (CBD",
+     "date": "2025-08-11"
+    },
+    {
+     "title": "Robustness of Mixtures of Experts to Feature Noise",
+     "url": "http://arxiv.org/abs/2601.14792v2",
+     "snippet": "Despite their practical success, it remains unclear why Mixture of Experts (MoE) models can outperform dense networks beyond sheer parameter scaling. We study an iso-parameter regime where inputs exhibit latent modular structure but are corrupted by feature noise, a proxy for noisy internal activations. We show that sparse expert activation acts as a noise filter: compared to a dense estimator, MoEs achieve lower generalization error under feature noise, improved robustness to perturbations, and",
+     "date": "2026-01-21"
+    },
+    {
+     "title": "Bayesian Mixture of Experts For Large Language Models",
+     "url": "http://arxiv.org/abs/2511.08968v1",
+     "snippet": "We present Bayesian Mixture of Experts (Bayesian-MoE), a post-hoc uncertainty estimation framework for fine-tuned large language models (LLMs) based on Mixture-of-Experts architectures. Our method applies a structured Laplace approximation to the second linear layer of each expert, enabling calibrated uncertainty estimation without modifying the original training procedure or introducing new parameters. Unlike prior approaches, which apply Bayesian inference to added adapter modules, Bayesian-Mo",
+     "date": "2025-11-12"
+    }
+   ]
+  },
+  "a1_tinyml": {
+   "query": "abs:\"tiny machine learning\" OR abs:\"tinyML\"",
+   "results": [
+    {
+     "title": "Intelligence at the Extreme Edge: A Survey on Reformable TinyML",
+     "url": "http://arxiv.org/abs/2204.00827v2",
+     "snippet": "Tiny Machine Learning (TinyML) is an upsurging research field that proposes to democratize the use of Machine Learning and Deep Learning on highly energy-efficient frugal Microcontroller Units. Considering the general assumption that TinyML can only run inference, growing interest in the domain has led to work that makes them reformable, i.e., solutions that permit models to improve once deployed. This work presents a survey on reformable TinyML solutions with the proposal of a novel taxonomy. H",
+     "date": "2022-04-02"
+    },
+    {
+     "title": "TinyML: Analysis of Xtensa LX6 microprocessor for Neural Network Applications by ESP32 SoC",
+     "url": "http://arxiv.org/abs/2106.10652v1",
+     "snippet": "In recent decades, Machine Learning (ML) has become extremely important for many computing applications. The pervasiveness of ultra-low-power embedded devices such as ESP32 or ESP32 Cam with tiny Machine Learning (tinyML) applications will enable the mass proliferation of Artificial Intelligent powered Embedded IoT Devices. In the last few years, the microcontroller device (Espressif ESP32) became powerful enough to be used for small/tiny machine learning (tinyML) tasks. The ease of use of platf",
+     "date": "2021-06-20"
+    },
+    {
+     "title": "Is TinyML Sustainable? Assessing the Environmental Impacts of Machine Learning on Microcontrollers",
+     "url": "http://arxiv.org/abs/2301.11899v3",
+     "snippet": "The sustained growth of carbon emissions and global waste elicits significant sustainability concerns for our environment's future. The growing Internet of Things (IoT) has the potential to exacerbate this issue. However, an emerging area known as Tiny Machine Learning (TinyML) has the opportunity to help address these environmental challenges through sustainable computing practices. TinyML, the deployment of machine learning (ML) algorithms onto low-cost, low-power microcontroller systems, enab",
+     "date": "2023-01-27"
+    },
+    {
+     "title": "Tiny Machine Learning: Progress and Futures",
+     "url": "http://arxiv.org/abs/2403.19076v2",
+     "snippet": "Tiny Machine Learning (TinyML) is a new frontier of machine learning. By squeezing deep learning models into billions of IoT devices and microcontrollers (MCUs), we expand the scope of AI applications and enable ubiquitous intelligence. However, TinyML is challenging due to hardware constraints: the tiny memory resource makes it difficult to hold deep learning models designed for cloud and mobile platforms. There is also limited compiler and inference engine support for bare-metal devices. There",
+     "date": "2024-03-28"
+    }
+   ]
+  },
+  "a1_physarum": {
+   "query": "abs:\"Physarum\"",
+   "results": [
+    {
+     "title": "A Survey on Physarum Polycephalum Intelligent Foraging Behaviour and Bio-Inspired Applications",
+     "url": "http://arxiv.org/abs/2103.00172v3",
+     "snippet": "In recent years, research on Physarum polycephalum has become more popular after Nakagaki et al. (2000) performed their famous experiment showing that Physarum was able to find the shortest route through a maze. Subsequent researches have confirmed the ability of Physarum-inspired algorithms to solve a wide range of NP-hard problems. In contrast to previous reviews that either focus on biological aspects or bio-inspired applications, here we present a comprehensive review that highlights recent ",
+     "date": "2021-02-27"
+    },
+    {
+     "title": "Physarum Chip: Developments in growing computers from slime mould",
+     "url": "http://arxiv.org/abs/1411.6831v1",
+     "snippet": "The Phychip project is a collaborative European research initiative to design and implement computation using the organism Physarum polycephalum; it is funded by the Seventh Framework Programme (FP7) by the European Commission within CORDIS and the FET Proactive scheme. Included in this presentation are details the development of a Physarum based biosensor and biological logic gate, offering significant advancements in the respective fields. The work demonstrates the first steps towards Physarum",
+     "date": "2014-11-25"
+    },
+    {
+     "title": "The Power of Many: A Physarum Swarm Steiner Tree Algorithm",
+     "url": "http://arxiv.org/abs/2110.08233v1",
+     "snippet": "We create a novel Physarum Steiner algorithm designed to solve the Euclidean Steiner tree problem. Physarum is a unicellular slime mold with the ability to form networks and fuse with other Physarum organisms. We use the simplicity and fusion of Physarum to create large swarms which independently operate to solve the Steiner problem. The Physarum Steiner tree algorithm then utilizes a swarm of Physarum organisms which gradually find terminals and fuse with each other, sharing intelligence. The a",
+     "date": "2021-10-15"
+    },
+    {
+     "title": "Physarum-inspired Network Optimization: A Review",
+     "url": "http://arxiv.org/abs/1712.02910v2",
+     "snippet": "The popular Physarum-inspired Algorithms (PAs) have the potential to solve challenging network optimization problems. However, the existing researches on PAs are still immature and far from being fully recognized. A major reason is that these researches have not been well organized so far. In this paper, we aim to address this issue. First, we introduce Physarum and its intelligence from the biological perspective. Then, we summarize and group four types of Physarum-inspired networking models. A",
+     "date": "2017-12-08"
+    }
+   ]
+  },
+  "a1_flywire": {
+   "query": "abs:\"Drosophila\" AND abs:\"connectome\"",
+   "results": [
+    {
+     "title": "Visual Function Profiles via Multi-Path Aggregation Reveal Neuron-Level Responses in the Drosophila Brain",
+     "url": "http://arxiv.org/abs/2512.06934v1",
+     "snippet": "Accurately predicting individual neurons' responses and spatial functional properties in complex visual tasks remains a key challenge in understanding neural computation. Existing whole-brain connectome models of Drosophila often rely on parameter assumptions or deep learning approaches, yet remain limited in their ability to reliably predict dynamic neuronal responses. We introduce a Multi-Path Aggregation (MPA) framework, based on neural network steady-state theory, to build a whole-brain Visu",
+     "date": "2025-12-07"
+    },
+    {
+     "title": "Automatic Neuron Type Identification by Neurite Localization in the Drosophila Medulla",
+     "url": "http://arxiv.org/abs/1409.1892v1",
+     "snippet": "Mapping the connectivity of neurons in the brain (i.e., connectomics) is a challenging problem due to both the number of connections in even the smallest organisms and the nanometer resolution required to resolve them. Because of this, previous connectomes contain only hundreds of neurons, such as in the C.elegans connectome. Recent technological advances will unlock the mysteries of increasingly large connectomes (or partial connectomes). However, the value of these maps is limited by our abili",
+     "date": "2014-09-05"
+    },
+    {
+     "title": "Semiparametric spectral modeling of the Drosophila connectome",
+     "url": "http://arxiv.org/abs/1705.03297v1",
+     "snippet": "We present semiparametric spectral modeling of the complete larval Drosophila mushroom body connectome. Motivated by a thorough exploratory data analysis of the network via Gaussian mixture modeling (GMM) in the adjacency spectral embedding (ASE) representation space, we introduce the latent structure model (LSM) for network modeling and inference. LSM is a generalization of the stochastic block model (SBM) and a special case of the random dot product graph (RDPG) latent position model, and is a",
+     "date": "2017-05-09"
+    },
+    {
+     "title": "Unveiling and Steering Connectome Organization with Interpretable Latent Variables",
+     "url": "http://arxiv.org/abs/2505.13011v2",
+     "snippet": "The brain's intricate connectome, a blueprint for its function, presents immense complexity, yet it arises from a compact genetic code, hinting at underlying low-dimensional organizational principles. This work bridges connectomics and representation learning to uncover these principles. We propose a framework that combines subgraph extraction from the Drosophila connectome, FlyWire, with a generative model to derive interpretable low-dimensional representations of neural circuitry. Crucially, a",
+     "date": "2025-05-19"
+    }
+   ]
+  }
+ },
+ "failures": []
+}

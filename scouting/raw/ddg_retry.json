@@ -1,0 +1,362 @@
+{
+ "t2_ceil": {
+  "query": "C. elegans 302 neurons associative learning mechanisms",
+  "results": [
+   {
+    "title": "Investigating the molecular mechanisms of learning and memory using ...",
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/jnc.15510",
+    "snippet": "This review will detail how learning and memory can be studied in C. elegans through behavioural paradigms that target distinct sensory modalities. We will also summarise recent studies describing mechanisms through which key molecular and cellular pathways are proposed to affect associative and non-associative forms of learning."
+   },
+   {
+    "title": "Behavioral plasticity, learning, and memory in C. elegans",
+    "url": "https://www.sciencedirect.com/science/article/pii/S095943881200147X",
+    "snippet": "Caenorhabditis elegans exhibits behavior plasticity that appears to correspond to non-associative and associative learning, and short-term and long-term memory. Recent finding revealed that evolutionally conserved molecules such as insulin, monoamines, and neuropeptides are required for the plasticity. We propose the concept of human brain operation from the C. elegans studies."
+   },
+   {
+    "title": "Deciphering the Neural and Molecular Mechanisms of C. elegans Behavior ...",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0960982205009401",
+    "snippet": "The other unique advantage to neurobiological studies in C. elegans is the unparalleled characterization of its nervous system at the cellular level. An adult C. elegans hermaphrodite contains exactly 302 neurons, comprising about a third of the total somatic cells. Each of these neurons has a precise and characteristic identity, which can in most cases be determined by an experienced observer ..."
+   },
+   {
+    "title": "1 - Learning and Memory in the Nematode",
+    "url": "https://www.cambridge.org/core/books/evolution-of-learning-and-memory-mechanisms/learning-and-memory-in-the-nematode-caenorhabditis-elegans/197B114E96AB8F52D511C0CF876D8D69",
+    "snippet": "Caenorhabditis elegans is a microscopic, free-living nematode species that has been studied as a model organism for learning and memory. With a nervous system consisting of 302 neurons, its accessible anatomy accommodates an incredible capacity to support a wide range of behaviors to navigate in its surroundings. In this chapter, we review both the classic and cutting-edge studies on learning ..."
+   },
+   {
+    "title": "Investigating the molecular mechanisms of learning and memory using ...",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/jnc.15510",
+    "snippet": "Here, we will outline the molecular pathways and neural circuits implicated in learning using several behavioural paradigms across multiple sensory modalities (gustatory, olfactory, mechanosensory, and thermosensory) for both associative and non-associative learning. These paradigms are typically demonstrated through an assay that quantifies C."
+   },
+   {
+    "title": "PDF Behavioral plasticity, learning, and memory in C. elegans",
+    "url": "https://www.jefftk.com/sasakura2013.pdf",
+    "snippet": "Hiroyuki Sasakura and Ikue Mori Caenorhabditis elegans exhibits behavior plasticity that appears to correspond to non-associative and associative learning, and short-term and long-term memory. Recent finding revealed that evolutionally conserved molecules such as insulin, monoamines, and neuropeptides are required for the plasticity. We propose the concept of human brain operation from the C ..."
+   },
+   {
+    "title": "Behavioral Tests for Associative Learning in Caenorhabditis elegans ...",
+    "url": "https://link.springer.com/protocol/10.1007/978-1-0716-3585-8_2",
+    "snippet": "This chapter will focus on protocols of behavioral tests for associative learning using the nematode Caenorhabditis elegans, with its unparalleled genetic tractability, compact nervous system of ~300 neurons, high level of conservation with mammalian systems, and amenability to a suite of behavioral tools and analyses."
+   },
+   {
+    "title": "Inheritance of associative memories and acquired cellular changes in C ...",
+    "url": "https://www.nature.com/articles/s41467-023-39804-8",
+    "snippet": "Here the authors demonstrate that in C. elegans, aversive associative memory and associated cellular changes, are passed on to F1 and F2 progeny."
+   }
+  ]
+ },
+ "t2_aplysia": {
+  "query": "Aplysia habituation sensitization synaptic plasticity",
+  "results": [
+   {
+    "title": "Learning in Aplysia: looking at synaptic plasticity from both sides",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0166223603003333",
+    "snippet": "Approximately a decade ago it was widely accepted that simple forms of invertebrate learning, such as habituation, sensitization and classical conditioning, could be explained in terms of comparatively simple forms of synaptic plasticity. As epitomized by the marine snail Aplysia, learning-related synaptic plasticity in invertebrates was thought to involve exclusively presynaptic cellular ..."
+   },
+   {
+    "title": "Learning in Aplysia: looking at synaptic plasticity from both sides",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0166223603003333",
+    "snippet": "Role of elevated postsynaptic Ca 2+ levels and modulation of postsynaptic AMPA receptor trafficking in synaptic facilitation and behavioral sensitization in Aplysia Evidence that elevated postsynaptic Ca 2+ is crucial for sensitization-related, non-associative enhancement of the Aplysia sensorimotor synapse, as well as for associative enhancement, came initially from Murphy and Glanzman [23 ..."
+   },
+   {
+    "title": "Possible contributions of a novel form of synaptic plasticity in",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3768196/",
+    "snippet": "Abstract Recent studies in Aplysia have identified a new variation of synaptic plasticity in which modulatory transmitters enhance spontaneous release of glutamate, which then acts on postsynaptic receptors to recruit mechanisms of intermediate- and long-term plasticity."
+   },
+   {
+    "title": "5 - Habituation and Sensitisation in the Aplysia",
+    "url": "https://www.cambridge.org/core/books/behavioural-neuroscience/habituation-and-sensitisation-in-the-aplysia/744EE2EF1E82FFFBACE637DC51F63A06",
+    "snippet": "Synaptic facilitation and behavioral sensitization in Aplysia: possible role of serotonin and cyclic AMP. Science, 194 (4270), 1178-81. CrossRef Google Scholar PubMed Carew, T., Castellucci, V.F., and Kandel, E.R. (1979). Sensitization in Aplysia: restoration of transmission in synapses inactivated by long-term habituation."
+   },
+   {
+    "title": "Synaptic plasticity in vitro: cell culture of identified Aplysia ...",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6568458/",
+    "snippet": "Abstract The gill withdrawal reflex of the marine mollusk, Aplysia californica, shows habituation and sensitization, two simple forms of learning. In order to extend the cellular studies on synaptic plasticity underlying the changes in the reflex behavior, and to explore further the development of synaptic plasticity during synapse formation, we have sought to establish the neural circuit of ..."
+   },
+   {
+    "title": "Morphological Basis of Long-Term Habituation and Sensitization in - Science",
+    "url": "https://www.science.org/doi/10.1126/science.6828885",
+    "snippet": "The morphological basis of the persistent synaptic plasticity that underlies long-term habituation and sensitization of the gill withdrawal reflex in Aplysia californica was explored by examining the fine structure of sensory neuron presynaptic terminals (the critical site of plasticity for the short-term forms of both types of learning) in control animals and in animals whose behavior had ..."
+   },
+   {
+    "title": "Habituation, Sensitization and Associative Learning in Aplysia ...",
+    "url": "https://link.springer.com/chapter/10.1007/978-94-011-6302-6_7",
+    "snippet": "A common presynaptic locus for the synaptic changes underlying short-term habituation and sensitization of the gillwithdrawal reflex in Aplysia, in Cold Spring Harbor Laboratory Symposium on Quantitative Biology, Vol. XL. Cold Spring Harbor (1976), pp. 465-482."
+   },
+   {
+    "title": "Learning in Aplysia: looking at synaptic plasticity from both sides",
+    "url": "https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(03)00333-3",
+    "snippet": "Approximately a decade ago it was widely accepted that simple forms of invertebrate learning, such as habituation, sensitization and classical conditioning, could be explained in terms of comparatively simple forms of synaptic plasticity. As epitomized by the marine snail Aplysia, learning-related synaptic plasticity in invertebrates was thought to involve exclusively presynaptic cellular ..."
+   }
+  ]
+ },
+ "t3_moe": {
+  "query": "mixture of experts modular neural networks",
+  "results": [
+   {
+    "title": "Mixture of Experts Explained - Hugging Face",
+    "url": "https://huggingface.co/blog/moe",
+    "snippet": "Perform extreme quantization techniques of Mixtral Some resources Adaptive Mixture of Local Experts (1991) Learning Factored Representations in a Deep Mixture of Experts (2013) Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer (2017) GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding ..."
+   },
+   {
+    "title": "Mixture of Experts in Large Language Models - arXiv.org",
+    "url": "https://arxiv.org/html/2507.11181v2",
+    "snippet": "Abstract This paper presents a comprehensive review of the Mixture-of-Experts (MoE) architecture in large language models, highlighting its ability to significantly enhance model performance while maintaining minimal computational overhead. Through a systematic analysis spanning theoretical foundations, core architectural designs, and large language model (LLM) applications, we examine expert ..."
+   },
+   {
+    "title": "Towards Understanding Mixture of Experts in Deep Learning",
+    "url": "https://arxiv.org/pdf/2208.02813",
+    "snippet": "The Mixture-of-Experts (MoE) layer, a sparsely-activated model controlled by a router, has achieved great success in deep learning. However, the understanding of such architecture remains elusive. In this paper, we formally study how the MoE layer improves the performance of neural network learning and why the mixture model will not collapse into a single model. Our empirical results suggest ..."
+   },
+   {
+    "title": "Mixture-of-Experts Architectures - emergentmind.com",
+    "url": "https://www.emergentmind.com/topics/mixture-of-experts-moe-architectures",
+    "snippet": "Mixture-of-Experts architectures are modular neural networks that use a gating mechanism to activate specialized experts for processing distinct data subregions. They employ both dense and sparse gating strategies to balance computational efficiency with expert specialization in domains such as language, vision, and multi-modal learning. MoE models dynamically allocate parameters during ..."
+   },
+   {
+    "title": "Building Smarter AI Systems with Modular Neural Networks: Theory ...",
+    "url": "https://rehanguha.github.io/articles/modular-nn",
+    "snippet": "From mixture-of-experts and dynamic routing to training strategies and real-world applications, this post walks through the full landscape of modular neural design\u2014complete with mathematical insights, code examples, and a look at the future of scalable, flexible AI."
+   },
+   {
+    "title": "Understanding Mixture of Experts (MoE) Neural Networks",
+    "url": "https://intuitionlabs.ai/articles/mixture-of-experts-moe-models",
+    "snippet": "Comprehensive guide to Mixture of Experts (MoE) models, covering architecture, training, and real-world implementations including DeepSeek-V3, Llama 4, Mixtral, and other frontier MoE systems as of 2026."
+   },
+   {
+    "title": "GitHub - yamsgithub/modular_deep_learning: This repository contains ...",
+    "url": "https://github.com/yamsgithub/modular_deep_learning",
+    "snippet": "This repository contains implementations of different Mixture of Experts (MoE) models both existing and novel architectures and methods of training. MoE is a gated modular deep neural network architecture, shown in Figure 1. It consists of simple individual neural network modules called experts and another simple neural network called gate."
+   },
+   {
+    "title": "Distributed Mixture-of-Experts and Expert Parallelism",
+    "url": "https://brunomaga.github.io/Mixture-of-Experts",
+    "snippet": "In 1991, the papers Adaptive Mixture of Local Experts and Task Decomposition Through Competition in a Modular Connectionist Architecture introduced some of the earliest architectures similar to what we call nowadays an MoE. Left: a Mixture of Experts. Right: a Deep Mixture of Experts (with 2 layers)."
+   }
+  ]
+ },
+ "t3_ttt": {
+  "query": "test-time training self-supervised at inference",
+  "results": [
+   {
+    "title": "[1909.13231] Test-Time Training with Self-Supervision for ...",
+    "url": "https://arxiv.org/abs/1909.13231",
+    "snippet": "In this paper, we propose Test-Time Training, a general approach for improving the performance of predictive models when training and test data come from different distributions. We turn a single unlabeled test sample into a self-supervised learning problem, on which we update the model parameters before making a prediction. This also extends naturally to data in an online stream. Our simple ..."
+   },
+   {
+    "title": "Test-Time Training with Self-Supervision for Generalization under ...",
+    "url": "https://arxiv.org/pdf/1909.13231",
+    "snippet": "Abstract In this paper, we propose Test-Time Training, a general approach for improving the performance of predictive models when training and test data come from different distributions. We turn a single unlabeled test sample into a self-supervised learning problem, on which we update the model parameters before making a prediction. This also extends naturally to data in an online stream. Our ..."
+   },
+   {
+    "title": "Test-Time Training Project Website - GitHub Pages",
+    "url": "https://yueatsprograms.github.io/ttt/home.html",
+    "snippet": "In this paper, we propose Test-Time Training, a general approach for improving the performance of predictive models when training and test data come from different distributions. We turn a single unlabeled test sample into a self-supervised learning problem, on which we update the model parameters before making a prediction. This also extends naturally to data in an online stream. Our simple ..."
+   },
+   {
+    "title": "Test-Time Training: When Your Model Learns During Inference",
+    "url": "https://saurabh.works/blog/test-time-training/",
+    "snippet": "TTT layers use self-supervised learning inside the model. Two recent papers take a different approach: applying RL to entire models at test time. TTRL (Test-Time Reinforcement Learning) uses an elegant trick \u2014 run the model multiple times on the same problem, take a majority vote across outputs, and use that consensus as a reward signal."
+   },
+   {
+    "title": "A Deep Dive into Test-Time Training - bilwasiva.github.io",
+    "url": "https://bilwasiva.github.io/2026-01-01-A-Deep-Dive-into-Test-Time-Training/",
+    "snippet": "A family of techniques often called test-time training or test-time adaptation challenges this separation. The core idea is deceptively simple: Let the model continue adapting during inference, on unlabeled test inputs, using self-supervised or unsupervised objectives \u2014 without requiring new human-labeled data."
+   },
+   {
+    "title": "PDF MT3: Meta Test-Time Training for Self-Supervised Test-Time Adaption",
+    "url": "https://proceedings.mlr.press/v151/bartler22a/bartler22a.pdf",
+    "snippet": "We combine meta-learning, self-supervision and test-time training to learn to adapt to unseen test distributions. By minimizing the self-supervised loss, we learn task-specific model parameters for different tasks. A meta-model is optimized such that its adaptation to the different task-specific models leads to higher performance on those tasks."
+   },
+   {
+    "title": "PDF TT-SI: Self-Improving LLM Agents with Test-Time Training",
+    "url": "https://aclanthology.org/2026.findings-acl.462.pdf",
+    "snippet": "TT-SI can be summarized in three steps: (i) first it identifies the samples that model struggles with (self-awareness), (ii) then generates similar examples from detected uncertain samples (self-data augmentation), and (iii) uses these newly generated samples at test-time training (self-improvement)."
+   },
+   {
+    "title": "GitHub - Dereck0602/Awesome_Test_Time_LLMs",
+    "url": "https://github.com/Dereck0602/Awesome_Test_Time_LLMs",
+    "snippet": "Test-Time Training with Self-Supervision for Generalization under Distribution Shifts [ICML 2020] paper MT3: Meta Test-Time Training for Self-Supervised Test-Time Adaption [AISTATS 2022] paper code"
+   }
+  ]
+ },
+ "t3_reservoir": {
+  "query": "reservoir computing echo state networks",
+  "results": [
+   {
+    "title": "Echo state network - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Echo_state_network",
+    "snippet": "An echo state network (ESN) [1][2] is a type of reservoir computer that uses a recurrent neural network with a sparsely connected hidden layer (with typically 1% connectivity)."
+   },
+   {
+    "title": "Echo State Networks and Reservoir Computing - MINDS",
+    "url": "https://www.ai.rug.nl/minds/research/esnresearch/",
+    "snippet": "History and impact Echo state networks (ESNs) provide an architecture and supervised learning principle for recurrent neural networks. The main idea is (i) to drive a random, large, fixed recurrent neural network with the input signal, thereby inducing in each neuron within this &quot;reservoir&quot; network a nonlinear response signal, and (ii) combine a desired output signal by a trainable linea"
+   },
+   {
+    "title": "Reservoir computing - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Reservoir_computing",
+    "snippet": "Reservoir computing is a framework for computation derived from recurrent neural network theory that maps input signals into higher dimensional computational spaces through the dynamics of a fixed, non-linear system called a reservoir. [1] After the input signal is fed into the reservoir, which is treated as a &quot;black box,&quot; a simple readout mechanism is trained to read the state of the .."
+   },
+   {
+    "title": "Awesome Reservoir Computing - GitHub",
+    "url": "https://github.com/reservoirpy/awesome-reservoir-computing",
+    "snippet": "A Practical Guide to Applying Echo State Networks (2012) by Mantas Lukosevicius. Complete guide about ESNs, from theory to implementation. Echo State Network on Scholarpedia, by Herbert Jaeger. Generic introduction to Reservoir Computing from Echo State Networks."
+   },
+   {
+    "title": "3. Reservoir computing \u2014 Neurocomputing - julien-vitay.net",
+    "url": "https://julien-vitay.net/lecturenotes-neurocomputing/4-neurocomputing/4-Reservoir.html",
+    "snippet": "3. Reservoir computing Slides: pdf The concept of Reservoir Computing (RC) was developed simultaneously by two researchers at the beginning of the 2000s. RC builds on the idea of Hopfield networks but focuses on the dynamics rather than on the fixed points. Herbert Jaeger (Uni Bremen) introduced echo-state networks (ESN) using rate-coded neurons [Jaeger, 2001]. Wolfgang Maass (TU Graz ..."
+   },
+   {
+    "title": "Echo State Network - an overview - GeeksforGeeks",
+    "url": "https://www.geeksforgeeks.org/machine-learning/echo-state-network-an-overview/",
+    "snippet": "Echo State Networks (ESNs) are a specific kind of recurrent neural network (RNN) designed to efficiently handle sequential data. In Python, ESNs are created as a reservoir computing framework, which includes a fixed, randomly initialized recurrent layer known as the &quot;reservoir.&quot; The key feature of ESNs is their ability to make the most of the echo-like dynamics of the reservoir, allowing"
+   },
+   {
+    "title": "Echo State Networks in Reservoir Computing: Foundations, Benchmarks ...",
+    "url": "https://ieeexplore.ieee.org/document/11416466/",
+    "snippet": "Echo State Networks (ESNs) are a lightweight reservoir computing model well-suited for time-series datasets, due to their sparsely connected reservoir layer and linear readout layer. This paper bridges ESN theory, benchmarking, and application to wireless communications for channel prediction. We first review the theory and mathematical formulation of ESNs. We then evaluate their performance ..."
+   },
+   {
+    "title": "An introduction to reservoir computing - arXiv.org",
+    "url": "https://arxiv.org/html/2412.13212v1",
+    "snippet": "The foundations of what is nowadays referred to as reservoir computing were independently developed by Jaeger (2001), who referred to it as echo state network, and by Maass et al. (2002), who called it liquid state machine."
+   }
+  ]
+ },
+ "t3_hyper": {
+  "query": "hypernetwork generate neural network weights",
+  "results": [
+   {
+    "title": "GitHub - shyamsn97/hyper-nn: Easy Hypernetworks in Pytorch and Jax",
+    "url": "https://github.com/shyamsn97/hyper-nn",
+    "snippet": "Hypernetworks, simply put, are neural networks that generate parameters for another neural network. They can be incredibly powerful, being able to represent large networks while using only a fraction of their parameters. Hypernetworks generally come in two variants, static or dynamic. Static Hypernetworks have a fixed or learned embedding and weight generator that outputs the target networks ..."
+   },
+   {
+    "title": "Principled Weight Initialization for Hypernetworks - arXiv.org",
+    "url": "https://arxiv.org/html/2312.08399v1",
+    "snippet": "Abstract Hypernetworks are meta neural networks that generate weights for a main neural network in an end-to-end differentiable manner. Despite extensive applications ranging from multi-task learning to Bayesian deep learning, the problem of optimizing hypernetworks has not been studied to date. We observe that classical weight initialization methods like Glorot &amp; Bengio (2010) and He et al .."
+   },
+   {
+    "title": "[2503.00838] Foundation Models Secretly Understand Neural Network ...",
+    "url": "https://arxiv.org/abs/2503.00838",
+    "snippet": "Large pre-trained models, or foundation models, have shown impressive performance when adapted to a variety of downstream tasks, often out-performing specialized models. Hypernetworks, neural networks that generate some or all of the parameters of another neural network, have become an increasingly important technique for conditioning and generalizing implicit neural representations (INRs ..."
+   },
+   {
+    "title": "HyperNetworks for On-the-Fly Weight Generation | AI Tutorial",
+    "url": "https://www.next.gr/ai/deep-learning-theory/hypernetworks-for-on-the-fly-weight-generation",
+    "snippet": "A HyperNetwork is a neural network that generates the weights of another neural network, referred to as the main network or target network. Instead of learning fixed weights through traditional optimization, HyperNetworks dynamically produce weights conditioned on an input, enabling adaptive behavior and parameter efficiency."
+   },
+   {
+    "title": "Hypernetwork: AI Neural Network that Generates Weights",
+    "url": "https://inferensys.com/glossary/parameter-efficient-fine-tuning/automated-and-neural-peft-configuration/hypernetwork",
+    "snippet": "A hypernetwork is a neural network that generates the parameters (weights) for a separate, primary network, known as the target network. This architecture decouples the model&#x27;s capacity from its static parameter count, allowing for dynamic, input-conditional, or highly efficient weight generation."
+   },
+   {
+    "title": "HyperNetworks: Dynamic Neural Network Weight Generation",
+    "url": "https://inferensys.com/glossary/continuous-model-learning-systems/dynamic-neural-architectures/hypernetworks",
+    "snippet": "A HyperNetworkis a neural network that generates the parameters (weights) for a separate, larger primary network. Instead of having static weights, the primary model&#x27;s parameters become the dynamic output of the HyperNetwork, which is conditioned on an input, task descriptor, or latent code. This enables input-conditional computation, where the effective architecture adapts to each specific ."
+   },
+   {
+    "title": "Hypernetworks \u2014 A novel way to initialize weights - Medium",
+    "url": "https://medium.com/@atulit23/hypernetworks-a-novel-way-to-initialize-weights-e7584385488d",
+    "snippet": "The hypernetwork model trains a meta-network (hypernetwork) to generate parameters for another network (primary network), making it more complex but flexible. 3."
+   },
+   {
+    "title": "What are Hypernetworks? Neural Weight Generation | Ultralytics",
+    "url": "https://www.ultralytics.com/glossary/hypernetworks",
+    "snippet": "Learn how hypernetworks dynamically generate weights for target models. Explore applications in AI, model compression, and deployment with Ultralytics YOLO26."
+   }
+  ]
+ },
+ "t4_rstdp": {
+  "query": "reward modulated spike timing dependent plasticity",
+  "results": [
+   {
+    "title": "Reward-modulated spike-timing-dependent plasticity in van der Waals ...",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2095927325005857",
+    "snippet": "Reward-modulated spike-timing-dependent plasticity (R-STDP) is a promising biomimetic learning rule in neuromorphic intelligent systems for implementing tasks in variable environments. Nevertheless, realizing R-STDP in a single synaptic device for building compact and energy-efficient neuromorphic systems remains challenging. Here, we report a two-dimensional ferroelectric memtransistor to ..."
+   },
+   {
+    "title": "A Learning Theory for Reward-Modulated Spike-Timing-Dependent ... - PLOS",
+    "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000180",
+    "snippet": "Author Summary A major open problem in computational neuroscience is to explain how learning, i.e., behaviorally relevant modifications in the central nervous system, can be explained on the basis of experimental data on synaptic plasticity. Spike-timing-dependent plasticity (STDP) is a rule for changes in the strength of an individual synapse that is supported by experimental data from a ..."
+   },
+   {
+    "title": "Lecture 4D: Reward-Modulated Spike-Timing-Dependent Plasticity",
+    "url": "https://ngc-learn.readthedocs.io/en/latest/tutorials/neurocog/mod_stdp.html",
+    "snippet": "Lecture 4D: Reward-Modulated Spike-Timing-Dependent Plasticity In this lesson, we will build on the notions of spike-timing-dependent plasticity (STDP), covered earlier here, to construct an important form of biological credit assignment in spiking neural networks known as reward-modulated STDP (sometimes abbreviated to R-STDP)."
+   },
+   {
+    "title": "Functional Requirements for Reward-Modulated Spike-Timing-Dependent ...",
+    "url": "https://www.jneurosci.org/content/30/40/13326",
+    "snippet": "Recent experiments have shown that spike-timing-dependent plasticity is influenced by neuromodulation. We derive theoretical conditions for successful learning of reward-related behavior for a large class of learning rules where Hebbian synaptic plasticity is conditioned on a global modulatory factor signaling reward. We show that all learning rules in this class can be separated into a term ..."
+   },
+   {
+    "title": "Reward-Modulated STDP in Spiking Neural Networks",
+    "url": "https://www.emergentmind.com/topics/reward-modulated-spike-timing-dependent-plasticity-r-stdp",
+    "snippet": "Reward-Modulated Spike-Timing-Dependent Plasticity (R-STDP) is a class of synaptic learning rules for spiking neural networks (SNNs) that incorporates classical spike-timing-dependent plasticity with an additional global signal representing behavioral feedback or reward."
+   },
+   {
+    "title": "A Fully Digital Implementation of A Reward-Modulated STDP Synapse",
+    "url": "https://ieeexplore.ieee.org/document/10489426",
+    "snippet": "Reward - modulated Spike - Timing - Dependent Plasticity (R-STDP) is a learning technique for Spiking Neural Networks (SNNs) that adjusts the synaptic plasticity induced by Spike-Timing-Dependent Plasticity (STDP) using an external learning signal. This paper presents a fully digital architecture of R-STDP, and proposes, for the first time, a circuit design for the generation and modulation of ..."
+   },
+   {
+    "title": "Reward modulated Spike-Timing Dependent Plasticity - GitHub",
+    "url": "https://github.com/d9w/rm-stdp",
+    "snippet": "Reward modulated Spike-Timing Dependent Plasticity - d9w/rm-stdp"
+   },
+   {
+    "title": "Bio-inspired digit recognition using reward-modulated spike-timing ...",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0031320319301906",
+    "snippet": "We trained it using a combination of spike-timing-dependent plasticity (STDP) for the lower layers and reward-modulated STDP (R-STDP) for the higher ones. In short, with R-STDP a correct (resp. incorrect) decision leads to STDP (resp. anti-STDP). This approach led to an accuracy of 97.2% on MNIST, without requiring an external classifier."
+   }
+  ]
+ },
+ "t5_flywheel": {
+  "query": "data flywheel personal AI memory systems",
+  "results": [
+   {
+    "title": "Data flywheel: What it is and how it works | NVIDIA Glossary",
+    "url": "https://www.nvidia.com/en-us/glossary/data-flywheel/",
+    "snippet": "An AI data flywheel is a self-improving loop where data collected from AI interactions or processes is used to continuously refine AI models, generating better outcomes and more valuable data for continued improvement."
+   },
+   {
+    "title": "Data Flywheel Paradigm in AI: Self-Improving Systems",
+    "url": "https://www.emergentmind.com/topics/data-flywheel-paradigm",
+    "snippet": "The Data Flywheel Paradigm delineates a self-reinforcing cycle in artificial intelligence systems, whereby models and agents iteratively improve by generating new, higher-quality training data based on their own operations and errors, rather than relying solely on static, human-annotated datasets."
+   },
+   {
+    "title": "Data Flywheel Systems: Turning Production Trajectories into Agent ...",
+    "url": "https://psssnikhil.github.io/ai-engineering-hub/agent-engineering/08-data-flywheels/",
+    "snippet": "Data Flywheel Systems A static AI agent degrades as environments, APIs, and user inputs evolve. A Data Flywheel System creates a continuous, closed-loop pipeline that converts live production traces, execution feedback, and human interactions into improved models, automated prompt updates, and synthetic evaluation benchmarks."
+   },
+   {
+    "title": "GitHub - NVIDIA-AI-Blueprints/data-flywheel",
+    "url": "https://github.com/NVIDIA-AI-Blueprints/data-flywheel",
+    "snippet": "A data flywheel is a process that uses data exhaust from production applications (for example, LLM prompt/response logs, end user feedback, and expert labeling) to increase the overall accuracy and reduce the latency/cost of Generative AI systems. A very high level flow looks like this:"
+   },
+   {
+    "title": "Data Flywheel Design - GenAI Study Notes",
+    "url": "https://bhaskarjha-dev.github.io/genai-notes/production/data-flywheel-design.html",
+    "snippet": "Definition A data flywheel is a self-reinforcing system where product usage generates data that improves the AI, which improves the product, driving more usage and more data. Scope Covers: Flywheel architecture, signal collection (implicit/explicit), data curation pipelines, improvement strategies (fine-tuning, retrieval, prompts), and measurement."
+   },
+   {
+    "title": "GitHub - velvetmonkey/flywheel-memory: MCP server giving AI a knowledge ...",
+    "url": "https://github.com/velvetmonkey/flywheel-memory",
+    "snippet": "Get Started \u00b7 See It Work \u00b7 What It Does \u00b7 Skills + Flywheel \u00b7 Benchmarks \u00b7 Testing \u00b7 Documentation \u00b7 License Flywheel is a local-first memory layer for AI agents working over Obsidian and plain Markdown. It gives agents grounded search across your notes, safe bounded writes back into the vault, and local indexes that stay on your machine. Built for people who want AI to work over real ..."
+   },
+   {
+    "title": "The AI data flywheel: how intelligence becomes an appreciating asset ...",
+    "url": "https://www.thejupiterai.com/ideas/ai-data-flywheel",
+    "snippet": "An AI data flywheel is a loop in which every interaction with a system is captured as proprietary data, that data retrains or recalibrates the system, and the improved system attracts more interaction \u2014 so the intelligence gets sharper with use and appreciates in value rather than depreciating like software."
+   },
+   {
+    "title": "Data Flywheel Mechanism - emergentmind.com",
+    "url": "https://www.emergentmind.com/topics/data-flywheel-mechanism",
+    "snippet": "The data flywheel mechanism is a closed-loop paradigm in which model-generated data, errors, or user interactions recursively fuel further model improvements. This approach converts the routine operation of AI systems\u2014whether in the form of user engagement, model prediction errors, synthetic data, or competitive outcomes\u2014into an engine for continual self-improvement. Data flywheel ..."
+   }
+  ]
+ }
+}

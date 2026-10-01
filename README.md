@@ -34,6 +34,31 @@ A single, zero-dependency Cloudflare Worker. All backward reasoning logic is con
 ## Limitation
 All your backward-chaining rules must be written into the single `deriveRequiredSteps` function. While this keeps the system simple, complex rule sets with many interdependent conditions can become difficult to organize and maintain in one place.
 
+
+## Dog-Fooded: the SuperInstance fleet's own reverse-actualization (Wave 73)
+
+We took this method and pointed it at our own 2036 system, walking
+piece-by-piece from "a person whose intelligence is superimposed — a
+telescope, not a television" down to tonight's opcode, with every step
+back carrying one sentence of optimism. Four featured models walked the
+same 11-rung ladder (`wave73-LADDER.md` + `ladder/` transcripts):
+**tencent/Hy4-preview** (featured this wave), tencent/Hy3,
+XiaomiMiMo/MiMo-V2.6-Flash, meta-models/Muse-Glimmer-30B.
+
+Alongside the ladder: a micromoth-quilt F1-cross simulation seeded with
+live hardware entropy (`mechanics/mothquilt-f1`), the hub-and-pokes
+MineSweeper-style inquiry engine with snapshots at agentically optimized
+resolution (`mechanics/hub-pokes`), a 26-lead scouting report on
+fruit-fly decompositions toward mechanical learning (`scouting/`), and
+the thesis re-rooted in six distant languages (`ideation/`). Run
+receipts, including every instrument bug found on the way, are in
+`receipts/`.
+
+> Rung 10, the consensus homunculus: *one file-cell with a standing
+> instruction; a poke; a receipt appended and never rewritten; a
+> one-sentence self-amendment. Run it twice tonight and you have a
+> tissue of two. Run three cells trading receipts and you have ripple.*
+
 ## License
 MIT license. You are free to use, modify, and redistribute this code for any purpose.
 

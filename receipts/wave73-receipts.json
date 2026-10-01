@@ -1,0 +1,52 @@
+{
+ "wave": "73",
+ "date": "2026-10-01",
+ "instruments": {
+  "deepinfra_allowlist": [
+   "tencent/Hy4-preview",
+   "tencent/Hy3",
+   "XiaomiMiMo/MiMo-V2.6-Flash",
+   "meta-models/Muse-Glimmer-30B"
+  ],
+  "note": "Hy4 flapped 429 engine_overloaded most of the wave; patient-retry wrapper used; ladder max_tokens raised to 2500 after Hy4 identified as a reasoning model (reasoning_content carries the budget)"
+ },
+ "moth_live_packets": {
+  "count": 60,
+  "mock": 0,
+  "job_ids_sample": [
+   "f4b75ce9-36eb-4e65-9926-5caa28b345b8",
+   "4d412301-d79b-40ea-8569-6794cecfc669",
+   "69294c33-1bca-40e4-8387-6892111d7272",
+   "e8100e71-19c6-48ba-aac2-7de9bb14b3d3",
+   "999ca93a-2630-4ff9-b470-6cc14c2354b4"
+  ],
+  "full": "scripts/hy4/moth_packets.json (session-side)"
+ },
+ "commissioning_trails": {
+  "mothquilt_f1": [
+   "run1 arms identical (fallback seed omitted arm)",
+   "run2 observables blind (stochastic channel never touched p/markers)",
+   "amendments: meiosis jitter on gA; phenotypic ripple 0.1*delta",
+   "run3 = registered"
+  ],
+  "hub_pokes": [
+   "re-pokes excluded",
+   "var floor on self",
+   "self-kernel in risk",
+   "kernel too hot",
+   "hard-veto risk gate",
+   "frontier early-stop"
+  ]
+ },
+ "ladder_instrument_receipt": "first pass stripped meta_title'd assistant turns from API payload -> models answered blind (transcripts preserved as *.blind-walk.json); registered cumulative walks re-run",
+ "ladders": {
+  "hy4": "11/11 (cumulative, max_tokens 2500)",
+  "hy3": "11/11",
+  "mimo": "11/11",
+  "muse": "11/11"
+ },
+ "estimated_cost_usd": {
+  "deepinfra": "~0.10 (token-based, all four ladders + probes)",
+  "moth": "free tier"
+ }
+}
