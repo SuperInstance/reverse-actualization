@@ -1,0 +1,87 @@
+{
+ "what": "wave-76 76-c H1 rescue via rarity-biased cap + D* dial calibration - stamped pre-expectations",
+ "registered_utc": "2026-10-01T10:39:00Z",
+ "stamped_utc": "2026-10-01T10:40:25Z",
+ "prereg_file": "/home/z/my-project/scripts/w76_h1rescue_prereg.md",
+ "prereg_sha256": "a102ade2dfcf4ccf2edd052a7be6f5a11329255863b03f97affd73e8feff4a48",
+ "before_any_run": true,
+ "entropy_substitution_booked": true,
+ "entropy_protocol": "w74_stream UNCHANGED: blake2b('w74-chaotic-fallback:'+arm+':'+rep) -> PCG64, fast-forward 4g; arm encodes config ('base600' registered cap, 'rarity600' rescue, 'p{p*:.6f}_t1.0' verification)",
+ "arms": {
+  "R_registered_cap": {
+   "P_SPLIT": 0.02,
+   "T": 1.0,
+   "seeds": [
+    0,
+    1,
+    2
+   ],
+   "ngen": 600,
+   "note": "instrumented registered cap-4-oldest-drops; draw-identical to 75-d base600 -> must reproduce 75-d receipt (integrity check, blocking)"
+  },
+  "X_rarity_cap": {
+   "P_SPLIT": 0.02,
+   "T": 1.0,
+   "seeds": [
+    0,
+    1,
+    2
+   ],
+   "ngen": 600,
+   "rule": "overflow drops most-common-held type's newest copy; ties by (-hc, -birth, type, iid); no RNG consumed"
+  },
+  "V_verification": {
+   "T": 1.0,
+   "seeds": [
+    0,
+    1
+   ],
+   "ngen": 240,
+   "P_SPLIT": "p* = exp((ln 30 - a)/b) from T4 fit on 75-d T=1.0 cells",
+   "engine": "w75_surface.run_cell UNCHANGED"
+  }
+ },
+ "definitions": {
+  "rarity": "hc(t) = number of distinct cells holding >=1 copy of type t over the whole live pool at drop time (pre-removal, overflow included)",
+  "rare": "hc == 1 (singleton holder)",
+  "common": "hc >= 2",
+  "per_tick_drop_rate": "class drops / 599 instrumented gens (gens 2..600); pooled = sum over 3 seeds / 1797"
+ },
+ "verdict_rules": {
+  "T1": "pooled drops_rare/drops_common >= 1.5 (PASS); drops_common==0 & rare>0 -> inf PASS; total drops==0 -> INCONCLUSIVE; per-seed ratios reported",
+  "T2": "H_pool(300-600) rarity > registered on >= 2 of 3 seeds (paired per rep)",
+  "T3": "per-seed [H_pool(300-600) - H_pool(20-70)] >= 0.05 nats on >= 2 of 3 seeds (rarity arm)",
+  "T4": "ln D* ~ a + b.ln P_SPLIT on the four T=1.0 cells of the 75-d receipt: R^2 >= 0.9 AND measured D* at p* (mean D_star_stat, 2 seeds, 240 gens) within [20, 45] (factor 1.5 of target 30)"
+ },
+ "integrity_check": "instrumented base600 runs must reproduce 75-d per-gen H_pool (abs<=1e-12) and D_star_raw (exact); mismatch -> ABORT before arms X/V, fix, re-run, document",
+ "predictions": {
+  "T1": {
+   "predict": "PASS",
+   "ratio": "2-6",
+   "grounding": "cap drops oldest-by-birth; gA homogenization concentrates birth refresh on common types; rare lineages age out"
+  },
+  "T2": {
+   "predict": "PASS (>=2/3 seeds)",
+   "delta_nats": "+0.05..+0.25",
+   "counter_risk": "(a) channel keeps minting homogenized common types; rarity drop only lowers holder count when it takes a cell's last copy"
+  },
+  "T3": {
+   "predict": "borderline",
+   "per_seed_margin": "-0.05..+0.10",
+   "seeds_crossing": "1-2 of 3",
+   "predicted_plateau": "0.98-1.15 nats"
+  },
+  "T4": {
+   "predict": "PASS",
+   "preview": "slope ~ -0.97, R^2 ~ 0.99, p* ~ 0.030, measured D* 24-40"
+  }
+ },
+ "runtime_guard": "expected < 10 min wall; if > 30 min BOOK overage and continue (no grid reduction permitted; seeds fixed by mission)",
+ "outputs": [
+  "outputs/w76-h1rescue.json",
+  "outputs/w76-h1rescue.csv",
+  "outputs/w76-h1rescue-drops.png",
+  "outputs/w76-h1rescue-hpool.png",
+  "reverse-actualization/wave76-H1-RESCUE.md"
+ ]
+}
